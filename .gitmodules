@@ -1,6 +1,8 @@
 [submodule "apps/backend"]
 	path = apps/backend
 	url = git@github.com:filocian/rg-api.git
+	ignore = dirty
 [submodule "apps/frontend"]
 	path = apps/frontend
 	url = git@github.com:filocian/rg-front.git
+	ignore = dirty

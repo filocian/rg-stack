@@ -1,0 +1,9 @@
+[user]
+	name = Rodrigo.Obalat
+	email = rodrigo.balat@filocian.com
+
+[core]
+	sshCommand = ssh -i /Users/rodrigo.obalat/.ssh/id_ed25519_filocian
+
+[submodule]
+	ignore = dirty
