@@ -176,21 +176,21 @@ Local dev can use direct connections. Hosted should use pooled/proxied connectio
 Business-first, features kept together.
 
 ```text
-/src
-  /App
-    main.ts                    // API entry (Deno Deploy)
-    http.ts                    // Hono app + global middleware
-    routes.ts                  // mounts modules
-    config.ts                  // env config
-    composition.ts             // builds shared services (db, kv, crypto, logger)
-    worker.ts                  // queue worker entry (optional)
+./
+  main.ts                    // API entry (Deno Deploy)
+  http.ts                    // Hono app + global middleware
+  routes.ts                  // mounts modules
+  config.ts                  // env config
+  composition.ts             // builds shared services (db, kv, crypto, logger)
+  worker.ts                  // queue worker entry (optional)
 
-  /Shared
-    /Contracts                 // ALL interfaces/types start with I*
-      ICommand.ts
-      IQuery.ts
-      ICommandHandler.ts
-      IQueryHandler.ts
+  /modules
+    /shared
+      /contracts                 // ALL interfaces/types start with I*
+        ICommand.ts
+        IQuery.ts
+        ICommandHandler.ts
+        IQueryHandler.ts
       IRequestContext.ts
       IDbRouter.ts
       IRegionResolver.ts
@@ -205,75 +205,75 @@ Business-first, features kept together.
       IHttp.ts                // ApiSuccess / ApiError types
       ILogger.ts
 
-    /Errors
-      AppError.ts
-      InputError.ts
-      DomainError.ts
-      NotFoundError.ts
-      InfraError.ts
-      HttpErrorMapper.ts      // sanitized mapping
+      /errors
+        app-error.ts
+        input-error.ts
+        domain-error.ts
+        not-found-error.ts
+        infra-error.ts
+        http-error-mapper.ts      // sanitized mapping
 
-    /Observability
-      Logger.ts               // default logger (implements ILogger)
-      Trace.ts                // traceId helpers
+      /observability
+        logger.ts               // default logger (implements ILogger)
+        trace.ts                // traceId helpers
 
-    /Region
-      RegionResolver.ts       // implements IRegionResolver
-      TenantDirectory.ts      // reads GLOBAL routing info (slow path only)
+      /region
+        region-resolver.ts       // implements IRegionResolver
+        tenant-directory.ts      // reads GLOBAL routing info (slow path only)
 
-    /Db
-      DbRouter.ts             // implements IDbRouter (GLOBAL/EU/US)
-      TransactionRunner.ts    // implements ITransactionRunner
-      DatabaseClient.ts       // Kysely setup (concept)
+      /db
+        db-router.ts             // implements IDbRouter (GLOBAL/EU/US)
+        transaction-runner.ts    // implements ITransactionRunner
+        database-client.ts       // Kysely setup (concept)
 
-    /KV
-      KvStore.ts
-      CacheKv.ts              // implements ICache (encrypted payload option + size guard)
-      QueueKv.ts              // implements IQueue (enqueue/listenQueue)
-      LockKv.ts               // implements ILock (atomic lock keys)
+      /kv
+        kv-store.ts
+        cache-kv.ts              // implements ICache (encrypted payload option + size guard)
+        queue-kv.ts              // implements IQueue (enqueue/listenQueue)
+        lock-kv.ts               // implements ILock (atomic lock keys)
 
-    /Outbox
-      Outbox.ts               // implements IOutbox
-      OutboxProcessor.ts      // outbox -> queue
+      /outbox
+        outbox.ts               // implements IOutbox
+        outbox-processor.ts      // outbox -> queue
 
-    /Crypto
-      CryptoBox.ts            // implements ICryptoBox (AES-GCM + key versioning)
+      /crypto
+        crypto-box.ts            // implements ICryptoBox (AES-GCM + key versioning)
 
-    /Testing
-      Fakes.ts                // in-memory fakes for IRepository/IReadModel/etc.
+      /testing
+        fakes.ts                // in-memory fakes for IRepository/IReadModel/etc.
 
-  /Sales
-    routes.ts                  // mounts Sales features under /sales
+    /sales
+      routes.ts                  // mounts Sales features under /sales
 
-    /Features
-      /CreateOrder
-        routes.ts
-        CreateOrderEndpoint.ts
-        CreateOrderCommand.ts
-        CreateOrderCommandHandler.ts
-        CreateOrderValidator.ts
+      /features
+        /create-order
+          routes.ts
+          create-order-endpoint.ts
+          create-order-command.ts
+          create-order-command-handler.ts
+          create-order-validator.ts
 
-      /ListOrders
-        routes.ts
-        ListOrdersEndpoint.ts
-        ListOrdersQuery.ts
-        ListOrdersQueryHandler.ts
-        ListOrdersView.ts
+        /list-orders
+          routes.ts
+          list-orders-endpoint.ts
+          list-orders-query.ts
+          list-orders-query-handler.ts
+          list-orders-view.ts
 
-      /UpdateUserName          // example of Simple CRUD path
-        routes.ts
-        UpdateUserNameEndpoint.ts
-        UpdateUserNameValidator.ts
-        service.ts
+        /update-user-name          // example of Simple CRUD path
+          routes.ts
+          update-user-name-endpoint.ts
+          update-user-name-validator.ts
+          service.ts
 
-    /Domain                    // only when needed
-      Order.ts
-      OrderRules.ts
+      /domain                    // only when needed
+        order.ts
+        order-rules.ts
 
-    /Infrastructure
-      SqlOrderRepository.ts
-      SqlOrdersReadModel.ts
-      CachedOrdersReadModel.ts```text
+      /infrastructure
+        sql-order-repository.ts
+        sql-orders-read-model.ts
+        cached-orders-read-model.ts```text
 
 ----------
 
@@ -281,7 +281,7 @@ Business-first, features kept together.
 
 We use 4 layers:
 
-1. **App**
+1. **App ./**
 
 - builds shared services
 
