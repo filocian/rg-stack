@@ -1,23 +1,32 @@
 # Infraestructure overview
+
 The project is going to create a lcoal Docker based infrastructure, wich is a replica of production infrastructure.
 The goal is to have a centralized development environment, making easy other people can have and work with same infraestructure.
 The stack composition resides in 3 repositries congifuredwith submodules.
 
 ## Github
+
 ### Git Config
 
 As far as i will handle several github accounts in my different projects, i need to add a specific .gitconfig for every project.
 This config will be used for all the project submodules as well.
 The ssh key dedicated to msgns_stack is: `/Users/rodrigo.obalat/.ssh/id_ed25519_filocian`
+The user name for git config (shown per users activity) is: `Rodrigo.Obalat`
+The email for git config (shown per users activity) is: `rodrigo.balat@filocian.com`
 
 ### GitModule configuration
 
 The gitModule configuration consists of:
+
 1. Infrastructure stack as main module: contains docker infrastructure, including services and apps.
 2. API as submodule: containing API app based on its own repository.
 3. Frontend as submodule: containing frontend app based on its own repository.
 
 The gitsubmodules configuration must use dirty for al submodules, in order to make easier the main repo management.
+
+- Whole stack repository: git@github.com:filocian/rg-stack.git
+- Backend repository: git@github.com:filocian/rg-api.git
+- Frontend repository: git@github.com:filocian/rg-front.git
 
 ## Docker stack
 
@@ -54,19 +63,21 @@ msgns-stack/ (root)
 
 ### Tech stack
 
-- Backend: HONO over DENO with denotest;
+- Backend: HONO over DENO with denotest
 - Frontend: React 19 over Vite and Vitest with tanstack query
-- Database: MariaDB 10.11
-- PHPMyAdmin: for managing MariaDB
-- DenoKV: a local denokv based on sqlite (check documentation)
-- Traefik: for reverse proxy, and using <app>.msgns.local
+- Database: Postgres in its last stable version
+- PgAdmin: for managing Postgres
+- DenoKV: a local denokv based on sqlite (documentation: https://github.com/denoland/denokv)
+- Traefik: for reverse proxy, and using <app>.rg.local
 
 ## Makefile
 
 The makefile must procide all commands for:
+
 - start, stop, build docker suite
 - commands for all "commandable" services (e.g: bash)
 - run frontend/backend tests
+- start submodules (must check if exists, or can be forced to re-init from source)
 
 ## Documentation
 
