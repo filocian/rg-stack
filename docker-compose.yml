@@ -78,6 +78,8 @@ services:
       - "traefik.http.services.backend.loadbalancer.server.port=8000"
     networks:
       - msgns-network
+    volumes:
+      - ./apps/backend:/app
 
   frontend:
     build:
