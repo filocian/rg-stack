@@ -175,7 +175,7 @@ Local dev can use direct connections. Hosted should use pooled/proxied connectio
 
 Business-first, features kept together.
 
-```
+```text
 /src
   /App
     main.ts                    // API entry (Deno Deploy)
@@ -273,8 +273,7 @@ Business-first, features kept together.
     /Infrastructure
       SqlOrderRepository.ts
       SqlOrdersReadModel.ts
-      CachedOrdersReadModel.ts
-```
+      CachedOrdersReadModel.ts```text
 
 ----------
 
@@ -321,74 +320,59 @@ We use 4 layers:
 ## **7) Shared contracts (interfaces) — required**
 
 ### **7.1 Request context**
-
-```
+```text
 IRequestContext:
   traceId: string
   tenantId: string
   userId: string
   region: "EU" | "US" | string
-  auth: object
-```
+  auth: object```text
 
 ### **7.2 Commands and queries**
-
-```
+```text
 ICommand:
   type: string
 
 IQuery:
-  type: string
-```
+  type: string```text
 
 ### **7.3 Handlers (CQRS)**
-
-```
+```text
 ICommandHandler<TCommand, TResult>:
   handle(cmd: TCommand, ctx: IRequestContext) -> TResult
 
 IQueryHandler<TQuery, TResult>:
-  handle(query: TQuery, ctx: IRequestContext) -> TResult
-```
+  handle(query: TQuery, ctx: IRequestContext) -> TResult```text
 
 ### **7.4 Database routing**
-
-```
+```text
 IDbRouter:
   controlDb() -> DbClient              // GLOBAL DB
-  regionDb(region: string) -> DbClient // EU/US/...
-```
+  regionDb(region: string) -> DbClient // EU/US/...```text
 
 ### **7.5 Region resolver**
-
-```
+```text
 IRegionResolver:
   // Hot path: region comes from JWT/cookie
   // Slow path: lookup in GLOBAL DB only when needed
-  resolve(auth, ctx) -> string
-```
+  resolve(auth, ctx) -> string```text
 
 ### **7.6 Transactions**
-
-```
+```text
 ITransactionRunner:
-  run(db: DbClient, fn: (txDb: DbClient) -> any) -> any
-```
+  run(db: DbClient, fn: (txDb: DbClient) -> any) -> any```text
 
 ### **7.7 Repository and read model**
-
-```
+```text
 IRepository<TEntity, TId>:
   getById(id: TId, ctx: IRequestContext) -> TEntity | null
   save(entity: TEntity, ctx: IRequestContext) -> void
 
 IReadModel<TQuery, TView>:
-  execute(query: TQuery, ctx: IRequestContext) -> TView
-```
+  execute(query: TQuery, ctx: IRequestContext) -> TView```text
 
 ### **7.8 Cache, queue, lock**
-
-```
+```text
 ICache:
   get(key) -> any | null
   set(key, value, ttlMs) -> void
@@ -399,31 +383,25 @@ IQueue:
   listen(handler) -> void
 
 ILock:
-  tryAcquire(key, ttlMs) -> bool
-```
+  tryAcquire(key, ttlMs) -> bool```text
 
 ### **7.9 Outbox**
-
-```
+```text
 IOutbox:
   append(txDb, event) -> void
   fetchPending(db, limit) -> events[]
-  markProcessed(db, eventId) -> void
-```
+  markProcessed(db, eventId) -> void```text
 
 ### **7.10 Crypto for KV cache blobs (AES-GCM)**
 
 We encrypt/decrypt sensitive payloads stored in KV using Web Crypto (AES-GCM).
-
-```
+```text
 ICryptoBox:
   encrypt(plaintextBytes, aadBytes?) -> { keyVersion: string, ivBytes, ciphertextBytes }
-  decrypt(keyVersion, ivBytes, ciphertextBytes, aadBytes?) -> plaintextBytes
-```
+  decrypt(keyVersion, ivBytes, ciphertextBytes, aadBytes?) -> plaintextBytes```text
 
 ### **7.11 Standard HTTP envelopes**
-
-```
+```text
 ApiSuccess<T>:
   ok: true
   traceId: string
@@ -435,17 +413,14 @@ ApiError:
   error:
     code: string
     message: string
-    details?: any   // must be safe for clients
-```
+    details?: any   // must be safe for clients```text
 
 ### **7.12 Logger**
-
-```
+```text
 ILogger:
   info(eventName, fields)
   warn(eventName, fields)
-  error(eventName, fields)
-```
+  error(eventName, fields)```text
 
 ----------
 
@@ -454,8 +429,7 @@ ILogger:
 We mount sub-apps with route(). Ordering matters (avoid catch-alls before specific routes).
 
 **Pseudo:**
-
-```
+```text
 // App/routes.ts
 mountModules(app):
   app.route("/sales", SalesRoutes())
@@ -466,8 +440,7 @@ SalesRoutes():
   sales = new Hono()
   sales.route("/orders", CreateOrderRoutes())
   sales.route("/orders", ListOrdersRoutes())
-  return sales
-```
+  return sales```text
 
 ----------
 
@@ -480,8 +453,7 @@ Every normal request must carry region (JWT claim or signed cookie).
 Global DB lookup is allowed only in login/first session.
 
 ### **9.2 Context building (hot path)**
-
-```
+```text
 buildContext(req):
   traceId = getOrCreateTraceId(req)
   auth = parseAuth(req)
@@ -491,15 +463,12 @@ buildContext(req):
     // Only allowed for login/slow flows
     region = RegionResolver.resolve(auth, { traceId })
 
-  return { traceId, tenantId: auth.tenantId, userId: auth.userId, region, auth }
-```
+  return { traceId, tenantId: auth.tenantId, userId: auth.userId, region, auth }```text
 
 ### **9.3 Slow path (login/first session)**
-
-```
+```text
 RegionResolver.resolve(auth, ctx):
-  return TenantDirectory.lookupRegion(auth.tenantId, auth.userId) // GLOBAL DB
-```
+  return TenantDirectory.lookupRegion(auth.tenantId, auth.userId) // GLOBAL DB```text
 
 ----------
 
@@ -516,14 +485,12 @@ For simple operations:
 - no Command/Query ceremony
 
 - no outbox unless needed
-
-```
+```text
 UpdateUserNameEndpoint(req):
   ctx = buildContext(req)
   input = UpdateUserNameValidator.parse(req.body)
   result = updateUserNameService(input, ctx)
-  return ok(result)
-```
+  return ok(result)```text
 
 ### **10.2 Level B — Full Use Case path (when needed)**
 
@@ -546,26 +513,22 @@ Avoid Map<string, handler> with string typos.
 ### **11.1 Preferred: direct function imports**
 
 Handlers are stateless functions, exported directly.
-
-```
+```text
 // CreateOrderCommandHandler.ts
 export function handleCreateOrder(cmd, ctx): ...
 
 // Feature endpoint imports it directly
-import { handleCreateOrder } from "./CreateOrderCommandHandler.ts"
-```
+import { handleCreateOrder } from "./CreateOrderCommandHandler.ts"```text
 
 ### **11.2 Optional: typed module router object**
-
-```
+```text
 SalesHandlers = {
   CreateOrder: handleCreateOrder,
   ListOrders: handleListOrders,
 }
 
 dispatch(kind, message, ctx):
-  return SalesHandlers[kind](message, ctx)
-```
+  return SalesHandlers[kind](message, ctx)```text
 
 ----------
 
@@ -598,32 +561,27 @@ Store pointer-only when payload is too large or policy disallows caching.
 ### **12.3 CacheKv: size guard behavior (required)**
 
 We must catch the KV write failure and continue.
-
-```
+```text
 CacheKv.set(key, value, ttlMs):
   try:
     kv.set(key, value, ttlMs)
   catch err:
     // This can happen when value > 64 KiB after serialization
     Logger.warn("cache.set.skipped", { key, reason: "VALUE_TOO_LARGE_OR_KV_ERROR" })
-    // Do not throw. Cache is best-effort.
-```
+    // Do not throw. Cache is best-effort.```text
 
 Optionally pre-check size:
-
-```
+```text
 maybeSize = approximateJsonSize(value)
 if maybeSize > 60KiB:
   skip cache
 else:
-  try set, catch and skip
-```
+  try set, catch and skip```text
 
 (We use 60 KiB as a safety buffer; actual limit is 64 KiB after serialization.)
 
 ### **12.4 Cache pseudocode (end-to-end)**
-
-```
+```text
 getOrderEndpoint(req):
   ctx = buildContext(req)
   orderId = req.params.id
@@ -652,8 +610,7 @@ getOrderEndpoint(req):
   else:
     Cache.set(cacheKey, {kind:"POINTER", id:orderId}, ttl=10s)
 
-  return ok(view)
-```
+  return ok(view)```text
 
 ----------
 
@@ -686,8 +643,7 @@ We keep keys in a “key ring”:
 - one active key version for encrypting new values
 
 - optional older keys for decrypting old cache entries
-
-```
+```text
 CryptoBox.encrypt(plaintext):
   kv = ActiveKeyVersion()
   key = KeyRing.get(kv)
@@ -696,8 +652,7 @@ CryptoBox.encrypt(plaintext):
 CryptoBox.decrypt(keyVersion, iv, ciphertext):
   key = KeyRing.get(keyVersion)
   if !key: throw "UNKNOWN_KEY_VERSION"
-  return decryptWithKey(key, iv, ciphertext)
-```
+  return decryptWithKey(key, iv, ciphertext)```text
 
 ### **13.4 Safe failure rule**
 
@@ -720,8 +675,7 @@ Queue messages remain pointer-only, which is correct for background work.
 KV documentation highlights limits (including 64 KiB value size) and queue APIs.
 
 ### **14.1 Message contract**
-
-```
+```text
 QueueMessage:
   jobId: string
   type: string
@@ -729,12 +683,10 @@ QueueMessage:
   region: string
   ref:
     entityId: string
-  createdAt: timestamp
-```
+  createdAt: timestamp```text
 
 ### **14.2 Worker pseudocode (idempotent)**
-
-```
+```text
 Queue.listen(async (msg) => {
   ok = Lock.tryAcquire(["locks","jobs",msg.jobId], ttlMs=300_000)
   if !ok: return
@@ -742,8 +694,7 @@ Queue.listen(async (msg) => {
   db = DbRouter.regionDb(msg.region)
   entity = db.loadSensitive(msg.ref.entityId)
   runJob(msg.type, entity)
-})
-```
+})```text
 
 ----------
 
@@ -752,8 +703,7 @@ Queue.listen(async (msg) => {
 Use outbox when “write + schedule work” must be consistent.
 
 ### **15.1 Write outbox inside transaction**
-
-```
+```text
 handleCreateOrder(cmd, ctx):
   db = DbRouter.regionDb(ctx.region)
 
@@ -767,20 +717,17 @@ handleCreateOrder(cmd, ctx):
       ref: { entityId: orderId },
       createdAt: now()
     })
-  })
-```
+  })```text
 
 ### **15.2 Outbox processor**
-
-```
+```text
 OutboxProcessor.run(region):
   db = DbRouter.regionDb(region)
   events = Outbox.fetchPending(db, limit=100)
 
   for e in events:
     Queue.enqueue({ jobId:e.eventId, type:e.type, tenantId:e.tenantId, region:e.region, ref:e.ref, createdAt:e.createdAt })
-    Outbox.markProcessed(db, e.eventId)
-```
+    Outbox.markProcessed(db, e.eventId)```text
 
 ----------
 
@@ -799,8 +746,7 @@ All endpoints must:
 - log start/ok/fail
 
 - sanitize errors
-
-```
+```text
 Endpoint(req):
   start = now()
   ctx = buildContext(req)
@@ -815,8 +761,7 @@ Endpoint(req):
   catch err:
     Logger.error("request.fail", { traceId: ctx.traceId, ms: now()-start, err })
     http = HttpErrorMapper.toHttpResponse(err, ctx) // sanitized
-    return http
-```
+    return http```text
 
 ----------
 
@@ -839,16 +784,14 @@ Endpoint(req):
 - Never expose SQL/driver error text to the client.
 
 - Full details go to logs only (with traceId).
-
-```
+```text
 HttpErrorMapper.toHttpResponse(err, ctx):
   if err is InfraError:
     publicMessage = "Service temporarily unavailable."
   else:
     publicMessage = safeMessage(err)
 
-  return ApiError(traceId=ctx.traceId, code=..., message=publicMessage)
-```
+  return ApiError(traceId=ctx.traceId, code=..., message=publicMessage)```text
 
 ----------
 
@@ -887,8 +830,7 @@ Unit tests should not require Postgres or KV. Use:
 Deno provides an official mocking tutorial for isolated tests.
 
 **Pseudo example:**
-
-```
+```text
 // Shared/Testing/Fakes.ts
 class InMemoryOrderRepository implements IRepository:
   store = Map()
@@ -898,8 +840,7 @@ class InMemoryOrderRepository implements IRepository:
 // test
 repo = new InMemoryOrderRepository()
 result = handleCreateOrder(cmd, ctx, deps={repo, ...})
-assertEquals(...)
-```
+assertEquals(...)```text
 
 ### **19.2 Integration tests (Docker)**
 
