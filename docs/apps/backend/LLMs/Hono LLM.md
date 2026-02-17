@@ -208,7 +208,6 @@ you can use your favorite validator such as Zod and easily share server-side API
 
 See [Hono Stacks](/docs/concepts/stacks).
 
-
 # Third-party Middleware
 
 Third-party middleware refers to middleware not bundled within the Hono package.
@@ -295,7 +294,6 @@ Most of this middleware leverages external libraries.
 - [tsyringe](https://github.com/honojs/middleware/tree/main/packages/tsyringe)
 - [User Agent based Blocker](https://github.com/honojs/middleware/tree/main/packages/ua-blocker)
 
-
 # Basic Auth Middleware
 
 This middleware can apply Basic authentication to a specified path.
@@ -375,7 +373,7 @@ The password value for the provided username to authenticate against.
 ### <Badge type="info" text="optional" /> realm: `string`
 
 The domain name of the realm, as part of the returned WWW-Authenticate challenge header. The default is `"Secure Area"`.  
-See more: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/WWW-Authenticate#directives
+See more: <https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/WWW-Authenticate#directives>
 
 ### <Badge type="info" text="optional" /> hashFunction: `Function`
 
@@ -439,7 +437,6 @@ app.use(
   )
 )
 ```
-
 
 # Bearer Auth Middleware
 
@@ -539,7 +536,7 @@ The string to validate the incoming bearer token against.
 ### <Badge type="info" text="optional" /> realm: `string`
 
 The domain name of the realm, as part of the returned WWW-Authenticate challenge header. The default is `""`.
-See more: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/WWW-Authenticate#directives
+See more: <https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/WWW-Authenticate#directives>
 
 ### <Badge type="info" text="optional" /> prefix: `string`
 
@@ -579,7 +576,6 @@ Customizes the error response when the token is invalid.
 
 - `wwwAuthenticateHeader`: `string | object | MessageFunction` - Customizes the WWW-Authenticate header value.
 - `message`: `string | object | MessageFunction` - The custom message for the response body.
-
 
 # Body Limit Middleware
 
@@ -652,7 +648,6 @@ Bun.serve({
   maxRequestBodySize: 1024 * 1024 * 200, // your value here
 })
 ```
-
 
 # Cache Middleware
 
@@ -735,7 +730,6 @@ app.get(
   })
 )
 ```
-
 
 # Combine Middleware
 
@@ -832,7 +826,6 @@ import { bearerAuth } from 'hono/bearer-auth'
 app.use('/api/*', except('/api/public/*', bearerAuth({ token })))
 ```
 
-
 # Compress Middleware
 
 This middleware compresses the response body, according to `Accept-Encoding` request header.
@@ -865,7 +858,6 @@ The compression scheme to allow for response compression. Either `gzip` or `defl
 ### <Badge type="info" text="optional" /> threshold: `number`
 
 The minimum size in bytes to compress. Defaults to 1024 bytes.
-
 
 # Context Storage Middleware
 
@@ -947,7 +939,6 @@ if (context) {
   console.log(context.var.message)
 }
 ```
-
 
 # CORS Middleware
 
@@ -1085,7 +1076,6 @@ export default defineConfig({
 })
 ```
 
-
 # CSRF Protection
 
 This middleware protects against CSRF attacks by checking both the `Origin` header and the `Sec-Fetch-Site` header. The request is allowed if either validation passes.
@@ -1192,7 +1182,6 @@ Standard Sec-Fetch-Site values:
 
 The function handler receives the request's `Sec-Fetch-Site` header value and the request context, enabling dynamic validation based on request properties.
 
-
 # ETag Middleware
 
 Using this middleware, you can add ETag headers easily.
@@ -1247,7 +1236,6 @@ The headers that you want to retain in the 304 Response.
 ### <Badge type="info" text="optional" /> generateDigest: `(body: Uint8Array) => ArrayBuffer | Promise<ArrayBuffer>`
 
 A custom digest generation function. By default, it uses `SHA-1`. This function is called with the response body as a `Uint8Array` and should return a hash as an `ArrayBuffer` or a Promise of one.
-
 
 # IP Restriction Middleware
 
@@ -1332,7 +1320,6 @@ app.use(
   )
 )
 ```
-
 
 # JSX Renderer Middleware
 
@@ -1576,7 +1563,6 @@ app.get('/page/favorites', (c) => {
 })
 ```
 
-
 # JWK Auth Middleware
 
 The JWK Auth Middleware authenticates requests by verifying tokens using JWK (JSON Web Key). It checks for an `Authorization` header and other configured sources, such as cookies, if specified. Specifically, it validates tokens using the provided `keys`, retrieves keys from `jwks_uri` if specified, and supports token extraction from cookies if the `cookie` option is set.
@@ -1727,7 +1713,6 @@ The name of the header to look for the JWT token. The default is `Authorization`
 
 If this option is set, you can specify validation rules for claims in the JWT payload (`iss` / `aud` / `exp` / `nbf` / `iat`), in addition to signature verification.
 
-
 # JWT Auth Middleware
 
 The JWT Auth Middleware provides authentication by verifying the token with JWT.
@@ -1854,7 +1839,6 @@ The `iat` (not before) claim will be verified if present and this is set to `tru
 #### <Badge type="info" text="optional" /> verifyOptions.exp: `boolean`
 
 The `exp` (not before) claim will be verified if present and this is set to `true`. The default is `true`.
-
 
 # Language Middleware
 
@@ -2073,7 +2057,6 @@ languageDetector({
 })
 ```
 
-
 # Logger Middleware
 
 It's a simple logger.
@@ -2145,7 +2128,6 @@ app.post('/blog', (c) => {
   // Return Context
 })
 ```
-
 
 # Method Override Middleware
 
@@ -2228,7 +2210,6 @@ Header name with a value containing the method name.
 
 Query parameter key with a value containing the method name.
 
-
 # Pretty JSON Middleware
 
 Pretty JSON middleware enables "_JSON pretty print_" for JSON response body.
@@ -2282,7 +2263,6 @@ The name of the query string for applying. The default is `pretty`.
 ### <Badge type="info" text="optional" /> force: `boolean`
 
 When set to `true`, JSON responses are always prettified regardless of the query parameter. The default is `false`.
-
 
 # Request ID Middleware
 
@@ -2375,12 +2355,11 @@ To unify these IDs, use the `generator` function to capture the platform specifi
   - [Hono: Access AWS Lambda Object](/docs/getting-started/aws-lambda#access-aws-lambda-object)
 - Cloudflare
   - [Cloudflare Ray ID
-    ](https://developers.cloudflare.com/fundamentals/reference/cloudflare-ray-id/)
+](https://developers.cloudflare.com/fundamentals/reference/cloudflare-ray-id/)
 - Deno
   - [Request ID on the Deno Blog](https://deno.com/blog/zero-config-debugging-deno-opentelemetry#:~:text=s%20automatically%20have-,unique%20request%20IDs,-associated%20with%20them)
 - Fastly
   - [Fastly documentation: req.xid](https://www.fastly.com/documentation/reference/vcl/variables/client-request/req-xid/)
-
 
 # Secure Headers Middleware
 
@@ -2630,7 +2609,6 @@ app.use(
 )
 ```
 
-
 # Timeout Middleware
 
 The Timeout Middleware enables you to easily manage request timeouts in your application. It allows you to set a maximum duration for requests and optionally define custom error responses if the specified timeout is exceeded.
@@ -2729,7 +2707,6 @@ app.get('/sse', async (c) => {
 ## Middleware Conflicts
 
 Be cautious about the order of middleware, especially when using error-handling or other timing-related middleware, as it might affect the behavior of this timeout middleware.
-
 
 # Server-Timing Middleware
 
@@ -2835,7 +2812,6 @@ The origin this timings header should be readable.
 
 The default is `false`. See more [docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Timing-Allow-Origin).
 
-
 # Trailing Slash Middleware
 
 This middleware handles Trailing Slash in the URL on a GET request.
@@ -2881,7 +2857,6 @@ app.get('/about/me', (c) => c.text('Without Trailing Slash'))
 ## Note
 
 It will be enabled when the request method is `GET` and the response status is `404`.
-
 
 # Accepts Helper
 
@@ -2943,7 +2918,6 @@ The default values.
 ### <Badge type="info" text="optional" /> match: `(accepts: Accept[], config: acceptsConfig) => string`
 
 The custom match function.
-
 
 # Adapter Helper
 
@@ -3032,7 +3006,6 @@ Here are the available runtimes keys, unavailable runtime key runtimes may be su
 - `edge-light` - Vercel Edge Functions
 - `fastly` - Fastly Compute
 - `other` - Other unknown runtimes keys
-
 
 # ConnInfo Helper
 
@@ -3129,7 +3102,6 @@ interface ConnInfo {
   remote: NetAddrInfo
 }
 ```
-
 
 # Cookie Helper
 
@@ -3361,7 +3333,6 @@ The cookie helper will throw an `Error` when parsing cookies under the following
 - The `maxAge` option value is greater than 400 days.
 - The `expires` option value is 400 days later than the current time.
 
-
 # css Helper
 
 The css helper - `hono/css` - is Hono's built-in CSS in JS(X).
@@ -3582,7 +3553,6 @@ If you use VS Code, you can use [vscode-styled-components](https://marketplace.v
 
 ![](/images/css-ss.png)
 
-
 # Dev Helper
 
 Dev Helper provides useful methods you can use in development.
@@ -3647,7 +3617,6 @@ When set to `true`, it displays verbose information.
 ### <Badge type="info" text="optional" /> colorize: `boolean`
 
 When set to `false`, the output will not be colored.
-
 
 # Factory Helper
 
@@ -3825,7 +3794,6 @@ app.post('/posts', (c) => {
 })
 ```
 
-
 # html Helper
 
 The html Helper lets you write HTML in JavaScript template literal with a tag named `html`. Using `raw()`, the content will be rendered as is. You have to escape these strings by yourself.
@@ -3949,7 +3917,6 @@ Thanks to these libraries, Visual Studio Code and vim also interprets template l
 
 - <https://marketplace.visualstudio.com/items?itemName=bierner.lit-html>
 - <https://github.com/MaxMEllon/vim-jsx-pretty>
-
 
 # JWT Authentication Helper
 
@@ -4130,7 +4097,6 @@ The module supports the following JWT cryptographic algorithms:
 - `ES512`: ECDSA using P-521 and SHA-512
 - `EdDSA`: EdDSA using Ed25519
 
-
 # Proxy Helper
 
 Proxy Helper provides useful functions when using Hono application as a (reverse) proxy.
@@ -4246,7 +4212,6 @@ interface ProxyFetch {
   ): Promise<Response>
 }
 ```
-
 
 # Route Helper
 
@@ -4392,7 +4357,6 @@ subApp.get('/posts/:id', (c) => {
 app.route('/:sub', subApp)
 ```
 
-
 # SSG Helper
 
 SSG Helper generates a static site from your Hono application. It will retrieve the contents of registered routes and save them as static files.
@@ -4458,7 +4422,7 @@ Using the `@hono/vite-ssg` Vite Plugin, you can easily handle the process.
 
 For more details, see here:
 
-https://github.com/honojs/vite-plugins/tree/main/packages/ssg
+<https://github.com/honojs/vite-plugins/tree/main/packages/ssg>
 
 ## toSSG
 
@@ -4764,7 +4728,6 @@ toSSG(app, fs, {
 })
 ```
 
-
 # Streaming Helper
 
 The Streaming Helper provides methods for streaming responses.
@@ -4889,7 +4852,6 @@ If the callback function of the streaming helper throws an error, the `onError` 
 
 :::
 
-
 # Testing Helper
 
 The Testing Helper provides functions to make testing of Hono applications easier.
@@ -4991,7 +4953,6 @@ describe('Search Endpoint', () => {
   })
 })
 ```
-
 
 # WebSocket Helper
 
@@ -5180,7 +5141,6 @@ export default {
 }
 ```
 
-
 # Best Practices
 
 Hono is very flexible. You can write your app as you like.
@@ -5325,7 +5285,6 @@ const client = hc<AppType>('http://localhost') // Typed correctly
 
 For more detailed information, please see [the RPC page](/docs/guides/rpc#using-rpc-with-larger-applications).
 
-
 # Create-hono
 
 Command-line options supported by `create-hono` - the project initializer that runs when you run `npm create hono@latest`, `npx create-hono@latest`, or `pnpm create hono@latest`.
@@ -5333,7 +5292,7 @@ Command-line options supported by `create-hono` - the project initializer that r
 > [!NOTE]
 > **Why this page?** The installation / quick-start examples often show a minimal `npm create hono@latest my-app` command. `create-hono` supports several useful flags you can pass to automate and customize project creation (select templates, skip prompts, pick a package manager, use local cache, and more).
 
-## Passing arguments:
+## Passing arguments
 
 When you use `npm create` (or `npx`) arguments intended for the initializer script must be placed **after** `--`. Anything after `--` is forwarded to the initializer.
 
@@ -5411,11 +5370,9 @@ pnpm create hono@latest my-app --template deno --offline
 
 - `create-hono` repository : [create-hono](https://github.com/honojs/create-hono)
 
-
 # Examples
 
 See the [Examples section](/examples/).
-
 
 # Frequently Asked Questions
 
@@ -5439,7 +5396,6 @@ In your `renovate.json` :
 ```
 
 see [renovate-config-hono](https://github.com/shinGangan/renovate-config-hono) repository for more details.
-
 
 # Helpers
 
@@ -5474,7 +5430,6 @@ app.get('/cookie', (c) => {
 - [Streaming](/docs/helpers/streaming)
 - [Testing](/docs/helpers/testing)
 - [WebSocket](/docs/helpers/websocket)
-
 
 # Client Components
 
@@ -5772,7 +5727,6 @@ export default defineConfig({
   },
 })
 ```
-
 
 # JSX
 
@@ -6227,7 +6181,6 @@ declare module 'hono/jsx' {
 }
 ```
 
-
 # Middleware
 
 Middleware works before/after the endpoint `Handler`. We can get the `Request` before dispatching or manipulate the `Response` after dispatching.
@@ -6450,7 +6403,6 @@ So with them, we may make a more complex application.
 We can explore a variety of [third-party middleware](https://hono.dev/docs/middleware/third-party).
 For example, we have GraphQL Server Middleware, Sentry Middleware, Firebase Auth Middleware, and others.
 
-
 # Miscellaneous
 
 ## Contributing
@@ -6477,7 +6429,6 @@ You can sponsor Hono authors via the GitHub sponsor program.
 - GitHub repository: <a href="https://github.com/honojs">https://github.com/honojs</a>
 - npm registry: <a href="https://www.npmjs.com/package/hono">https://www.npmjs.com/package/hono</a>
 - JSR: <a href="https://jsr.io/@hono/hono">https://jsr.io/@hono/hono</a>
-
 
 # RPC
 
@@ -7247,7 +7198,6 @@ const booksClient = hc<typeof booksApp>('/books')
 
 This way, `tsserver` doesn't need to instantiate types for all routes at once.
 
-
 # Testing
 
 [Vitest]: https://vitest.dev/
@@ -7388,7 +7338,6 @@ test('GET /posts', async () => {
   const res = await app.request('/posts', {}, MOCK_ENV)
 })
 ```
-
 
 # Validation
 
@@ -7825,7 +7774,6 @@ app.post('/author', sValidator('json', schema), (c) => {
 })
 ```
 
-
 # Alibaba Cloud Function Compute
 
 [Alibaba Cloud Function Compute](https://www.alibabacloud.com/en/product/function-compute) is a fully managed, event-driven compute service. Function Compute allows you to focus on writing and uploading code without having to manage infrastructure such as servers.
@@ -7944,7 +7892,6 @@ Finally, run the command to deploy:
 npm run build # Compile the TypeScript code to JavaScript
 npm run deploy # Deploy the function to Alibaba Cloud Function Compute
 ```
-
 
 # AWS Lambda
 
@@ -8174,7 +8121,6 @@ app.get('/stream', async (c) => {
 export const handler = streamHandle(app)
 ```
 
-
 # Azure Functions
 
 [Azure Functions](https://azure.microsoft.com/en-us/products/functions) is a serverless platform from Microsoft Azure. You can run your code in response to events, and it automatically manages the underlying compute resources for you.
@@ -8335,7 +8281,6 @@ Deploy your project to the function app in Azure Cloud. Replace `<YourFunctionAp
 ```sh
 func azure functionapp publish <YourFunctionAppName>
 ```
-
 
 # Getting Started
 
@@ -8590,7 +8535,6 @@ Most code will work on any platform, but there are guides for each.
 For instance, how to set up projects or how to deploy.
 Please see the page for the exact platform you want to use to create your application!
 
-
 # Bun
 
 [Bun](https://bun.com) is another JavaScript runtime. It's not Node.js or Deno. Bun includes a trans compiler, we can write the code with TypeScript.
@@ -8808,7 +8752,6 @@ Then, run the command.
 ```sh
 bun test index.test.ts
 ```
-
 
 # Cloudflare Pages
 
@@ -9216,7 +9159,6 @@ app.get('/hello', (c) => {
 export const onRequest = handle(app)
 ```
 
-
 # Cloudflare Workers
 
 [Cloudflare Workers](https://workers.cloudflare.com) is a JavaScript edge runtime on Cloudflare CDN.
@@ -9538,7 +9480,7 @@ API_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
 ```
 
 > For more about this section you can find in the Cloudflare documentation:
-> https://developers.cloudflare.com/workers/wrangler/configuration/#secrets
+> <https://developers.cloudflare.com/workers/wrangler/configuration/#secrets>
 
 Then we use the `c.env.*` to get the environment variables in our code.
 
@@ -9562,8 +9504,7 @@ app.get('/env', (c) => {
 Before you deploy your project to Cloudflare, remember to set the environment variable/secrets in the Cloudflare Workers project's configuration.
 
 > For more about this section you can find in the Cloudflare documentation:
-> https://developers.cloudflare.com/workers/configuration/environment-variables/#add-environment-variables-via-the-dashboard
-
+> <https://developers.cloudflare.com/workers/configuration/environment-variables/#add-environment-variables-via-the-dashboard>
 
 # Deno
 
@@ -9813,7 +9754,6 @@ We also provide many third-party middleware packages on [JSR](https://jsr.io/@ho
 }
 ```
 
-
 # Fastly Compute
 
 [Fastly Compute](https://www.fastly.com/products/edge-compute) is an advanced edge computing system that runs your code, in your favorite language, on Fastly's global edge network. Hono also works on Fastly Compute.
@@ -9971,7 +9911,6 @@ app.put('/upload/:key', async (c, next) => {
 fire(app)
 ```
 
-
 # Google Cloud Run
 
 [Google Cloud Run](https://cloud.google.com/run) is a serverless platform built by Google Cloud. You can run your code in response to events and Google automatically manages the underlying compute resources for you.
@@ -10083,7 +10022,7 @@ serve({
 })
 ```
 
-Run the development server locally. Then, access http://localhost:8080 in your Web browser.
+Run the development server locally. Then, access <http://localhost:8080> in your Web browser.
 
 ```sh
 npm run dev
@@ -10106,7 +10045,6 @@ For information on containerizing please refer to:
 - [Nodejs](/docs/getting-started/nodejs#building-deployment)
 - [Bun](https://bun.com/guides/ecosystem/docker)
 - [Deno](https://docs.deno.com/examples/google_cloud_run_tutorial)
-
 
 # Lambda@Edge
 
@@ -10271,7 +10209,6 @@ app.get('/', async (c, next) => {
 export const handler = handle(app)
 ```
 
-
 # Netlify
 
 Netlify provides static site hosting and serverless backend services. [Edge Functions](https://docs.netlify.com/edge-functions/overview/) enables us to make the web pages dynamic.
@@ -10370,7 +10307,6 @@ app.get('/country', (c) =>
 
 export default handle(app)
 ```
-
 
 # Next.js
 
@@ -10538,7 +10474,6 @@ In order for this to work with the Pages Router, it's important to disable Verce
 ```text
 NODEJS_HELPERS=0
 ```
-
 
 # Node.js
 
@@ -10838,7 +10773,6 @@ EXPOSE 3000
 CMD ["node", "/app/dist/index.js"]
 ```
 
-
 # Service Worker
 
 [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) is a script that runs in the background of the browser to handle tasks like caching and push notifications. Using a Service Worker adapter, you can run applications made with Hono as [FetchEvent](https://developer.mozilla.org/en-US/docs/Web/API/FetchEvent) handler within the browser.
@@ -11007,7 +10941,6 @@ bun run dev
 
 By default, the development server will run on port `5173`. Access `http://localhost:5173/` in your browser to complete the Service Worker registration. Then, access `/sw` to see the response from the Hono application.
 
-
 # Supabase Edge Functions
 
 [Supabase](https://supabase.com/) is an open-source alternative to Firebase, offering a suite of tools similar to Firebase's capabilities, including database, authentication, storage, and now, serverless functions.
@@ -11037,7 +10970,7 @@ This command initializes a new Supabase project in the current directory.
 
 ### Adding an Edge Function
 
-3. Inside your Supabase project, create a new Edge Function named `hello-world`:
+1. Inside your Supabase project, create a new Edge Function named `hello-world`:
 
 ```bash
 supabase functions new hello-world
@@ -11075,7 +11008,7 @@ supabase functions serve --no-verify-jwt # start the Functions watcher
 
 The `--no-verify-jwt` flag allows you to bypass JWT verification during local development.
 
-2. Make a GET request using cURL or Postman to `http://127.0.0.1:54321/functions/v1/hello-world/hello`:
+1. Make a GET request using cURL or Postman to `http://127.0.0.1:54321/functions/v1/hello-world/hello`:
 
 ```bash
 curl  --location  'http://127.0.0.1:54321/functions/v1/hello-world/hello'
@@ -11099,7 +11032,6 @@ supabase functions deploy hello-world
 ```
 
 For more deployment methods, visit the Supabase documentation on [Deploying to Production](https://supabase.com/docs/guides/functions/deploy).
-
 
 # Vercel
 
@@ -11209,7 +11141,6 @@ vercel deploy
 ## Further reading
 
 [Learn more about Hono in the Vercel documentation](https://vercel.com/docs/frameworks/backend/hono).
-
 
 # WebAssembly (w/ WASI)
 
@@ -11568,7 +11499,6 @@ To reach out to the WebAssembly community with questions, comments, contribution
 [jco-example-components]: https://github.com/bytecodealliance/jco/tree/main/examples/components
 [jco-example-component-hono]: https://github.com/bytecodealliance/jco/tree/main/examples/components/http-server-hono
 
-
 # Benchmarks
 
 Benchmarks are only benchmarks, but they are important to us.
@@ -11741,13 +11671,11 @@ You can see it below.
 
 - [SaltyAom/bun-http-framework-benchmark](https://github.com/SaltyAom/bun-http-framework-benchmark)
 
-
 # Developer Experience
 
 To create a great application, we need great development experience.
 Fortunately, we can write applications for Cloudflare Workers, Deno, and Bun in TypeScript without having the need to transpile it to JavaScript.
 Hono is written in TypeScript and can make applications type-safe.
-
 
 # Middleware
 
@@ -11773,7 +11701,6 @@ app.use(async (c, next) => {
 
 With this simple method, we can write our own custom middleware and we can use the built-in or third party middleware.
 
-
 # Philosophy
 
 In this section, we talk about the concept, or philosophy, of Hono.
@@ -11797,7 +11724,6 @@ An ecosystem has sprung up.
 
 In other words, Hono is damn fast, makes a lot of things possible, and works anywhere.
 We might imagine that Hono could become the **Standard for Web Standards**.
-
 
 # Routers
 
@@ -11889,7 +11815,6 @@ $ npx wrangler deploy --minify ./src/index.ts
 -------------------
 Total Upload: 14.68 KiB / gzip: 5.38 KiB
 ```
-
 
 # Hono Stacks
 
@@ -12138,7 +12063,6 @@ const Todos = () => {
 }
 ```
 
-
 # Web Standards
 
 Hono uses only **Web Standards** like Fetch.
@@ -12173,9 +12097,6 @@ The same code runs on all platforms.
 
 Cloudflare Workers, Deno, Shopify, and others launched [WinterCG](https://wintercg.org) to discuss the possibility of using the Web Standards to enable "web-interoperability".
 Hono will follow their steps and go for **the Standard of the Web Standards**.
-
-[wasi]: https://github.com/WebAssembly/wasi
-[wasi-http]: https://github.com/WebAssembly/wasi-http
 
 
 # Context
@@ -12663,7 +12584,6 @@ app.get('/', (c) => {
 })
 ```
 
-
 # HTTPException
 
 When a fatal error occurs, Hono (and many ecosystem middleware) may throw an `HTTPException`. This is a custom Hono `Error` that simplifies [returning error responses](#handling-httpexceptions).
@@ -12748,7 +12668,6 @@ app.onError((error, c) => {
 ::: warning
 **`HTTPException.getResponse` is not aware of `Context`**. To include headers already set in `Context`, you must apply them to a new `Response`.
 :::
-
 
 # App - Hono
 
@@ -12991,7 +12910,6 @@ app.use('/auth/*', async (c, next) => {
 })
 ```
 
-
 # API
 
 Hono's API is simple.
@@ -13004,7 +12922,6 @@ In this section, we introduce API of Hono like below.
 - About routing
 - Context object
 - About middleware
-
 
 # Presets
 
@@ -13068,7 +12985,6 @@ this.router = new PatternRouter()
 | `hono`       | This is highly recommended for most use cases. Although the registration phase may be slower than `hono/quick`, it exhibits high performance once booted. It's ideal for long-life servers built with **Deno**, **Bun**, or **Node.js**. It is also suitable for **Fastly Compute**, as route registration occurs during the app build phase on that platform. For environments such as **Cloudflare Workers**, **Deno Deploy**, where v8 isolates are utilized, this preset is suitable as well. Because the isolations persist for a certain amount of time after booting. |
 | `hono/quick` | This preset is designed for environments where the application is initialized for every request.                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | `hono/tiny`  | This is the smallest router package and it's suitable for environments where resources are limited.                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-
 
 # HonoRequest
 
@@ -13472,7 +13388,6 @@ app.post(
 )
 ```
 
-
 # Routing
 
 Routing of Hono is flexible and intuitive.
@@ -13775,5 +13690,3 @@ export default app
 ```
 GET /two/three/hi ---> 404 Not Found
 ```
-
-

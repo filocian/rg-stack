@@ -12,7 +12,6 @@ Kysely is the most powerful type-safe SQL query builder for TypeScript. Get unpa
 
 ## docs
 
-
 ### dialects
 
 A dialect is the glue between Kysely and the underlying database engine. Check the API docs to learn how to build your own.
@@ -20,7 +19,6 @@ A dialect is the glue between Kysely and the underlying database engine. Check t
 - [Dialects](https://kysely.dev/docs/dialects.md): A dialect is the glue between Kysely and the underlying database engine. Check the API docs to learn how to build your own.
 
 ### examples
-
 
 #### cte
 
@@ -109,7 +107,6 @@ Prerequisites
 
 ### integrations
 
-
 #### llms
 
 Kysely provides LLM-friendly documentation to help AI tools like Cursor, Windsurf, GitHub Copilot, ChatGPT, Claude, and Claude Code understand and work with it.
@@ -147,7 +144,6 @@ Plugins are classes that implement KyselyPlugin. Plugins are then added to the K
 - [Plugin system](https://kysely.dev/docs/plugins.md): Plugins are classes that implement KyselyPlugin. Plugins are then added to the Kysely instance as follows:
 
 ### recipes
-
 
 #### conditional-selects
 
@@ -229,7 +225,6 @@ Kysely is primarily a type-safe sql query builder.
 
 ### runtimes
 
-
 #### browser
 
 Kysely also runs in the browser. Here's a minimal example:
@@ -241,7 +236,6 @@ Kysely also runs in the browser. Here's a minimal example:
 Kysely doesn't include drivers for Deno, but you can still use Kysely as a query builder or implement your own driver:
 
 - [Running on Deno](https://kysely.dev/docs/runtimes/deno.md): Kysely doesn't include drivers for Deno, but you can still use Kysely as a query builder or implement your own driver:
-
 
 ---
 
@@ -265,41 +259,40 @@ Powered by[](https://www.algolia.com/)
 
 Docs
 
-* [Introduction](https://kysely.dev/docs/intro.md)
-* [Getting started](https://kysely.dev/docs/getting-started.md)
-* [Playground](https://kysely.dev/docs/playground.md)
-* [Migrations](https://kysely.dev/docs/migrations.md)
-* [Recipes](https://kysely.dev/docs/category/recipes)
-* [Other runtimes](https://kysely.dev/docs/category/other-runtimes)
-* [Dialects](https://kysely.dev/docs/dialects.md)
-* [Generating types](https://kysely.dev/docs/generating-types.md)
-* [Plugin system](https://kysely.dev/docs/plugins.md)
+- [Introduction](https://kysely.dev/docs/intro.md)
+- [Getting started](https://kysely.dev/docs/getting-started.md)
+- [Playground](https://kysely.dev/docs/playground.md)
+- [Migrations](https://kysely.dev/docs/migrations.md)
+- [Recipes](https://kysely.dev/docs/category/recipes)
+- [Other runtimes](https://kysely.dev/docs/category/other-runtimes)
+- [Dialects](https://kysely.dev/docs/dialects.md)
+- [Generating types](https://kysely.dev/docs/generating-types.md)
+- [Plugin system](https://kysely.dev/docs/plugins.md)
 
 Examples
 
-* [SELECT](https://kysely.dev/docs/category/select)
-* [WHERE](https://kysely.dev/docs/category/where)
-* [JOIN](https://kysely.dev/docs/category/join)
-* [INSERT](https://kysely.dev/docs/category/insert)
-* [UPDATE](https://kysely.dev/docs/category/update)
-* [DELETE](https://kysely.dev/docs/category/delete)
-* [Transactions](https://kysely.dev/docs/category/transactions)
-* [CTE](https://kysely.dev/docs/category/cte)
+- [SELECT](https://kysely.dev/docs/category/select)
+- [WHERE](https://kysely.dev/docs/category/where)
+- [JOIN](https://kysely.dev/docs/category/join)
+- [INSERT](https://kysely.dev/docs/category/insert)
+- [UPDATE](https://kysely.dev/docs/category/update)
+- [DELETE](https://kysely.dev/docs/category/delete)
+- [Transactions](https://kysely.dev/docs/category/transactions)
+- [CTE](https://kysely.dev/docs/category/cte)
 
 Community
 
-* [Discord](https://discord.gg/xyBJ3GwvAm)
-* [Bluesky](https://bsky.app/profile/kysely.dev)
+- [Discord](https://discord.gg/xyBJ3GwvAm)
+- [Bluesky](https://bsky.app/profile/kysely.dev)
 
 Other
 
-* [GitHub](https://github.com/kysely-org/kysely)
-* [API docs](https://kysely-org.github.io/kysely-apidoc/)
+- [GitHub](https://github.com/kysely-org/kysely)
+- [API docs](https://kysely-org.github.io/kysely-apidoc/)
 
 Sponsors
 
-* [![Powered by Vercel](/img/powered-by-vercel.svg)](https://vercel.com/?utm_source=kysely\&utm_campaign=oss)
-
+- [![Powered by Vercel](/img/powered-by-vercel.svg)](https://vercel.com/?utm_source=kysely\&utm_campaign=oss)
 
 ---
 
@@ -347,7 +340,6 @@ A dialect is the glue between Kysely and the underlying database engine. Check t
 | Oracle                        | <https://github.com/griffiths-waite/kysely-oracledb>                          |
 | Firebird                      | <https://github.com/benkoppe/kysely-firebird>                                 |
 | MariaDB                       | <https://github.com/awaludinar/kysely-mariadb>                                |
-
 
 ---
 
@@ -488,7 +480,6 @@ const result = await db
   .execute()
 ```
 
-
 ---
 
 # Simple selects
@@ -623,7 +614,6 @@ const result = await db
   .execute()
 ```
 
-
 ---
 
 # Single row
@@ -747,9 +737,8 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [deleteFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#deleteFrom)
-* [returning method](https://kysely-org.github.io/kysely-apidoc/classes/DeleteQueryBuilder.html#returning)
-
+- [deleteFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#deleteFrom)
+- [returning method](https://kysely-org.github.io/kysely-apidoc/classes/DeleteQueryBuilder.html#returning)
 
 ---
 
@@ -883,11 +872,10 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [values method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#values)
-* [onConflict method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#onConflict)
-* [returning method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#returning)
-* [insertInto method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#insertInto)
-
+- [values method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#values)
+- [onConflict method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#onConflict)
+- [returning method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#returning)
+- [insertInto method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#insertInto)
 
 ---
 
@@ -1017,11 +1005,10 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [values method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#values)
-* [onConflict method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#onConflict)
-* [returning method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#returning)
-* [insertInto method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#insertInto)
-
+- [values method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#values)
+- [onConflict method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#onConflict)
+- [returning method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#returning)
+- [insertInto method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#insertInto)
 
 ---
 
@@ -1152,11 +1139,10 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [values method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#values)
-* [onConflict method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#onConflict)
-* [returning method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#returning)
-* [insertInto method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#insertInto)
-
+- [values method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#values)
+- [onConflict method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#onConflict)
+- [returning method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#returning)
+- [insertInto method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#insertInto)
 
 ---
 
@@ -1284,11 +1270,10 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [values method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#values)
-* [onConflict method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#onConflict)
-* [returning method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#returning)
-* [insertInto method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#insertInto)
-
+- [values method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#values)
+- [onConflict method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#onConflict)
+- [returning method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#returning)
+- [insertInto method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#insertInto)
 
 ---
 
@@ -1422,11 +1407,10 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [values method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#values)
-* [onConflict method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#onConflict)
-* [returning method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#returning)
-* [insertInto method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#insertInto)
-
+- [values method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#values)
+- [onConflict method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#onConflict)
+- [returning method](https://kysely-org.github.io/kysely-apidoc/classes/InsertQueryBuilder.html#returning)
+- [insertInto method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#insertInto)
 
 ---
 
@@ -1550,11 +1534,10 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [innerJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#innerJoin)
-* [leftJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#leftJoin)
-* [rightJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#rightJoin)
-* [fullJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#fullJoin)
-
+- [innerJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#innerJoin)
+- [leftJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#leftJoin)
+- [rightJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#rightJoin)
+- [fullJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#fullJoin)
 
 ---
 
@@ -1688,11 +1671,10 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [innerJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#innerJoin)
-* [leftJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#leftJoin)
-* [rightJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#rightJoin)
-* [fullJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#fullJoin)
-
+- [innerJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#innerJoin)
+- [leftJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#leftJoin)
+- [rightJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#rightJoin)
+- [fullJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#fullJoin)
 
 ---
 
@@ -1818,11 +1800,10 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [innerJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#innerJoin)
-* [leftJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#leftJoin)
-* [rightJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#rightJoin)
-* [fullJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#fullJoin)
-
+- [innerJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#innerJoin)
+- [leftJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#leftJoin)
+- [rightJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#rightJoin)
+- [fullJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#fullJoin)
 
 ---
 
@@ -1953,11 +1934,10 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [innerJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#innerJoin)
-* [leftJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#leftJoin)
-* [rightJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#rightJoin)
-* [fullJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#fullJoin)
-
+- [innerJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#innerJoin)
+- [leftJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#leftJoin)
+- [rightJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#rightJoin)
+- [fullJoin method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#fullJoin)
 
 ---
 
@@ -2086,15 +2066,14 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [mergeInto method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#mergeInto)
-* [using method](https://kysely-org.github.io/kysely-apidoc/classes/MergeQueryBuilder.html#using)
-* [whenMatched method](https://kysely-org.github.io/kysely-apidoc/classes/WheneableMergeQueryBuilder.html#whenMatched)
-* [thenUpdateSet method](https://kysely-org.github.io/kysely-apidoc/classes/MatchedThenableMergeQueryBuilder.html#thenUpdateSet)
-* [thenDelete method](https://kysely-org.github.io/kysely-apidoc/classes/MatchedThenableMergeQueryBuilder.html#thenDelete)
-* [thenDoNothing method](https://kysely-org.github.io/kysely-apidoc/classes/MatchedThenableMergeQueryBuilder.html#thenDoNothing)
-* [whenNotMatched method](https://kysely-org.github.io/kysely-apidoc/classes/WheneableMergeQueryBuilder.html#whenNotMatched)
-* [thenInsertValues method](https://kysely-org.github.io/kysely-apidoc/classes/NotMatchedThenableMergeQueryBuilder.html#thenInsertValues)
-
+- [mergeInto method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#mergeInto)
+- [using method](https://kysely-org.github.io/kysely-apidoc/classes/MergeQueryBuilder.html#using)
+- [whenMatched method](https://kysely-org.github.io/kysely-apidoc/classes/WheneableMergeQueryBuilder.html#whenMatched)
+- [thenUpdateSet method](https://kysely-org.github.io/kysely-apidoc/classes/MatchedThenableMergeQueryBuilder.html#thenUpdateSet)
+- [thenDelete method](https://kysely-org.github.io/kysely-apidoc/classes/MatchedThenableMergeQueryBuilder.html#thenDelete)
+- [thenDoNothing method](https://kysely-org.github.io/kysely-apidoc/classes/MatchedThenableMergeQueryBuilder.html#thenDoNothing)
+- [whenNotMatched method](https://kysely-org.github.io/kysely-apidoc/classes/WheneableMergeQueryBuilder.html#whenNotMatched)
+- [thenInsertValues method](https://kysely-org.github.io/kysely-apidoc/classes/NotMatchedThenableMergeQueryBuilder.html#thenInsertValues)
 
 ---
 
@@ -2236,15 +2215,14 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [mergeInto method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#mergeInto)
-* [using method](https://kysely-org.github.io/kysely-apidoc/classes/MergeQueryBuilder.html#using)
-* [whenMatched method](https://kysely-org.github.io/kysely-apidoc/classes/WheneableMergeQueryBuilder.html#whenMatched)
-* [thenUpdateSet method](https://kysely-org.github.io/kysely-apidoc/classes/MatchedThenableMergeQueryBuilder.html#thenUpdateSet)
-* [thenDelete method](https://kysely-org.github.io/kysely-apidoc/classes/MatchedThenableMergeQueryBuilder.html#thenDelete)
-* [thenDoNothing method](https://kysely-org.github.io/kysely-apidoc/classes/MatchedThenableMergeQueryBuilder.html#thenDoNothing)
-* [whenNotMatched method](https://kysely-org.github.io/kysely-apidoc/classes/WheneableMergeQueryBuilder.html#whenNotMatched)
-* [thenInsertValues method](https://kysely-org.github.io/kysely-apidoc/classes/NotMatchedThenableMergeQueryBuilder.html#thenInsertValues)
-
+- [mergeInto method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#mergeInto)
+- [using method](https://kysely-org.github.io/kysely-apidoc/classes/MergeQueryBuilder.html#using)
+- [whenMatched method](https://kysely-org.github.io/kysely-apidoc/classes/WheneableMergeQueryBuilder.html#whenMatched)
+- [thenUpdateSet method](https://kysely-org.github.io/kysely-apidoc/classes/MatchedThenableMergeQueryBuilder.html#thenUpdateSet)
+- [thenDelete method](https://kysely-org.github.io/kysely-apidoc/classes/MatchedThenableMergeQueryBuilder.html#thenDelete)
+- [thenDoNothing method](https://kysely-org.github.io/kysely-apidoc/classes/MatchedThenableMergeQueryBuilder.html#thenDoNothing)
+- [whenNotMatched method](https://kysely-org.github.io/kysely-apidoc/classes/WheneableMergeQueryBuilder.html#whenNotMatched)
+- [thenInsertValues method](https://kysely-org.github.io/kysely-apidoc/classes/NotMatchedThenableMergeQueryBuilder.html#thenInsertValues)
 
 ---
 
@@ -2368,10 +2346,9 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [select method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#select)
-* [selectAll method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#selectAll)
-* [selectFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#selectFrom)
-
+- [select method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#select)
+- [selectAll method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#selectAll)
+- [selectFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#selectFrom)
 
 ---
 
@@ -2497,10 +2474,9 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [select method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#select)
-* [selectAll method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#selectAll)
-* [selectFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#selectFrom)
-
+- [select method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#select)
+- [selectAll method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#selectAll)
+- [selectFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#selectFrom)
 
 ---
 
@@ -2623,10 +2599,9 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [select method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#select)
-* [selectAll method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#selectAll)
-* [selectFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#selectFrom)
-
+- [select method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#select)
+- [selectAll method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#selectAll)
+- [selectFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#selectFrom)
 
 ---
 
@@ -2749,10 +2724,9 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [select method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#select)
-* [selectAll method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#selectAll)
-* [selectFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#selectFrom)
-
+- [select method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#select)
+- [selectAll method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#selectAll)
+- [selectFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#selectFrom)
 
 ---
 
@@ -2875,10 +2849,9 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [select method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#select)
-* [selectAll method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#selectAll)
-* [selectFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#selectFrom)
-
+- [select method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#select)
+- [selectAll method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#selectAll)
+- [selectFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#selectFrom)
 
 ---
 
@@ -3026,10 +2999,9 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [select method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#select)
-* [selectAll method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#selectAll)
-* [selectFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#selectFrom)
-
+- [select method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#select)
+- [selectAll method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#selectAll)
+- [selectFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#selectFrom)
 
 ---
 
@@ -3150,10 +3122,9 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [select method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#select)
-* [selectAll method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#selectAll)
-* [selectFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#selectFrom)
-
+- [select method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#select)
+- [selectAll method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#selectAll)
+- [selectFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#selectFrom)
 
 ---
 
@@ -3276,10 +3247,9 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [select method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#select)
-* [selectAll method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#selectAll)
-* [selectFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#selectFrom)
-
+- [select method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#select)
+- [selectAll method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#selectAll)
+- [selectFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#selectFrom)
 
 ---
 
@@ -3438,10 +3408,9 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [select method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#select)
-* [selectAll method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#selectAll)
-* [selectFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#selectFrom)
-
+- [select method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#select)
+- [selectAll method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#selectAll)
+- [selectFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#selectFrom)
 
 ---
 
@@ -3581,10 +3550,9 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [select method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#select)
-* [selectAll method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#selectAll)
-* [selectFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#selectFrom)
-
+- [select method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#select)
+- [selectAll method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#selectAll)
+- [selectFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#selectFrom)
 
 ---
 
@@ -3707,10 +3675,9 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [select method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#select)
-* [selectAll method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#selectAll)
-* [selectFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#selectFrom)
-
+- [select method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#select)
+- [selectAll method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#selectAll)
+- [selectFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#selectFrom)
 
 ---
 
@@ -3845,10 +3812,9 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [select method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#select)
-* [selectAll method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#selectAll)
-* [selectFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#selectFrom)
-
+- [select method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#select)
+- [selectAll method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#selectAll)
+- [selectFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#selectFrom)
 
 ---
 
@@ -3983,10 +3949,9 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [select method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#select)
-* [selectAll method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#selectAll)
-* [selectFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#selectFrom)
-
+- [select method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#select)
+- [selectAll method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#selectAll)
+- [selectFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#selectFrom)
 
 ---
 
@@ -4133,10 +4098,9 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [select method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#select)
-* [selectAll method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#selectAll)
-* [selectFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#selectFrom)
-
+- [select method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#select)
+- [selectAll method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#selectAll)
+- [selectFrom method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#selectFrom)
 
 ---
 
@@ -4285,8 +4249,7 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [transaction method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#transaction)
-
+- [transaction method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#transaction)
 
 ---
 
@@ -4449,8 +4412,7 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [transaction method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#transaction)
-
+- [transaction method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#transaction)
 
 ---
 
@@ -4593,8 +4555,7 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [transaction method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#transaction)
-
+- [transaction method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#transaction)
 
 ---
 
@@ -4722,10 +4683,9 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [set method](https://kysely-org.github.io/kysely-apidoc/classes/UpdateQueryBuilder.html#set)
-* [returning method](https://kysely-org.github.io/kysely-apidoc/classes/UpdateQueryBuilder.html#returning)
-* [updateTable method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#updateTable)
-
+- [set method](https://kysely-org.github.io/kysely-apidoc/classes/UpdateQueryBuilder.html#set)
+- [returning method](https://kysely-org.github.io/kysely-apidoc/classes/UpdateQueryBuilder.html#returning)
+- [updateTable method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#updateTable)
 
 ---
 
@@ -4853,10 +4813,9 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [set method](https://kysely-org.github.io/kysely-apidoc/classes/UpdateQueryBuilder.html#set)
-* [returning method](https://kysely-org.github.io/kysely-apidoc/classes/UpdateQueryBuilder.html#returning)
-* [updateTable method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#updateTable)
-
+- [set method](https://kysely-org.github.io/kysely-apidoc/classes/UpdateQueryBuilder.html#set)
+- [returning method](https://kysely-org.github.io/kysely-apidoc/classes/UpdateQueryBuilder.html#returning)
+- [updateTable method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#updateTable)
 
 ---
 
@@ -4983,10 +4942,9 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [set method](https://kysely-org.github.io/kysely-apidoc/classes/UpdateQueryBuilder.html#set)
-* [returning method](https://kysely-org.github.io/kysely-apidoc/classes/UpdateQueryBuilder.html#returning)
-* [updateTable method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#updateTable)
-
+- [set method](https://kysely-org.github.io/kysely-apidoc/classes/UpdateQueryBuilder.html#set)
+- [returning method](https://kysely-org.github.io/kysely-apidoc/classes/UpdateQueryBuilder.html#returning)
+- [updateTable method](https://kysely-org.github.io/kysely-apidoc/classes/Kysely.html#updateTable)
 
 ---
 
@@ -5123,9 +5081,8 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [where method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#where)
-* [whereRef method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#whereRef)
-
+- [where method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#where)
+- [whereRef method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#whereRef)
 
 ---
 
@@ -5283,9 +5240,8 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [where method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#where)
-* [whereRef method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#whereRef)
-
+- [where method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#where)
+- [whereRef method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#whereRef)
 
 ---
 
@@ -5412,9 +5368,8 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [where method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#where)
-* [whereRef method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#whereRef)
-
+- [where method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#where)
+- [whereRef method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#whereRef)
 
 ---
 
@@ -5547,9 +5502,8 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [where method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#where)
-* [whereRef method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#whereRef)
-
+- [where method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#where)
+- [whereRef method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#whereRef)
 
 ---
 
@@ -5674,9 +5628,8 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [where method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#where)
-* [whereRef method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#whereRef)
-
+- [where method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#where)
+- [whereRef method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#whereRef)
 
 ---
 
@@ -5800,9 +5753,8 @@ The API documentation is packed with examples. The API docs are hosted [here](ht
 
 For example, check out these sections:
 
-* [where method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#where)
-* [whereRef method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#whereRef)
-
+- [where method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#where)
+- [whereRef method](https://kysely-org.github.io/kysely-apidoc/interfaces/SelectQueryBuilder.html#whereRef)
 
 ---
 
@@ -5840,9 +5792,9 @@ This breakdown explains the journey from a type-safe method call in your applica
 
    The `QueryBuilder` now asks the `QueryExecutor` to execute the `CompiledQuery`.
 
-   * The `QueryExecutor` requests a connection from Kysely's `Driver`.
-   * The `Driver`'s job is to abstract away vendor-specific details. It communicates with the actual third-party `DatabaseDriver` — for example, the `pg` or `mysql2` npm package — to get a connection from its pool.
-   * A `DatabaseConnection` object, which wraps the native connection, is returned to the `QueryExecutor`.
+   - The `QueryExecutor` requests a connection from Kysely's `Driver`.
+   - The `Driver`'s job is to abstract away vendor-specific details. It communicates with the actual third-party `DatabaseDriver` — for example, the `pg` or `mysql2` npm package — to get a connection from its pool.
+   - A `DatabaseConnection` object, which wraps the native connection, is returned to the `QueryExecutor`.
 
    <!-- -->
 
@@ -5862,7 +5814,6 @@ This breakdown explains the journey from a type-safe method call in your applica
 
    The final, transformed `QueryResult` is passed up from the `QueryExecutor` to the `QueryBuilder`. The `QueryBuilder` then resolves the promise from the initial `.execute()` call, delivering the final, typed results to your `App`.
 
-
 ---
 
 # Generating types
@@ -5875,14 +5826,13 @@ However, when building production applications, it's best to stay aligned with t
 
 There are several ways to do this using third-party libraries:
 
-* [kysely-codegen](https://github.com/RobinBlomberg/kysely-codegen) - This library generates Kysely database schema type definitions by connecting to and introspecting your database. This library works with all built-in dialects.
+- [kysely-codegen](https://github.com/RobinBlomberg/kysely-codegen) - This library generates Kysely database schema type definitions by connecting to and introspecting your database. This library works with all built-in dialects.
 
-* [prisma-kysely](https://github.com/valtyr/prisma-kysely) - This library generates Kysely database schema type definitions from your existing Prisma schemas.
+- [prisma-kysely](https://github.com/valtyr/prisma-kysely) - This library generates Kysely database schema type definitions from your existing Prisma schemas.
 
-* [kanel-kysely](https://github.com/kristiandupont/kanel/tree/main/packages/kanel-kysely) - This library generates Kysely database schema type definitions by connecting to and introspecting your database. This library extends Kanel which is a mature PostgreSQL-only type generator.
+- [kanel-kysely](https://github.com/kristiandupont/kanel/tree/main/packages/kanel-kysely) - This library generates Kysely database schema type definitions by connecting to and introspecting your database. This library extends Kanel which is a mature PostgreSQL-only type generator.
 
-* [kysely-schema-generator](https://github.com/deanc/kysely-schema-generator) - This library generates Kysely database schema type definitions by connecting to and introspecting your database. Current MySQL only.
-
+- [kysely-schema-generator](https://github.com/deanc/kysely-schema-generator) - This library generates Kysely database schema type definitions by connecting to and introspecting your database. Current MySQL only.
 
 ---
 
@@ -5890,15 +5840,15 @@ There are several ways to do this using third-party libraries:
 
 ## Prerequisites[​](#prerequisites "Direct link to Prerequisites")
 
-* [TypeScript](https://www.typescriptlang.org/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-  * Minimum supported version [4.6](https://devblogs.microsoft.com/typescript/announcing-typescript-4-6/#indexed-access-inference-improvements).
+  - Minimum supported version [4.6](https://devblogs.microsoft.com/typescript/announcing-typescript-4-6/#indexed-access-inference-improvements).
 
-  * For even more type-safety and accurate inference, use version [5.4](https://devblogs.microsoft.com/typescript/announcing-typescript-5-4/#notable-behavioral-changes) or later.
+  - For even more type-safety and accurate inference, use version [5.4](https://devblogs.microsoft.com/typescript/announcing-typescript-5-4/#notable-behavioral-changes) or later.
 
-  * For improved compilation performance, use version [5.9](https://devblogs.microsoft.com/typescript/announcing-typescript-5-9/#cache-instantiations-on-mappers) or later.
+  - For improved compilation performance, use version [5.9](https://devblogs.microsoft.com/typescript/announcing-typescript-5-9/#cache-instantiations-on-mappers) or later.
 
-  * You must enable `strict` mode in your `tsconfig.json` file's `compilerOptions`:
+  - You must enable `strict` mode in your `tsconfig.json` file's `compilerOptions`:
 
     tsconfig.json
 
@@ -5918,11 +5868,11 @@ There are several ways to do this using third-party libraries:
 
 Kysely can be installed using any of the following package managers:
 
-* npm
-* pnpm
-* Yarn
-* Deno
-* Bun
+- npm
+- pnpm
+- Yarn
+- Deno
+- Bun
 
 [npm](https://npmjs.com) <!-- -->is the default package manager for [Node.js](https://nodejs.org), and to where Kysely is published.<br />Your project is using <!-- -->npm<!-- --> if it has a<!-- --> `package-lock.json` file in its root folder.
 
@@ -6077,10 +6027,10 @@ For Kysely's query compilation and execution to work, it needs to understand you
 
 A `Dialect` implementation usually requires a database driver library as a peer dependency. Let's install it using the same package manager command from before:
 
-* PostgreSQL
-* MySQL
-* Microsoft SQL Server (MSSQL)
-* SQLite
+- PostgreSQL
+- MySQL
+- Microsoft SQL Server (MSSQL)
+- SQLite
 
 Kysely's built-in <!-- -->PostgreSQL<!-- --> dialect uses the "<!-- -->pg<!-- -->" driver library under the hood. Please refer to its<!-- --> [official documentation](https://node-postgres.com/) for configuration options.
 
@@ -6327,7 +6277,6 @@ As you can see, Kysely supports DDL queries. It also supports classic "up/down" 
 
 [Migrations](https://kysely.dev/docs/migrations.md).
 
-
 ---
 
 # LLMs
@@ -6386,12 +6335,11 @@ For Claude Code users:
 
 Here are some example prompts you can use with AI tools:
 
-* "Using Kysely, how do I build a type-safe SELECT query with JOINs?"
-* "Show me how to define a database schema interface for Kysely"
-* "How can I use transactions with Kysely?"
-* "Create a complex query with subqueries and aggregations"
-* "How to handle database migrations with Kysely?"
-
+- "Using Kysely, how do I build a type-safe SELECT query with JOINs?"
+- "Show me how to define a database schema interface for Kysely"
+- "How can I use transactions with Kysely?"
+- "Create a complex query with subqueries and aggregations"
+- "How to handle database migrations with Kysely?"
 
 ---
 
@@ -6453,7 +6401,6 @@ export const db = new Kysely<Database>({
 })
 ```
 
-
 ---
 
 # Introduction
@@ -6475,7 +6422,6 @@ If you start using Kysely and can't find something you'd want to use, please ope
 ## Looking for help?[​](#looking-for-help "Direct link to Looking for help?")
 
 If you start using Kysely and can't find something you'd want to use, please [open an issue](https://github.com/kysely-org/kysely/issues) or [join our Discord server](https://discord.gg/xyBJ3GwvAm).
-
 
 ---
 
@@ -6684,7 +6630,6 @@ The migration methods use a lock on the database level and parallel calls are ex
 
 [Migrator](https://kysely-org.github.io/kysely-apidoc/classes/Migrator.html)
 
-
 ---
 
 # Playground
@@ -6803,7 +6748,6 @@ const person = await db
 
 We also have a minimal [code sandbox example](https://codesandbox.io/s/kysely-demo-9l099t?file=/src/index.tsx:0-36).
 
-
 ---
 
 # Plugin system
@@ -6833,7 +6777,6 @@ A plugin that removes duplicate joins from queries. You can read more about it i
 ### Handle `in ()` and `not in ()` plugin[​](#handle-in--and-not-in--plugin "Direct link to handle-in--and-not-in--plugin")
 
 A plugin that allows handling `in ()` and `not in ()` with a chosen strategy. [Learn more](https://kysely-org.github.io/kysely-apidoc/classes/HandleEmptyInListsPlugin.html).
-
 
 ---
 
@@ -6914,7 +6857,6 @@ async function getPerson(id: number, withLastName: boolean) {
 Any selections added inside the `$if` callback will be added as optional fields to the output type since we can't know if the selections were actually made before running the code.
 
 A downside of `$if` is that, unlike the imperative example, it cannot result in discriminated union return types - `kind` would be a union of `'person' | 'person_with_last_name'`.
-
 
 ---
 
@@ -6999,7 +6941,6 @@ There are third-party type generators such as [kysely-codegen](https://github.co
 
 If these tools generate a type that doesn't match the runtime type you observe, please refer to their documentation or open an issue in their github. Kysely has no control over these libraries.
 
-
 ---
 
 # Deduplicate joins
@@ -7073,7 +7014,6 @@ async function getPerson(
 You may wonder why this is a plugin and not the default behavior? The reason is that it's surprisingly difficult to detect if two joins are identical. It's trivial for simple joins like the ones in the example, but becomes quite complex with arbitrary joins with nested subqueries etc. There may be corner cases where the `DeduplicateJoinsPlugin` fails and we don't want it to affect people that don't need this deduplication (most people).
 
 See [this recipe](https://kysely.dev/docs/recipes/conditional-selects.md) if you are wondering why we are using the `$if` method.
-
 
 ---
 
@@ -7154,7 +7094,6 @@ export type Simplify<T> = { [K in keyof T]: T[K] } & {}
 ```
 
 While that does simplify the type when you hover over it in your IDE, it doesn't actually drop the complex type underneath. You can try this yourself with the example above.
-
 
 ---
 
@@ -7403,7 +7342,6 @@ const persons = await db
 ```
 
 Using the latter design, you can build conditional expressions of any complexity.
-
 
 ---
 
@@ -7760,7 +7698,6 @@ db.schema.createTable('person').addIdColumn().addColumn('name', 'varchar')
 db.schema.createTable('pet').addColumn('species', 'varchar').addIdColumn()
 ```
 
-
 ---
 
 # Introspecting relation metadata
@@ -7793,7 +7730,6 @@ logDatabaseSchema()
 ```
 
 For more information check the docs for details on the interfaces [DatabaseIntrospector](https://kysely-org.github.io/kysely-apidoc/interfaces/DatabaseIntrospector.html) and [TableMetadata](https://kysely-org.github.io/kysely-apidoc/interfaces/TableMetadata.html).
-
 
 ---
 
@@ -7860,19 +7796,17 @@ const db = new Kysely({
 
 For more information check the docs for details on the interfaces [KyselyConfig](https://kysely-org.github.io/kysely-apidoc/interfaces/KyselyConfig.html).
 
-
 ---
 
 # Raw SQL
 
 You can execute raw SQL strings and pass raw SQL snippets to pretty much any method or function using the [sql template tag](https://kysely-org.github.io/kysely-apidoc/interfaces/Sql.html).
 
-
 ---
 
 # Relations
 
-### Kysely IS NOT an ORM. Kysely DOES NOT have the concept of relations. Kysely IS a query builder. Kysely DOES build the SQL you tell it to, nothing more, nothing less.
+### Kysely IS NOT an ORM. Kysely DOES NOT have the concept of relations. Kysely IS a query builder. Kysely DOES build the SQL you tell it to, nothing more, nothing less
 
 Phew, glad we got that out the way..
 
@@ -8063,7 +7997,6 @@ const persons = await db
   ))
   .execute()
 ```
-
 
 ---
 
@@ -8306,7 +8239,6 @@ The subquery is an `Expression<{ name: string }>` but our `upper` function only 
 
 We also used `$notNull()` in the example because our simple `upper` function doesn't support nullable expressions.
 
-
 ---
 
 # Working with schemas
@@ -8387,7 +8319,6 @@ interface Database {
 ```
 
 See the [first case](#1) for more info.
-
 
 ---
 
@@ -8498,7 +8429,6 @@ const results = await db.executeQuery(compiledQuery)
 
 The `QueryResult` object returned by `.executeQuery()` contains the query results' rows, insertId and number of affected rows (if applicable).
 
-
 ---
 
 # Browser
@@ -8553,7 +8483,6 @@ window.addEventListener('load', () => {
 })
 ```
 
-
 ---
 
 # Running on Deno
@@ -8606,6 +8535,4 @@ const sql = query.compile()
 console.log(sql.sql)
 ```
 
-
 ---
-

@@ -6,8 +6,7 @@
 
 > What constitutes acceptable use of Deno Deploy Classic.
 
-URL: https://docs.deno.com/deploy/acceptable_use_policy
-
+URL: <https://docs.deno.com/deploy/acceptable_use_policy>
 
 The Deno Deploy service includes resources (CPU time, request counts) that are
 subject to this Acceptable Use policy. This document can give a rough estimate
@@ -40,15 +39,13 @@ if your projects usage significantly deviates from the norm. We will reach out
 to you where possible before taking any action to address unreasonable burdens
 on our infrastructure.
 
-
 ---
 
 # Deno Deploy changelog
 
 > Listing notable progress in the development and evolution of Deno Deploy
 
-URL: https://docs.deno.com/deploy/changelog
-
+URL: <https://docs.deno.com/deploy/changelog>
 
 ## January 27th, 2026
 
@@ -74,7 +71,7 @@ URL: https://docs.deno.com/deploy/changelog
     will remove the old default domain.
   - Learn more in the documentation.
 - Deno Deploy support tickets can now be viewed from the Deno Deploy dashboard.
-  - After submitting a support request via email to support@deno.com, you will
+  - After submitting a support request via email to <support@deno.com>, you will
     receive an automated reply with a link to claim your ticket.
   - Claiming the ticket links it to your Deno Deploy account, allowing you to
     track the status of your support request from the
@@ -300,8 +297,8 @@ URL: https://docs.deno.com/deploy/changelog
   `DENO_DEPLOY=1`, `DENO_DEPLOY_ORG_ID`, `DENO_DEPLOY_ORG_SLUG`,
   `DENO_DEPLOY_APP_ID`, `DENO_DEPLOY_APP_SLUG`, `DENO_DEPLOY_REVISION_ID`.
 - Users can now create personal access tokens from their account page.
-- The Deno Deploy EA dashboard has migrated from https://app.deno.com to
-  https://console.deno.com. All existing URLs will automatically redirect to the
+- The Deno Deploy EA dashboard has migrated from <https://app.deno.com> to
+  <https://console.deno.com>. All existing URLs will automatically redirect to the
   new URL.
 
 ### Bug fixes
@@ -520,13 +517,11 @@ URL: https://docs.deno.com/deploy/changelog
 - Domains that had a provisioned certificate or attached application can now be
   deleted
 
-
 ---
 
 # Compressing response bodies
 
-URL: https://docs.deno.com/deploy/classic/api/compression
-
+URL: <https://docs.deno.com/deploy/classic/api/compression>
 
 :::info Legacy Documentation
 
@@ -578,13 +573,11 @@ Etag, we don't touch the header.
 [no-transform]: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control#other
 [content-range]: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Range
 
-
 ---
 
 # Dynamic import
 
-URL: https://docs.deno.com/deploy/classic/api/dynamic-import
-
+URL: <https://docs.deno.com/deploy/classic/api/dynamic-import>
 
 :::info Legacy Documentation
 
@@ -743,13 +736,11 @@ when passed, throws a [TypeError] at runtime.
 [Data URL]: https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URLs
 [TypeError]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError
 
-
 ---
 
 # API Reference
 
-URL: https://docs.deno.com/deploy/classic/api/
-
+URL: <https://docs.deno.com/deploy/classic/api/>
 
 :::info Legacy Documentation
 
@@ -854,13 +845,11 @@ In the future, these APIs will also be added:
 Just like the Deno CLI, we do not implement the `__proto__` object field as
 specified in ECMA Script Annex B.
 
-
 ---
 
 # BroadcastChannel
 
-URL: https://docs.deno.com/deploy/classic/api/runtime-broadcast-channel
-
+URL: <https://docs.deno.com/deploy/classic/api/runtime-broadcast-channel>
 
 :::info Legacy Documentation
 
@@ -967,13 +956,11 @@ You can test this example yourself on Deno Deploy Classic using
 [messageevent]: https://developer.mozilla.org/en-US/docs/Web/API/MessageEvent
 [object]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
 
-
 ---
 
 # HTTP requests (fetch)
 
-URL: https://docs.deno.com/deploy/classic/api/runtime-fetch
-
+URL: <https://docs.deno.com/deploy/classic/api/runtime-fetch>
 
 :::info Legacy Documentation
 
@@ -1051,13 +1038,11 @@ Deno.serve(handler);
 
 [usvstring]: https://developer.mozilla.org/en-US/docs/Web/API/USVString
 
-
 ---
 
 # File system APIs
 
-URL: https://docs.deno.com/deploy/classic/api/runtime-fs
-
+URL: <https://docs.deno.com/deploy/classic/api/runtime-fs>
 
 :::info Legacy Documentation
 
@@ -1466,13 +1451,11 @@ async function handler(_req) {
 Deno.serve(handler);
 ```
 
-
 ---
 
 # HTTP Headers
 
-URL: https://docs.deno.com/deploy/classic/api/runtime-headers
-
+URL: <https://docs.deno.com/deploy/classic/api/runtime-headers>
 
 :::info Legacy Documentation
 
@@ -1542,13 +1525,11 @@ const request = new Request("https://api.github.com/users/denoland", {
 });
 ```
 
-
 ---
 
 # Node.js built-in APIs
 
-URL: https://docs.deno.com/deploy/classic/api/runtime-node
-
+URL: <https://docs.deno.com/deploy/classic/api/runtime-node>
 
 :::info Legacy Documentation
 
@@ -1644,13 +1625,11 @@ available:
 > it is not yet perfect. If you encounter any issues, please
 > [open an issue](https://github.com/denoland/deno).
 
-
 ---
 
 # HTTP Request
 
-URL: https://docs.deno.com/deploy/classic/api/runtime-request
-
+URL: <https://docs.deno.com/deploy/classic/api/runtime-request>
 
 :::info Legacy Documentation
 
@@ -1777,13 +1756,11 @@ Deno.serve(handler);
 [formdata]: https://developer.mozilla.org/en-US/docs/Web/API/Body/formdata
 [clone]: https://developer.mozilla.org/en-US/docs/Web/API/Request/clone
 
-
 ---
 
 # HTTP Response
 
-URL: https://docs.deno.com/deploy/classic/api/runtime-response
-
+URL: <https://docs.deno.com/deploy/classic/api/runtime-response>
 
 :::info Legacy Documentation
 
@@ -1876,33 +1853,18 @@ function handler(_req) {
 Deno.serve(handler);
 ```
 
-[clone]: https://developer.mozilla.org/en-US/docs/Web/API/Response/clone
 [error]: https://developer.mozilla.org/en-US/docs/Web/API/Response/error
-[redirect]: https://developer.mozilla.org/en-US/docs/Web/API/Response/redirect
-[body]: https://developer.mozilla.org/en-US/docs/Web/API/Body/body
-[bodyused]: https://developer.mozilla.org/en-US/docs/Web/API/Body/bodyUsed
-[url]: https://developer.mozilla.org/en-US/docs/Web/API/Request/url
-[headers]: https://developer.mozilla.org/en-US/docs/Web/API/Request/headers
 [ok]: https://developer.mozilla.org/en-US/docs/Web/API/Response/ok
 [redirected]: https://developer.mozilla.org/en-US/docs/Web/API/Response/redirected
 [status]: https://developer.mozilla.org/en-US/docs/Web/API/Response/status
 [statustext]: https://developer.mozilla.org/en-US/docs/Web/API/Response/statusText
 [type]: https://developer.mozilla.org/en-US/docs/Web/API/Response/type
-[method]: https://developer.mozilla.org/en-US/docs/Web/API/Request/method
-[readablestream]: https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream
-[arraybuffer]: https://developer.mozilla.org/en-US/docs/Web/API/Body/arrayBuffer
-[blob]: https://developer.mozilla.org/en-US/docs/Web/API/Body/blob
-[json]: https://developer.mozilla.org/en-US/docs/Web/API/Body/json
-[text]: https://developer.mozilla.org/en-US/docs/Web/API/Body/text
-[formdata]: https://developer.mozilla.org/en-US/docs/Web/API/Body/formdata
-
 
 ---
 
 # TCP sockets and TLS
 
-URL: https://docs.deno.com/deploy/classic/api/runtime-sockets
-
+URL: <https://docs.deno.com/deploy/classic/api/runtime-sockets>
 
 :::info Legacy Documentation
 
@@ -2008,13 +1970,11 @@ async function handler(_req) {
 Deno.serve(handler);
 ```
 
-
 ---
 
 # CI and GitHub Actions
 
-URL: https://docs.deno.com/deploy/classic/ci_github
-
+URL: <https://docs.deno.com/deploy/classic/ci_github>
 
 :::info Legacy Documentation
 
@@ -2117,19 +2077,15 @@ See
 [deployctl README](https://github.com/denoland/deployctl/blob/main/action/README.md)
 for more details.
 
-[fileserver]: https://jsr.io/@std/http#file-server
-[ghapp]: https://github.com/apps/deno-deploy
 [deploy-action]: https://github.com/denoland/deployctl/blob/main/action/README.md
 [ahead-of-time builds]: https://fresh.deno.dev/docs/concepts/ahead-of-time-builds
 [Deploy to production]: https://fresh.deno.dev/docs/getting-started/deploy-to-production
-
 
 ---
 
 # Scheduling cron tasks
 
-URL: https://docs.deno.com/deploy/classic/cron
-
+URL: <https://docs.deno.com/deploy/classic/cron>
 
 :::info Legacy Documentation
 
@@ -2321,13 +2277,11 @@ Deno.cron("Run on the first of the month at midnight", "0 0 1 * *", () => {
 });
 ```
 
-
 ---
 
 # Custom domains
 
-URL: https://docs.deno.com/deploy/classic/custom-domains
-
+URL: <https://docs.deno.com/deploy/classic/custom-domains>
 
 :::info Legacy Documentation
 
@@ -2388,13 +2342,11 @@ option.
    chain and private key. The certificate chain needs to be complete and valid,
    and your leaf certificate needs to be at the top of the chain.
 
-
 ---
 
 # Using deployctl on the command line
 
-URL: https://docs.deno.com/deploy/classic/deployctl
-
+URL: <https://docs.deno.com/deploy/classic/deployctl>
 
 :::info Legacy Documentation
 
@@ -2602,7 +2554,7 @@ c0ph5xa9exb3
 Status:       Production
 Date:         2 days, 12 hours, 29 minutes, 46 seconds ago (12/3/2024 13:21:25 CET)
 Project:      my-project (e54f23b5-828d-4b7f-af12-706d4591062b)
-Organization:	my-team (d97822ac-ee20-4ce9-b942-5389330b57ee)
+Organization: my-team (d97822ac-ee20-4ce9-b942-5389330b57ee)
 Domain(s):    https://my-project.deno.dev
               https://my-project-c0ph5xa9exb3.deno.dev
 Database:     Production (0efa985f-3793-48bc-8c05-f740ffab4ca0)
@@ -2730,7 +2682,7 @@ Be aware that when changing env variables, only the env variables set in the
 redeploy command will be used by the new deployment. The project env variables
 and the env variables of the deployment being redeployed are ignored. If this
 does not suit your needs, please report your feedback at
-https://github.com/denoland/deploy_feedback/issues/
+<https://github.com/denoland/deploy_feedback/issues/>
 
 :::
 
@@ -2801,20 +2753,20 @@ Output:
 ```
 main-site
 ---------
-Organization:	my-team (5261e096-f9aa-4b72-8440-1c2b5b553def)
-Domain(s):  	https://my-team.com
-		          https://main-site.deno.dev
-Dash URL:	    https://dash.deno.com/projects/8422c515-f68f-49b2-89f3-157f4b144611
-Repository:	  https://github.com/my-team/main-site
-Databases:  	[main] dd28e63e-f495-416b-909a-183380e3a232
-		          [*] e061c76e-4445-409a-bc36-a1a9040c83b3
-Crons:		    another cron [*/10 * * * *] succeeded at 12/3/2024 14:40:00 CET after 2 seconds (next at 12/3/2024 14:50:00 CET)
-		          newest cron [*/10 * * * *] n/a
-		          yet another cron [*/10 * * * *] failed at 12/3/2024 14:40:00 CET after 2 seconds (next at 12/3/2024 14:50:00 CET)
-Deployments:	kcbxc4xwe4mc	c0ph5xa9exb3*	kwkbev9er4h2	dxseq0jc8402	7xr5thz8yjbz
-		          4qr4h5ac3rfn	25wryhcqmb9q	64tbrn8jre9n	hgqgccnmzg04	rxkh1w3g74e8
-		          wx6cw9aya64c	a1qh5fmew2yf	w6pf4r0rrdkb	nn700gexgdzq	98crfqxa6vvf
-		          xcdcs014yc5p	btw43kx89ws1	62tg1ketkjx7	07ag6pt6kjex	4msyne1rvwj1
+Organization: my-team (5261e096-f9aa-4b72-8440-1c2b5b553def)
+Domain(s):   https://my-team.com
+            https://main-site.deno.dev
+Dash URL:     https://dash.deno.com/projects/8422c515-f68f-49b2-89f3-157f4b144611
+Repository:   https://github.com/my-team/main-site
+Databases:   [main] dd28e63e-f495-416b-909a-183380e3a232
+            [*] e061c76e-4445-409a-bc36-a1a9040c83b3
+Crons:      another cron [*/10 * * * *] succeeded at 12/3/2024 14:40:00 CET after 2 seconds (next at 12/3/2024 14:50:00 CET)
+            newest cron [*/10 * * * *] n/a
+            yet another cron [*/10 * * * *] failed at 12/3/2024 14:40:00 CET after 2 seconds (next at 12/3/2024 14:50:00 CET)
+Deployments: kcbxc4xwe4mc c0ph5xa9exb3* kwkbev9er4h2 dxseq0jc8402 7xr5thz8yjbz
+            4qr4h5ac3rfn 25wryhcqmb9q 64tbrn8jre9n hgqgccnmzg04 rxkh1w3g74e8
+            wx6cw9aya64c a1qh5fmew2yf w6pf4r0rrdkb nn700gexgdzq 98crfqxa6vvf
+            xcdcs014yc5p btw43kx89ws1 62tg1ketkjx7 07ag6pt6kjex 4msyne1rvwj1
 ```
 
 ### Rename
@@ -2838,8 +2790,8 @@ Output:
 :::note
 
 Keep in mind that the name of the project is part of the preview domains
-(https://my-personal-blog-kcbxc4xwe4mc.deno.dev) and the default production
-domain (https://my-personal-blog.deno.dev). Therefore, when changing the project
+(<https://my-personal-blog-kcbxc4xwe4mc.deno.dev>) and the default production
+domain (<https://my-personal-blog.deno.dev>). Therefore, when changing the project
 name, the URLs with the previous name will no longer route to the project's
 corresponding deployments.
 
@@ -3042,13 +2994,11 @@ Get a csv stream of the CPU time per request on each isolate of each region:
 deployctl top | jq -r '[.id,.region,.cpuTimePerRequest] | @csv'
 ```
 
-
 ---
 
 # Deployments
 
-URL: https://docs.deno.com/deploy/classic/deployments
-
+URL: <https://docs.deno.com/deploy/classic/deployments>
 
 :::info Legacy Documentation
 
@@ -3124,13 +3074,11 @@ production with the `--prod` flag:
 deployctl deploy --prod --project=helloworld main.ts
 ```
 
-
 ---
 
 # Connect to DynamoDB
 
-URL: https://docs.deno.com/deploy/classic/dynamodb
-
+URL: <https://docs.deno.com/deploy/classic/dynamodb>
 
 :::info Legacy Documentation
 
@@ -3152,7 +3100,7 @@ access DynamoDB.
 
 Generate Credentials:
 
-1. Go to https://console.aws.amazon.com/iam/ and go to the "Users" section.
+1. Go to <https://console.aws.amazon.com/iam/> and go to the "Users" section.
 2. Click on the **Add user** button, fill the **User name** field (maybe use
    `denamo`), and select **Programmatic access** type.
 3. Click on **Next: Permissions**, then on **Attach existing policies
@@ -3227,6 +3175,7 @@ You should see a couple of options to deploy:
 
 - [Github integration](ci_github)
 - [`deployctl`](./deployctl.md)
+
   ```sh
   deployctl deploy --project=<project-name> <application-file-name>
   ```
@@ -3237,13 +3186,11 @@ integration.
 For more details on the different ways to deploy on Deno Deploy Classic and the
 different configuration options, read [here](how-to-deploy).
 
-
 ---
 
 # Edge Cache
 
-URL: https://docs.deno.com/deploy/classic/edge_cache
-
+URL: <https://docs.deno.com/deploy/classic/edge_cache>
 
 :::info Legacy Documentation
 
@@ -3304,13 +3251,11 @@ Cache-Control: max-age=86400
   `Content-Length` header needs to be manually set.
 - Deletion is not yet supported.
 
-
 ---
 
 # Environment variables
 
-URL: https://docs.deno.com/deploy/classic/environment-variables
-
+URL: <https://docs.deno.com/deploy/classic/environment-variables>
 
 :::info Legacy Documentation
 
@@ -3392,13 +3337,11 @@ access from your code.
 
    It holds the ID of the deployment.
 
-
 ---
 
 # Connect to Firebase
 
-URL: https://docs.deno.com/deploy/classic/firebase
-
+URL: <https://docs.deno.com/deploy/classic/firebase>
 
 :::info Legacy Documentation
 
@@ -3564,6 +3507,7 @@ You should see a couple of options to deploy:
 
 - [Github integration](ci_github)
 - [`deployctl`](./deployctl.md)
+
   ```sh
   deployctl deploy --project=<project-name> <application-file-name>
   ```
@@ -3574,13 +3518,11 @@ integration.
 For more details on the different ways to deploy on Deno Deploy Classic and the
 different configuration options, read [here](how-to-deploy).
 
-
 ---
 
 # Deploy with GitHub integration
 
-URL: https://docs.deno.com/deploy/classic/how-to-deploy
-
+URL: <https://docs.deno.com/deploy/classic/how-to-deploy>
 
 :::info Legacy Documentation
 
@@ -3614,13 +3556,11 @@ The easiest way to deploy some code is via a Deno Deploy Classic playground.
 
 See the [playground page](playgrounds) for more details.
 
-
 ---
 
 # Deploy Classic
 
-URL: https://docs.deno.com/deploy/classic/
-
+URL: <https://docs.deno.com/deploy/classic/>
 
 :::info Legacy Documentation
 
@@ -3785,13 +3725,11 @@ tutorials for you to try out Deno Deploy Classic try them out by clicking on
 [Realtime app with WebSockets playground](https://dash.deno.com/tutorial/tutorial-websocket)\
 [Recurring tasks with Deno.cron playground](https://dash.deno.com/tutorial/tutorial-cron)
 
-
 ---
 
 # KV on Deno Deploy
 
-URL: https://docs.deno.com/deploy/classic/kv_on_deploy
-
+URL: <https://docs.deno.com/deploy/classic/kv_on_deploy>
 
 :::info Legacy Documentation
 
@@ -3879,13 +3817,11 @@ restore the system to normal operations after a failure.
 - Loss of two or more data centers in the primary region: RPO&lt;60s (under 60
   seconds of data loss)
 
-
 ---
 
 # Application logging
 
-URL: https://docs.deno.com/deploy/classic/logs
-
+URL: <https://docs.deno.com/deploy/classic/logs>
 
 :::info Legacy Documentation
 
@@ -3928,13 +3864,11 @@ trimmed to 2KB.
 A deployment is allowed to produce up to 1000 log entries per second. If it is
 exceeded, we may terminate the deployment.
 
-
 ---
 
 # Reverse proxy middleware
 
-URL: https://docs.deno.com/deploy/classic/middleware
-
+URL: <https://docs.deno.com/deploy/classic/middleware>
 
 :::info Legacy Documentation
 
@@ -3951,13 +3885,13 @@ examples of common middleware functions, see the
 
 ## **Step 1:** Create a new playground project on Deno Deploy
 
-Navigate to https://dash.deno.com/projects and click on the "New Playground"
+Navigate to <https://dash.deno.com/projects> and click on the "New Playground"
 button.
 
 ## **Step 2:** Deploy middleware code via playground
 
 On the next page, copy and paste the code below into the editor. It is an HTTP
-server that proxies all requests to https://example.com.
+server that proxies all requests to <https://example.com>.
 
 ```ts
 async function reqHandler(req: Request) {
@@ -3974,13 +3908,11 @@ You should see something like this:
 
 ![image](../docs-images/proxy_to_example.png)
 
-
 ---
 
 # Connect to Neon Postgres
 
-URL: https://docs.deno.com/deploy/classic/neon-postgres
-
+URL: <https://docs.deno.com/deploy/classic/neon-postgres>
 
 :::info Legacy Documentation
 
@@ -4000,7 +3932,7 @@ For this tutorial, we will be using [Neon Postgres](https://neon.tech/) as they
 provide free, managed Postgres instances. If you like to host your database
 somewhere else, you can do that too.
 
-1. Visit https://neon.tech/ and click **Sign up** to sign up with an email,
+1. Visit <https://neon.tech/> and click **Sign up** to sign up with an email,
    Github, Google, or partner account. After signing up, you are directed to the
    Neon Console to create your first project.
 2. Enter a name for your project, select a Postgres version, provide a database
@@ -4088,6 +4020,7 @@ You should see a couple of options to deploy:
 
 - [Github integration](ci_github)
 - [`deployctl`](./deployctl.md)
+
   ```sh
   deployctl deploy --project=<project-name> <application-file-name>
   ```
@@ -4098,13 +4031,11 @@ integration.
 For more details on the different ways to deploy on Deno Deploy Classic and the
 different configuration options, read [here](how-to-deploy).
 
-
 ---
 
 # Organizations
 
-URL: https://docs.deno.com/deploy/classic/organizations
-
+URL: <https://docs.deno.com/deploy/classic/organizations>
 
 :::info Legacy Documentation
 
@@ -4156,13 +4087,11 @@ invites by clicking on the delete icon next to the pending invite.
 3. In the **Members** panel, click on the delete button beside the user you want
    to remove.
 
-
 ---
 
 # Playgrounds
 
-URL: https://docs.deno.com/deploy/classic/playgrounds
-
+URL: <https://docs.deno.com/deploy/classic/playgrounds>
 
 :::info Legacy Documentation
 
@@ -4267,13 +4196,11 @@ to create the repository on GitHub. The repository must not already exist.
 
 Press **Export** to export the playground to GitHub.
 
-
 ---
 
 # Connect to Postgres
 
-URL: https://docs.deno.com/deploy/classic/postgres
-
+URL: <https://docs.deno.com/deploy/classic/postgres>
 
 :::info Legacy Documentation
 
@@ -4297,7 +4224,7 @@ For this tutorial, we will be using [Supabase](https://supabase.com) as they
 provide free, managed Postgres instances. If you like to host your database
 somewhere else, you can do that too.
 
-1. Visit https://app.supabase.io/ and click **New project**.
+1. Visit <https://app.supabase.io/> and click **New project**.
 2. Select a name, password, and region for your database. Make sure to save the
    password, as you will need it later.
 3. Click **Create new project**. Creating the project can take a while, so be
@@ -4394,6 +4321,7 @@ You should see a couple of options to deploy:
 
 - [Github integration](ci_github)
 - [`deployctl`](./deployctl.md)
+
   ```sh
   deployctl deploy --project=<project-name> <application-file-name>
   ```
@@ -4404,13 +4332,11 @@ integration.
 For more details on the different ways to deploy on Deno Deploy Classic and the
 different configuration options, read [here](how-to-deploy).
 
-
 ---
 
 # Connect to Prisma Postgres
 
-URL: https://docs.deno.com/deploy/classic/prisma-postgres
-
+URL: <https://docs.deno.com/deploy/classic/prisma-postgres>
 
 :::info Legacy Documentation
 
@@ -4609,6 +4535,7 @@ You should see a couple of options to deploy:
 
 - [Github integration](ci_github)
 - [`deployctl`](./deployctl.md)
+
   ```sh
   deployctl deploy --project=<project-name> <application-file-name>
   ```
@@ -4619,13 +4546,11 @@ integration.
 For more details on the different ways to deploy on Deno Deploy Classic and the
 different configuration options, read [here](how-to-deploy).
 
-
 ---
 
 # Using Queues
 
-URL: https://docs.deno.com/deploy/classic/queues
-
+URL: <https://docs.deno.com/deploy/classic/queues>
 
 :::info Legacy Documentation
 
@@ -4873,13 +4798,11 @@ to send them a satisfaction survey. You can schedule a queue message to be
 delivered 24 hours into the future, and set up a listener to send out the
 notification at that time.
 
-
 ---
 
 # Regions
 
-URL: https://docs.deno.com/deploy/classic/regions
-
+URL: <https://docs.deno.com/deploy/classic/regions>
 
 :::info Legacy Documentation
 
@@ -4906,13 +4829,11 @@ Code is deployed to all regions and is served from the region closest to the end
 user to minimize latency. It is not currently possible to restrict the regions
 in which your code is deployed.
 
-
 ---
 
 # Local development
 
-URL: https://docs.deno.com/deploy/classic/running-scripts-locally
-
+URL: <https://docs.deno.com/deploy/classic/running-scripts-locally>
 
 :::info Legacy Documentation
 
@@ -4944,8 +4865,6 @@ For more information about the Deno CLI, and how to configure your development
 environment and IDE, visit the Deno Manual's [Getting Started][manual-gs]
 section.
 
-[manual-gs]: https://deno.land/manual/getting_started
-
 
 ---
 
@@ -4953,8 +4872,7 @@ section.
 
 > Our policies regarding refunds and cancellations for Deno Deploy.
 
-URL: https://docs.deno.com/deploy/fulfillment_policy
-
+URL: <https://docs.deno.com/deploy/fulfillment_policy>
 
 ## Refund Policy
 
@@ -4985,15 +4903,13 @@ accrued before the effective date of cancellation. Contact Us For more
 information about our fulfillment policies, or if you require assistance, please
 contact our support team at [deploy@deno.com](mailto:deploy@deno.com).
 
-
 ---
 
 # Getting started
 
 > Step-by-step guide to creating and configuring your first Deno Deploy application, including organization setup, build configuration, environment variables, and deployment monitoring.
 
-URL: https://docs.deno.com/deploy/getting_started
-
+URL: <https://docs.deno.com/deploy/getting_started>
 
 ## Create an organization
 
@@ -5279,15 +5195,13 @@ The logs that are emitted as part of a given span are shown in the logs tab at
 the bottom. Changing the selected span will update which logs are shown in this
 panel.
 
-
 ---
 
 # About Deno Deploy
 
 > Guide to Deno Deploy features, comparison with Deploy Classic, and getting started instructions for deployment.
 
-URL: https://docs.deno.com/deploy/
-
+URL: <https://docs.deno.com/deploy/>
 
 <a href="https://console.deno.com" class="docs-cta deploy-cta">Go to the Deno
 Deploy dashboard</a>
@@ -5351,13 +5265,11 @@ To begin using Deno Deploy:
 For detailed configuration instructions and framework-specific guides, please
 refer to our reference documentation.
 
-
 ---
 
 # Backups
 
-URL: https://docs.deno.com/deploy/kv/backup
-
+URL: <https://docs.deno.com/deploy/kv/backup>
 
 KV databases hosted on Deno Deploy can be continuously backed up to your own
 S3-compatible storage buckets. This is in addition to the replication and
@@ -5409,6 +5321,7 @@ an IAM user, and create access keys for that user:
 2. Click "Policies" in the left sidebar
 3. Click on "Create policy"
 4. Select the "JSON" the policy editor and paste the following policy:
+
    ```json
    {
      "Version": "2012-10-17",
@@ -5422,6 +5335,7 @@ an IAM user, and create access keys for that user:
      ]
    }
    ```
+
    Replace `<bucket-name>` with the name of the bucket you created earlier.
 5. Click "Review policy"
 6. Enter a name for the policy and click "Create policy"
@@ -5444,25 +5358,33 @@ an IAM user, and create access keys for that user:
 
 1. Copy the following command to your terminal, and replace `<bucket-name>` with
    the name of the bucket you created earlier, then run it:
+
    ```
    aws iam create-policy --policy-name <policy-name> --policy-document '{"Version":"2012-10-17","Statement":[{"Sid":"KVBackup","Effect":"Allow","Action":"s3:PutObject","Resource":"arn:aws:s3:::<bucket-name>/*"}]}'
    ```
+
 2. Copy the following command to your terminal, and replace `<user-name>` with a
    name for the user you are creating, then run it:
+
    ```
    aws iam create-user --user-name <user-name>
    ```
+
 3. Copy the following command to your terminal, and replace `<policy-arn>` with
    the ARN of the policy you created in step 1, and `<user-name>` with the name
    of the user you created in the previous step, then run it:
+
    ```
    aws iam attach-user-policy --policy-arn <policy-arn> --user-name <user-name>
    ```
+
 4. Copy the following command to your terminal, and replace `<user-name>` with
    the name of the user you created in step 2, then run it:
+
    ```
    aws iam create-access-key --user-name <user-name>
    ```
+
 5. Copy the access key ID and secret access key and save them somewhere safe.
    You will need them later, and you will not be able to retrieve them again.
 
@@ -5542,20 +5464,26 @@ and create an HMAC access key for the service account:
 
 1. Run the following command, replacing `<service-account-name>` with a name for
    the service account you are creating:
+
    ```
    gcloud iam service-accounts create <service-account-name>
    ```
+
 2. Run the following command, replacing `<bucket-name>` with the name of the
    bucket you created earlier, and `<service-account-email>` with the email of
    the service account you created in the previous step:
+
    ```
    gsutil iam ch serviceAccount:<service-account-email>:objectAdmin gs://<bucket-name>
    ```
+
 3. Run the following command, replacing `<service-account-email>` with the email
    of the service account you created in the previous step:
+
    ```
    gcloud storage hmac create <service-account-email>
    ```
+
 4. Copy the `accessId` and `secret` and save them somewhere safe. You will need
    them later, and you will not be able to retrieve them again.
 
@@ -5575,13 +5503,11 @@ continuous backup is active, you will see the status change to "Active".
 S3 backups can be used with the `denokv` tool. Please refer to the
 [documentation](https://github.com/denoland/denokv) for more details.
 
-
 ---
 
 # Data Modeling in TypeScript
 
-URL: https://docs.deno.com/deploy/kv/data_modeling_typescript
-
+URL: <https://docs.deno.com/deploy/kv/data_modeling_typescript>
 
 In TypeScript applications, it is usually desirable to create strongly-typed,
 well-documented objects to contain the data that your application operates on.
@@ -5731,13 +5657,11 @@ The `savePost` and `getPost` functions take the place of a direct Deno KV `get`
 or `set` operation, so that they can properly serialize and "hydrate" model
 objects for us with appropriate types and associations.
 
-
 ---
 
 # Deno KV Quick Start
 
-URL: https://docs.deno.com/deploy/kv/
-
+URL: <https://docs.deno.com/deploy/kv/>
 
 Deno KV is a
 [key-value database](https://en.wikipedia.org/wiki/Key%E2%80%93value_database)
@@ -6034,13 +5958,11 @@ sure to check out our guide on the [Deno KV key space](/deploy/kv/key_space/),
 and a collection of
 [tutorials and example applications](/examples/#unstable-apis) here.
 
-
 ---
 
 # Key Expiration (TTL for keys)
 
-URL: https://docs.deno.com/deploy/kv/key_expiration
-
+URL: <https://docs.deno.com/deploy/kv/key_expiration>
 
 <deno-admonition></deno-admonition>
 
@@ -6088,13 +6010,11 @@ time after the specified timestamp, but not before. If you need to strictly
 enforce an expiration time (e.g. for security purposes), please also add it as a
 field of your value and do a check after retrieving the value from the database.
 
-
 ---
 
 # Key Space
 
-URL: https://docs.deno.com/deploy/kv/key_space
-
+URL: <https://docs.deno.com/deploy/kv/key_space>
 
 <deno-admonition></deno-admonition>
 
@@ -6333,13 +6253,11 @@ operation, then the transaction will fail and the operation will not be applied.
 
 [structured clone algorithm]: https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Structured_clone_algorithm
 
-
 ---
 
 # Using KV in Node.js
 
-URL: https://docs.deno.com/deploy/kv/node
-
+URL: <https://docs.deno.com/deploy/kv/node>
 
 Connecting to a Deno KV database in Node.js is supported via our
 [official client library on npm](https://www.npmjs.com/package/@deno/kv). You
@@ -6421,13 +6339,11 @@ The `database-id` for your project can be found in the
 More information about how to use the Deno KV module for Node can be found on
 the project's [README page](https://www.npmjs.com/package/@deno/kv).
 
-
 ---
 
 # Operations
 
-URL: https://docs.deno.com/deploy/kv/operations
-
+URL: <https://docs.deno.com/deploy/kv/operations>
 
 The Deno KV API provides a set of operations that can be performed on the key
 space.
@@ -6712,13 +6628,11 @@ for await (const entries of stream) {
 [delete]: https://docs.deno.com/api/deno/~/Deno.Kv.prototype.delete
 [mutate]: https://docs.deno.com/api/deno/~/Deno.AtomicOperation.prototype.mutate
 
-
 ---
 
 # Secondary Indexes
 
-URL: https://docs.deno.com/deploy/kv/secondary_indexes
-
+URL: <https://docs.deno.com/deploy/kv/secondary_indexes>
 
 Key-value stores like Deno KV organize data as collections of key-value pairs,
 where each unique key is associated with a single value. This structure enables
@@ -6963,13 +6877,11 @@ To migrate existing duplicated-value indexes to pointer indexes:
 3. Cleanup: switch readers to the pointer index, then remove the duplicated
    index entries.
 
-
 ---
 
 # Transactions
 
-URL: https://docs.deno.com/deploy/kv/transactions
-
+URL: <https://docs.deno.com/deploy/kv/transactions>
 
 The Deno KV store utilizes _optimistic concurrency control transactions_ rather
 than _interactive transactions_ like many SQL systems like PostgreSQL or MySQL.
@@ -7072,15 +6984,13 @@ certain limits with the Deno KV transaction API:
   mutations, and encoding overhead counts toward this limit as well.
 - **Max watched keys per `kv.watch()`**：10
 
-
 ---
 
 # Pricing and limitations
 
 > Important limitations, service level expectations, and terms of use for Deno Deploy.
 
-URL: https://docs.deno.com/deploy/pricing_and_limits
-
+URL: <https://docs.deno.com/deploy/pricing_and_limits>
 
 Please see [our pricing page](https://deno.com/deploy/pricing) for the overview
 of the available features in all plans. If you have a use case that exceeds any
@@ -7121,15 +7031,13 @@ TLS is frequently used in TLS-over-TLS proxies, which are prohibited on Deno
 Deploy Classic as per
 [our acceptable use policy](/deploy/acceptable_use_policy).
 
-
 ---
 
 # Privacy Policy
 
 > Deno's Privacy Policy
 
-URL: https://docs.deno.com/deploy/privacy_policy
-
+URL: <https://docs.deno.com/deploy/privacy_policy>
 
 **DENO PRIVACY POLICY** 09 September 2024
 
@@ -7288,7 +7196,7 @@ recovery, client survey and marketing, and data storage.
 
 _Reorganization_. If, in the future, Deno undergoes a corporate, partnership, or
 business reorganization, we may transfer the Information, including personal
-information, to the new or surviving entity. 
+information, to the new or surviving entity.
 
 _Protection of Rights and Compliance_. We may use your Information to protect
 the rights, privacy or safety of you, us or others; to ensure our compliance
@@ -7445,15 +7353,13 @@ USA
 
 **© 2024 Deno Land Inc. All rights reserved.**
 
-
 ---
 
 # Accounts
 
 > Information about user accounts, authentication via GitHub, and managing your profile in Deno Deploy.
 
-URL: https://docs.deno.com/deploy/reference/accounts
-
+URL: <https://docs.deno.com/deploy/reference/accounts>
 
 Deno Deploy supports logging in with GitHub.
 
@@ -7468,15 +7374,13 @@ Users authenticating with Deno Deploy using a Google account will also need to
 provide GitHub credentials when creating new applications in order to access
 GitHub repositories for deployments.
 
-
 ---
 
 # Applications
 
 > Guide to managing applications in Deno Deploy, including app creation, configuration, GitHub integration, and deployment options.
 
-URL: https://docs.deno.com/deploy/reference/apps
-
+URL: <https://docs.deno.com/deploy/reference/apps>
 
 Applications are web services that serve traffic within an organization. Each
 application contains a history of revisions (previous versions), typically
@@ -7673,15 +7577,13 @@ jobs:
           curl -I ${{ github.event.client_payload.revision.preview_url }}
 ```
 
-
 ---
 
 # Builds
 
 > Detailed explanation of the build process in Deno Deploy, covering build triggers, stages, configuration options, caching, and the build environment.
 
-URL: https://docs.deno.com/deploy/reference/builds
-
+URL: <https://docs.deno.com/deploy/reference/builds>
 
 In Deno Deploy, each version of your application code is represented as a
 revision (or build). When deploying from GitHub, revisions generally map
@@ -7937,15 +7839,13 @@ Builders have the following resources available during the build process:
 - 3 GB of RAM (can be increased to 4 GB on Pro plan)
 - 8 GB of storage
 
-
 ---
 
 # Deploy Button
 
 > Help users quickly and easily clone code and deploy it to Deno Deploy with the click of a button
 
-URL: https://docs.deno.com/deploy/reference/button
-
+URL: <https://docs.deno.com/deploy/reference/button>
 
 The Deploy Button offers a shortcut for users to create and deploy a new
 application on Deno Deploy based on existing code hosted in a Git repository.
@@ -8005,15 +7905,13 @@ The following query parameters can be used to configure a Deploy Button:
 - `predeploy` — (optional) the command to execute after a build but before
   deployment
 
-
 ---
 
 # Caching
 
 > Overview of CDN caching functionality in Deno Deploy, including cache configuration, directives, and best practices.
 
-URL: https://docs.deno.com/deploy/reference/caching
-
+URL: <https://docs.deno.com/deploy/reference/caching>
 
 Deno Deploy includes a built-in CDN that can cache responses from your
 application. This improves performance for:
@@ -8071,15 +7969,13 @@ the cache key for the request.
 The `Expires` header can be used to specify an absolute expiration date for the
 response. This is an alternative to the `max-age` directive.
 
-
 ---
 
 # Cloud Connections
 
 > Learn how to connect Deno Deploy to cloud providers like AWS and Google Cloud Platform without needing to manage credentials.
 
-URL: https://docs.deno.com/deploy/reference/cloud_connections
-
+URL: <https://docs.deno.com/deploy/reference/cloud_connections>
 
 Deno Deploy allows you to connect to cloud providers like AWS and Google Cloud
 Platform (GCP) without needing to manually manage static credentials. This is
@@ -8130,6 +8026,7 @@ inside of your AWS account:
   that can be "assumed" (signed into) using a Deno Deploy OIDC token.
   - The trust policy of the role should allow the OIDC provider to assume the
     role, such as:
+
     ```json
     {
       "Version": "2012-10-17",
@@ -8150,6 +8047,7 @@ inside of your AWS account:
       ]
     }
     ```
+
   - The role should have permissions to access the AWS resources you want to
     use, such as S3 buckets or DynamoDB tables.
 
@@ -8558,16 +8456,19 @@ module "deno_deploy_aws" {
 #### Applying the Configuration
 
 1. Initialize Terraform:
+
    ```bash
    terraform init
    ```
 
 2. Plan the deployment:
+
    ```bash
    terraform plan
    ```
 
 3. Apply the configuration:
+
    ```bash
    terraform apply
    ```
@@ -8954,16 +8855,19 @@ module "deno_deploy_gcp" {
 #### Applying the Configuration
 
 1. Initialize Terraform:
+
    ```bash
    terraform init
    ```
 
 2. Plan the deployment:
+
    ```bash
    terraform plan
    ```
 
 3. Apply the configuration:
+
    ```bash
    terraform apply
    ```
@@ -8982,15 +8886,13 @@ The `roles` variable accepts a list of GCP IAM roles. Common roles include:
 - `roles/secretmanager.secretAccessor` - Access to Secret Manager secrets
 - Custom roles can also be specified
 
-
 ---
 
 # Databases
 
 > Connect to external database instances and integrate your applications and their environments seamlessly.
 
-URL: https://docs.deno.com/deploy/reference/databases
-
+URL: <https://docs.deno.com/deploy/reference/databases>
 
 Deno Deploy's databases feature enables your applications to easily connect to a
 variety of databases, enabling seamless state management in your apps.
@@ -9250,6 +9152,7 @@ As an example, you could set up a migration script using
 [`node-pg-migrate`](https://github.com/salsita/node-pg-migrate):
 
 1. Add a task to your `deno.json`:
+
    ```json
    {
      "tasks": {
@@ -9257,8 +9160,10 @@ As an example, you could set up a migration script using
      }
    }
    ```
+
 2. Create a migrations directory and add migration files. For example,
    `migrations/1234567890_create-users-table.js`:
+
    ```javascript
    exports.up = (pgm) => {
      pgm.createTable("users", {
@@ -9276,6 +9181,7 @@ As an example, you could set up a migration script using
      pgm.dropTable("users");
    };
    ```
+
 3. Set your pre-deploy command to `deno task migrate` in the app settings.
 
 Deno Deploy will automatically run this command before each deployment, ensuring
@@ -9521,15 +9427,13 @@ First remove all app assignments, then click "Delete" on the database instance.
 This only removes the connection from Deno Deploy - your actual database server
 is not affected.
 
-
 ---
 
 # Deno KV
 
 > Use Deno KV in your applications with a dedicated database per timeline
 
-URL: https://docs.deno.com/deploy/reference/deno_kv
-
+URL: <https://docs.deno.com/deploy/reference/deno_kv>
 
 [Deno KV] is a Key Value database supported in Deno Deploy as a database engine
 option in the [databases] feature. Thanks to the new [timelines] capability in
@@ -9626,15 +9530,13 @@ data. Be sure to back up your data before proceeding.
 [databases]: /deploy/reference/databases/
 [timelines]: /deploy/reference/timelines/
 
-
 ---
 
 # Domains
 
 > Complete guide to domain management in Deno Deploy, including organization domains, custom domains, DNS configuration, TLS certificates, and domain assignments.
 
-URL: https://docs.deno.com/deploy/reference/domains
-
+URL: <https://docs.deno.com/deploy/reference/domains>
 
 Every organization has a default domain used for all applications deployed
 within that organization. For example, an organization with the slug `acme-inc`
@@ -9816,15 +9718,13 @@ migrate it to Deno Deploy, we've created a
 [step-by-step tutorial](/examples/migrate_custom_domain_tutorial/) to guide you
 through the process.
 
-
 ---
 
 # Environment Variables and Contexts
 
 > Guide to managing environment variables and contexts in Deno Deploy, including variable types, creation, editing, and accessing them in your code.
 
-URL: https://docs.deno.com/deploy/reference/env_vars_and_contexts
-
+URL: <https://docs.deno.com/deploy/reference/env_vars_and_contexts>
 
 Environment variables in Deno Deploy allow you to configure your application
 with static values such as API keys or database connection strings.
@@ -9987,15 +9887,13 @@ Deno Deploy provides these predefined environment variables in all contexts:
 
 During builds, the environment variable `CI=1` is additionally set.
 
-
 ---
 
 # Frameworks
 
 > Detailed guide to supported JavaScript and TypeScript frameworks in Deno Deploy, including Next.js, Astro, Nuxt, SvelteKit, and more.
 
-URL: https://docs.deno.com/deploy/reference/frameworks
-
+URL: <https://docs.deno.com/deploy/reference/frameworks>
 
 Deno Deploy supports a number of JavaScript and TypeScript frameworks out of the
 box. This means that you can use these frameworks without any additional
@@ -10099,7 +9997,7 @@ deno add npm:nitro-nightly@latest
 # or npm install nitro-nightly@latest
 ```
 
-2. Configure your `vite.config.ts` to use the Nitro plugin:
+1. Configure your `vite.config.ts` to use the Nitro plugin:
 
 ```ts title="vite.config.ts"
 import { tanstackStart } from "@tanstack/react-start/plugin/vite";
@@ -10142,15 +10040,13 @@ Lume requires no additional setup.
 > being integrated into Deno Deploy. Some features may not work as expected.
 > Please report any issues you encounter to the Deno team.
 
-
 ---
 
 # Observability
 
 > Comprehensive overview of monitoring features in Deno Deploy, including logs, traces, metrics, and filtering options.
 
-URL: https://docs.deno.com/deploy/reference/observability
-
+URL: <https://docs.deno.com/deploy/reference/observability>
 
 Deno Deploy provides comprehensive observability features to help you understand
 application performance, debug errors, and monitor usage. These features
@@ -10272,15 +10168,13 @@ used to round the time to the nearest hour. Some examples:
 - `now/d+3h` - 3 hours from the start of the current day
 - `now-1d/d` - the start of the previous day
 
-
 ---
 
 # OIDC
 
 > The Deno Deploy runtime environment acts as an OpenID Connect (OIDC) provider, enabling you to integrate with third-party services that support OIDC authentication.
 
-URL: https://docs.deno.com/deploy/reference/oidc
-
+URL: <https://docs.deno.com/deploy/reference/oidc>
 
 Deno Deploy is an OIDC provider. Every running application of Deno Deploy can be
 issued short-lived JWT tokens that are signed by Deno Deploy. These tokens
@@ -10399,15 +10293,13 @@ in third-party services.
 To verify the tokens, you can use a JWT library that supports OIDC and JWKS. In
 TypeScript, you can use the [`jose`](https://jsr.io/@panva/jose) library.
 
-
 ---
 
 # Organizations
 
 > Guide to creating and managing organizations in Deno Deploy, including members, permissions, and organization administration.
 
-URL: https://docs.deno.com/deploy/reference/organizations
-
+URL: <https://docs.deno.com/deploy/reference/organizations>
 
 Organizations are groups of users that collectively own apps and domains. When
 signing up for Deno Deploy, each user can either create an organization or join
@@ -10514,15 +10406,13 @@ To remove a member from the organization, find the user in the members table in
 the organization settings, click the remove button, and confirm by clicking
 "Delete". "Delete".
 
-
 ---
 
 # Playgrounds
 
 > Write and deploy code completely from Deno Deploy, without the need for a git repository.
 
-URL: https://docs.deno.com/deploy/reference/playgrounds
-
+URL: <https://docs.deno.com/deploy/reference/playgrounds>
 
 Playground applications enable you to create, edit, and deploy applications
 entirely from the Deno Deploy web dashboard, without needing to create a GitHub
@@ -10635,15 +10525,13 @@ it.
 
 > ⚠️ Playgrounds cannot currently be transferred to another organization.
 
-
 ---
 
 # Runtime
 
 > Details about the Deno Deploy runtime environment, including application lifecycle, startup, shutdown, and cold start optimization.
 
-URL: https://docs.deno.com/deploy/reference/runtime
-
+URL: <https://docs.deno.com/deploy/reference/runtime>
 
 In Deno Deploy, all applications execute using a standard Deno runtime in a
 secure, isolated Linux environment.
@@ -10773,15 +10661,13 @@ optimize your application for quick startup:
 If your application starts slowly, please [contact Deno support](../support) for
 help investigating the issue.
 
-
 ---
 
 # Timelines
 
 > Understanding deployment timelines in Deno Deploy, including production and development contexts, active revisions, rollbacks, and timeline locking.
 
-URL: https://docs.deno.com/deploy/reference/timelines
-
+URL: <https://docs.deno.com/deploy/reference/timelines>
 
 A timeline is a representation of the history of one branch of the application.
 Each timeline has a set of revisions, which are the individual items in the
@@ -10862,15 +10748,13 @@ can then either unlock the revision from the timeline, reverting back to the
 default behavior of the latest revision being the active revision, or you can
 lock a different revision to be the active revision.
 
-
 ---
 
 # Tunnel
 
 > Learn about Deno Deploy's local tunnel feature, which allows secure access to your local development server from the internet.
 
-URL: https://docs.deno.com/deploy/reference/tunnel
-
+URL: <https://docs.deno.com/deploy/reference/tunnel>
 
 Deno Deploy's tunnel feature allows you to securely expose your local
 development server to the internet. This is particularly useful for testing
@@ -10961,15 +10845,13 @@ on Deno Deploy.
 You can filter to see only traces and logs from your local process by searching
 for `context:local` in the search bar.
 
-
 ---
 
 # Security and responsible disclosure
 
 > How to report security vulnerabilities in Deno Deploy.
 
-URL: https://docs.deno.com/deploy/security
-
+URL: <https://docs.deno.com/deploy/security>
 
 We consider the security of our systems, and all data controlled by those
 systems a top priority. No matter how much effort we put into system security,
@@ -10982,11 +10864,11 @@ research community to address our system security.
 
 ## Reporting a vulnerability
 
-Please email you findings to security@deno.com. We strive to resolve all
+Please email you findings to <security@deno.com>. We strive to resolve all
 problems as quickly as possible, and are more than happy to play an active role
 in publication of writeups after the problem is resolved.
 
-## Please do the following:
+## Please do the following
 
 - Do not take advantage of the vulnerability or problem you have discovered. For
   example only download data that is necessary to demonstrate the
@@ -11007,24 +10889,22 @@ in publication of writeups after the problem is resolved.
 - We will handle your report with strict confidentiality, and not pass on your
   personal details to third parties without your permission.
 
-
 ---
 
 # Support and Feedback
 
-URL: https://docs.deno.com/deploy/support/
-
+URL: <https://docs.deno.com/deploy/support/>
 
 If you have any questions or feedback about Deno Deploy, please reach out to us
 on the [Deno Discord](https://discord.gg/deno) in the `#deploy` channel or send
-an email to support@deno.com.
+an email to <support@deno.com>.
 
 We are actively working on improving the platform and would love to hear your
 thoughts!
 
 ## Support tickets
 
-When sending an email to support@deno.com, you will receive an automated reply
+When sending an email to <support@deno.com>, you will receive an automated reply
 with a support ticket number, and a link to claim your ticket.
 
 You can use this link to claim the ticket to your Deno Deploy account, allowing
@@ -11041,15 +10921,13 @@ provide additional information.
 If you did not receive an automated reply, please check your spam or junk mail
 folder.
 
-
 ---
 
 # Terms and Conditions
 
 > Deno Terms and Conditions
 
-URL: https://docs.deno.com/deploy/terms_and_conditions
-
+URL: <https://docs.deno.com/deploy/terms_and_conditions>
 
 **DENO TERMS AND CONDITIONS** 09 September 2024
 
@@ -11136,7 +11014,7 @@ You agree that we will not be liable to you or to any third party for any
 modification, suspension, or discontinuance of the Services or any part thereof.
 You are free to stop using the Services at any time.
 
-2. **ACCOUNT CREDENTIALS**
+1. **ACCOUNT CREDENTIALS**
 
    In order to use the Deno Offerings, you must be an “Authorized User”. To
    become an Authorized User, you need to create an account on the Platform, and
@@ -11153,14 +11031,14 @@ You are free to stop using the Services at any time.
    any time for any reason, including if in our sole discretion if we believe
    that you have failed to comply with these Terms.
 
-3. **USE OF PERSONAL INFORMATION**
+2. **USE OF PERSONAL INFORMATION**
 
 Your use of the Services may involve the transmission to us of certain personal
 information. Our policies with respect to the collection and use of such
 personal information are governed according to our Privacy Policy, which is
 hereby incorporated by reference in its entirety.
 
-4. **INTELLECTUAL PROPERTY**
+1. **INTELLECTUAL PROPERTY**
 
 The Services may contain material, such as software, text, graphics, images,
 sound recordings, audiovisual works, and other material provided by or on behalf
@@ -11199,7 +11077,7 @@ in whole or in part, by any means, including, but not limited to, the use of
 framing or mirrors. None of the Content may be retransmitted without our
 express, written consent for each and every instance.
 
-5. **USER DATA; USAGE DATA; AGGREGATE DATA**
+1. **USER DATA; USAGE DATA; AGGREGATE DATA**
 
 For purposes of this Agreement, “User Data” means (i) any data and information
 that we ingest by connecting to Authorized Users’ business systems, including
@@ -11230,7 +11108,7 @@ and services including the Services. Aggregate Data does not identify Authorized
 Users or any individual. You hereby agree that we may collect, use, publish,
 disseminate, transfer, and otherwise exploit such Aggregate Data.
 
-6. **FEES**
+1. **FEES**
 
 Deno offers and Authorized Users can purchase a monthly or annual subscription
 for the Services (“Subscription”) for a fee set forth on our website (the
@@ -11274,7 +11152,7 @@ From time to time, Deno may offer free trial of the Services. Deno reserves the
 right in its sole discretion to stop offering free trial of the Services at any
 time without any liability to you.
 
-7. **COMMUNITY GUIDELINES**
+1. **COMMUNITY GUIDELINES**
 
 By accessing and/or using the Services, you hereby agree to comply with the
 following guidelines:
@@ -11341,20 +11219,20 @@ authorities to prosecute Users who violate the law.
 If you find something that violates our User Guidelines, please let us know, and
 we will review it.
 
-8. **LINKING AND CITATION OF CONTENT**
+1. **LINKING AND CITATION OF CONTENT**
 
 Deno does not object to links on third-party Services to our homepage in an
 appropriate context. However, “framing” or “mirroring” the Services or the
 Content is prohibited without the prior express written consent of Deno.
 
-9. **RESTRICTIONS**
+1. **RESTRICTIONS**
 
 The Services are available only for individuals aged 18 years or older. If you
 are under 18 years of age, then please do not access and/or use the Services. By
 entering into this Agreement, you represent and warrant that you are 18 years or
 older.
 
-10. **FEEDBACK**
+1. **FEEDBACK**
 
 We welcome and encourage you to provide feedback, comments, and suggestions for
 improvements to the Services and our services (“Feedback”). Although we
@@ -11366,7 +11244,7 @@ whatsoever, including, but not limited to, the development, production and
 marketing of products and services that incorporate such information, without
 compensation or attribution to you.
 
-11. **NO WARRANTIES; LIMITATION OF LIABILITY**
+1. **NO WARRANTIES; LIMITATION OF LIABILITY**
 
 THE SERVICES AND THE CONTENT ARE PROVIDED ON AN “AS IS” AND “AS AVAILABLE”
 BASIS, AND NEITHER DENO NOR DENO’S SUPPLIERS MAKE ANY WARRANTIES WITH RESPECT TO
@@ -11399,7 +11277,7 @@ MONIES YOU HAVE PAID US IN CONNECTION WITH YOUR USE OF THE SERVICES DURING THE
 TWELVE (12) MONTHS IMMEDIATELY PRECEDING THE DATE THAT GAVE RISE TO THE CLAIM OR
 (II) ONE HUNDRED DOLLARS ($100).
 
-12. **EXTERNAL SITES**
+1. **EXTERNAL SITES**
 
 The Services may contain links to third-party websites (“External Sites”). These
 links are provided solely as a convenience to you and not as an endorsement by
@@ -11413,7 +11291,7 @@ should take precautions when downloading files from all websites to protect your
 computer from viruses and other destructive programs. If you decide to access
 linked External Sites, you do so at your own risk.
 
-13. **REPRESENTATIONS AND WARRANTIES**
+1. **REPRESENTATIONS AND WARRANTIES**
 
 You represent and warrant that you have: (i) all rights and permissions
 necessary to provide us with or grant us access to and use of User Data, and
@@ -11421,7 +11299,7 @@ necessary to provide us with or grant us access to and use of User Data, and
 authorizations in accordance with all applicable laws and regulations with
 respect to User Data provided hereunder.
 
-14. **INDEMNIFICATION**
+1. **INDEMNIFICATION**
 
 You will indemnify, defend, and hold Deno, its affiliates, and our and their
 respective shareholders, members, officers, directors, employees, agents, and
@@ -11440,7 +11318,7 @@ obligations shall be subject to our: (i) promptly notifying you of the Claim;
 of the Claim; and (iii) providing you with sole control over the defense and
 negotiations for a settlement or compromise.
 
-15. **COMPLIANCE WITH APPLICABLE LAWS**
+1. **COMPLIANCE WITH APPLICABLE LAWS**
 
 The Services are based in the United States. We make no claims concerning
 whether the Services may be viewed or be appropriate for use outside of the
@@ -11449,7 +11327,7 @@ do so at your own risk. Whether inside or outside of the United States, you are
 solely responsible for ensuring compliance with the laws of your specific
 jurisdiction.
 
-16. **TERM; TERMINATION**
+1. **TERM; TERMINATION**
 
 These Terms, and your right to access and use the Services, will commence upon
 your acceptance of these Terms and will continue for the period of your
@@ -11467,7 +11345,7 @@ Right to Use and Access the Service;” “Use of Personal Information,”
 Law; Exclusive Forum,” and “Miscellaneous” shall survive the termination of
 these Terms.
 
-17. **BINDING ARBITRATION**
+1. **BINDING ARBITRATION**
 
 In the event of a dispute arising under or relating to this Agreement, and/or
 the Services (each, a “Dispute”), such dispute will be finally and exclusively
@@ -11501,7 +11379,7 @@ Section 18 below, nothing in this Agreement will prevent us from seeking
 injunctive relief in any court of competent jurisdiction as necessary to protect
 our proprietary interests.
 
-18. **CLASS ACTION WAIVER**
+1. **CLASS ACTION WAIVER**
 
 You agree that any arbitration or proceeding shall be limited to the Dispute
 between us and you individually. To the full extent permitted by law, (i) no
@@ -11513,7 +11391,7 @@ capacity on behalf of the general public or any other persons. YOU AGREE THAT
 YOU MAY BRING CLAIMS AGAINST US ONLY IN YOUR INDIVIDUAL CAPACITY AND NOT AS A
 PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS OR REPRESENTATIVE PROCEEDING.
 
-19. **EQUITABLE RELIEF**
+1. **EQUITABLE RELIEF**
 
 You acknowledge and agree that in the event of a breach or threatened violation
 of our intellectual property rights and confidential and proprietary information
@@ -11526,7 +11404,7 @@ referenced above. You hereby irrevocably and unconditionally consent to the
 personal and subject matter jurisdiction of the federal and state courts in the
 State of New York for purposes of any such action by us.
 
-20. **CONTROLLING LAW; EXCLUSIVE FORUM**
+1. **CONTROLLING LAW; EXCLUSIVE FORUM**
 
 The Agreement and any action related thereto will be governed by the laws of the
 State of New York without regard to its conflict of laws provisions. The parties
@@ -11538,7 +11416,7 @@ based on improper venue or inconvenient forum, and each party hereby irrevocably
 submits to the exclusive jurisdiction of such courts in any suits, actions, or
 proceedings arising out of or relating to this Agreement
 
-21. **MISCELLANEOUS**
+1. **MISCELLANEOUS**
 
     Notwithstanding anything to the contrary set forth in these Terms, each
     party may during the term of this Agreement, use the other party’s name
@@ -11561,15 +11439,13 @@ proceedings arising out of or relating to this Agreement
 
 **Copyright 2025 Deno Land Inc. All rights reserved.**
 
-
 ---
 
 # Deno Deploy Usage Guidelines
 
 > Important limitations, service level expectations, and terms of use for Deno Deploy.
 
-URL: https://docs.deno.com/deploy/usage
-
+URL: <https://docs.deno.com/deploy/usage>
 
 Deno Deploy offers a generous free tier that allows you to run applications at
 the edge with minimal cost. However, to ensure a fair and reliable service for
@@ -11599,15 +11475,13 @@ putting significant efforts into ensuring service reliability.
 Deno reserves the right to terminate any user, organization, or app that we find
 to be in violation of the terms and conditions.
 
-
 ---
 
 # Streaming access string and binary output
 
 > Learn how to stream string and binary output from commands in a sandbox.
 
-URL: https://docs.deno.com/examples/sandbox_access_output/
-
+URL: <https://docs.deno.com/examples/sandbox_access_output/>
 
 You can access string and binary output from commands in a sandbox. This example
 shows how to capture command output in whichever form your workflow needs:
@@ -11639,15 +11513,13 @@ easy to move data between the sandbox and your host environment
 This is useful when sandbox commands produce files (images, archives, etc.) that
 you need to consume programmatically rather than just printing to the console.
 
-
 ---
 
 # Command cancellation
 
 > Learn how to cancel commands in a sandbox.
 
-URL: https://docs.deno.com/examples/sandbox_command_cancellation/
-
+URL: <https://docs.deno.com/examples/sandbox_command_cancellation/>
 
 Being able to cancel sandbox commands is key when tasks hang or you need to
 enforce timeouts. You can cancel commands in a sandbox using the
@@ -11685,15 +11557,13 @@ intercept that rejection to log, clean up, or retry as needed.
 This pattern keeps sandbox automation responsive and prevents orphaned processes
 from consuming resources indefinitely.
 
-
 ---
 
 # Set and get environment variables
 
 > Learn how to set and get environment variables in a sandbox.
 
-URL: https://docs.deno.com/examples/sandbox_environment_variables/
-
+URL: <https://docs.deno.com/examples/sandbox_environment_variables/>
 
 You can use the `sandbox.env.set()` method to set environment variables in a
 sandbox.
@@ -11719,15 +11589,13 @@ configuration (API keys, modes like NODE_ENV) or want to propagate credentials
 to multiple commands securely. The variables stay scoped to the sandbox session
 and are available to any command you execute there.
 
-
 ---
 
 # Error handling
 
 > Learn how to handle errors in a sandbox.
 
-URL: https://docs.deno.com/examples/sandbox_error_handling/
-
+URL: <https://docs.deno.com/examples/sandbox_error_handling/>
 
 Handling sandbox command failures explicitly gives you predictable recovery
 paths:
@@ -11788,15 +11656,13 @@ try {
 This makes it easier to build higher-level automation that reacts intelligently
 to known failure modes instead of treating every thrown error the same.
 
-
 ---
 
 # Evaluating JavaScript
 
 > Learn how to evaluate JavaScript code in a sandbox.
 
-URL: https://docs.deno.com/examples/sandbox_evaluating_javascript/
-
+URL: <https://docs.deno.com/examples/sandbox_evaluating_javascript/>
 
 You can evaluate JavaScript code in a sandbox using the `eval` function.
 
@@ -11819,15 +11685,13 @@ out. This is useful when you want to prototype logic, run small computations, or
 inspect the sandbox environment itself quickly. Use it for dynamic scripts or
 exploratory debugging where creating a full module would be overkill.
 
-
 ---
 
 # Interactive JavaScript REPL
 
 > Learn how to provide an interactive Deno REPL in a sandbox.
 
-URL: https://docs.deno.com/examples/sandbox_javascript_repl/
-
+URL: <https://docs.deno.com/examples/sandbox_javascript_repl/>
 
 A REPL (Read–Eval–Print Loop) is an interactive execution session where you type
 code, the environment reads it, evaluates it, prints the result, and then keeps
@@ -11851,15 +11715,13 @@ const result = await repl.eval("x + y");
 console.log("result:", result); // 50
 ```
 
-
 ---
 
 # Configure sandbox memory
 
 > Learn how to configure the memory allocated to a sandbox
 
-URL: https://docs.deno.com/examples/sandbox_memory/
-
+URL: <https://docs.deno.com/examples/sandbox_memory/>
 
 You can customize the amount of memory allocated to your sandbox using the
 memoryMb option. This allows you to allocate more resources for memory-intensive
@@ -11906,15 +11768,13 @@ configured value due to system overhead.
 > Want to allocate more memory? Contact
 > <a href="mailto:deploy@deno.com">deploy@deno.com</a>.
 
-
 ---
 
 # Spawn a subprocess, and get buffered output
 
 > Learn how to spawn a subprocess, and get buffered output in a sandbox.
 
-URL: https://docs.deno.com/examples/sandbox_spawn_subprocess/
-
+URL: <https://docs.deno.com/examples/sandbox_spawn_subprocess/>
 
 You can spawn subprocesses in a sandbox and get buffered output. For example, to
 print the current working directory as seen below. This is useful for running
@@ -11931,15 +11791,13 @@ const cwd = await sandbox.sh`pwd`;
 For long‑running processes or large output, stream the stdout/stderr instead of
 buffering it all in memory.
 
-
 ---
 
 # Provide SSH access to a sandbox
 
 > Learn how to provide SSH access to a sandbox.
 
-URL: https://docs.deno.com/examples/sandbox_ssh_access/
-
+URL: <https://docs.deno.com/examples/sandbox_ssh_access/>
 
 SSH access allows you to connect to a sandboxed environment securely over the
 SSH protocol. The `sandbox.create({ ssh: true })` method can be used to provide
@@ -11964,15 +11822,13 @@ console.log(`ssh ${username}@${hostname}`);
 await new Promise((resolve) => setTimeout(resolve, 10 * 60 * 1000)); // 10 minutes
 ```
 
-
 ---
 
 # Stream output to a local file
 
 > Learn how to stream output to a local file in a sandbox.
 
-URL: https://docs.deno.com/examples/sandbox_stream_output/
-
+URL: <https://docs.deno.com/examples/sandbox_stream_output/>
 
 You can stream output to a local file in a sandbox. This avoids buffering entire
 large artifacts in memory.
@@ -12007,15 +11863,13 @@ This pattern keeps memory usage flat, works well for logs or big binaries, and
 lets you persist sandbox results on the host without temporary files or stdout
 truncation.
 
-
 ---
 
 # Template literal commands with variable interpolation
 
 > Learn how to use template literal commands with variable interpolation in a sandbox.
 
-URL: https://docs.deno.com/examples/sandbox_template_literals/
-
+URL: <https://docs.deno.com/examples/sandbox_template_literals/>
 
 These conveniences help you script sandbox tasks quickly while keeping command
 construction correct and secure.
@@ -12052,15 +11906,13 @@ chain helpers such as `.json()` to parse command output directly into typed data
 structures, eliminating brittle string parsing and keeping results strongly
 typed.
 
-
 ---
 
 # Control sandbox timeout
 
 > Learn how to control how long your sandbox stays alive using the timeout option.
 
-URL: https://docs.deno.com/examples/sandbox_timeout_control/
-
+URL: <https://docs.deno.com/examples/sandbox_timeout_control/>
 
 You can control how long your sandbox stays alive using the timeout option.
 Controlling timeout lets you decide whether sandboxes vanish immediately when
@@ -12131,15 +11983,13 @@ expected.
 > Need other timeout modes? Contact
 > <a href="mailto:deploy@deno.com">deploy@deno.com</a>.
 
-
 ---
 
 # Upload files and directories
 
 > Learn how to upload files and directories to a sandbox.
 
-URL: https://docs.deno.com/examples/sandbox_upload_files/
-
+URL: <https://docs.deno.com/examples/sandbox_upload_files/>
 
 Copy files from your machine into the sandbox using
 `sandbox.fs.upload(localPath, sandboxPath)`.
@@ -12162,15 +12012,13 @@ This is useful when your workflow depends on existing source folders,
 configuration files, or test data—once uploaded, the sandbox can compile, test,
 or process them without remote Git access or manual copy/pasting.
 
-
 ---
 
 # Provide a VSCode instance in a sandbox
 
 > Learn how to provide a VSCode instance in a sandbox.
 
-URL: https://docs.deno.com/examples/sandbox_vscode_instance/
-
+URL: <https://docs.deno.com/examples/sandbox_vscode_instance/>
 
 Running `sandbox.exposeVscode()` spins up a full VS Code instance inside an
 isolated sandboxed environment and exposes its URL so you can open it in a
@@ -12191,15 +12039,13 @@ console.log(vscode.url); // print the url of the running instance
 await vscode.status; // wait until it exits
 ```
 
-
 ---
 
 # Serve a web framework
 
 > Create a package.json, install deps, run a web framework (Express), and expose it publicly from a sandbox
 
-URL: https://docs.deno.com/examples/sandbox_web_framework/
-
+URL: <https://docs.deno.com/examples/sandbox_web_framework/>
 
 With Deno Sandbox you can create a `package.json`, install dependencies, run a
 web framework (such as Express), and expose it publicly over HTTP.
@@ -12252,15 +12098,13 @@ console.log(await resp.json());
 // will tear it down.
 ```
 
-
 ---
 
 # How to use Apollo with Deno
 
 > Step-by-step tutorial on integrating Apollo GraphQL with Deno. Learn how to set up an Apollo Server, define schemas, implement resolvers, and build a complete GraphQL API using TypeScript.
 
-URL: https://docs.deno.com/examples/apollo_tutorial/
-
+URL: <https://docs.deno.com/examples/apollo_tutorial/>
 
 [Apollo Server](https://www.apollographql.com/) is a GraphQL server that you can
 set up in minutes and use with your existing data source (or REST API). You can
@@ -12311,7 +12155,7 @@ export const typeDefs = `
 
   type Query {
     dinosaurs: [Dinosaur]
-		dinosaur(name: String): Dinosaur
+  dinosaur(name: String): Dinosaur
   }
 `;
 ```
@@ -12448,15 +12292,13 @@ Awesome!
 
 [Learn more about using Apollo and GraphQL in their tutorials](https://www.apollographql.com/tutorials/).
 
-
 ---
 
 # Build Astro with Deno
 
 > Step-by-step tutorial on building web applications with Astro and Deno. Learn how to scaffold projects, create dynamic pages, implement SSR, and deploy your Astro sites using Deno's Node.js compatibility.
 
-URL: https://docs.deno.com/examples/astro_tutorial/
-
+URL: <https://docs.deno.com/examples/astro_tutorial/>
 
 [Astro](https://astro.build/) is a modern web framework focused on
 content-centric websites, which leverages islands architecture and sends zero
@@ -12603,25 +12445,25 @@ const dinosaursWithSlugs = DinosaurService.getDinosaursWithSlugs();
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Dinosaur Directory</title>
-	</head>
-	<body>
-		<h1>🦕 Dinosaur Directory</h1>
-		<p>Click on any dinosaur name to learn more about it!</p>
-		
-		<div class="dinosaur-list">
-			{dinosaursWithSlugs.map((dinosaur) => (
-				<a href={`/dinosaur/${dinosaur.slug}`} class="dinosaur-link">
-					{dinosaur.name}
-				</a>
-			))}
-		</div>
-	</body>
+ <head>
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="generator" content={Astro.generator} />
+  <title>Dinosaur Directory</title>
+ </head>
+ <body>
+  <h1>🦕 Dinosaur Directory</h1>
+  <p>Click on any dinosaur name to learn more about it!</p>
+  
+  <div class="dinosaur-list">
+   {dinosaursWithSlugs.map((dinosaur) => (
+    <a href={`/dinosaur/${dinosaur.slug}`} class="dinosaur-link">
+     {dinosaur.name}
+    </a>
+   ))}
+  </div>
+ </body>
 </html>
 ```
 
@@ -12660,7 +12502,7 @@ const { dinosaur } = Astro.props;
         <meta name="generator" content={Astro.generator} />
         <title>{dinosaur.name} - Dinosaur Directory</title>
         <meta name="description" content={dinosaur.description} />
-		<link rel="stylesheet" href="https://demo-styles.deno.deno.net/styles.css">
+  <link rel="stylesheet" href="https://demo-styles.deno.deno.net/styles.css">
     </head>
     <body class="dinosaur">
         <main>
@@ -12731,15 +12573,13 @@ could extend this app by adding more features, such as user authentication, a
 database, or even a CMS. We can’t wait to see what you build with Astro and
 Deno!
 
-
 ---
 
 # How to Deploy Deno to AWS Lambda
 
 > Step-by-step tutorial on deploying Deno applications to AWS Lambda. Learn about Docker containerization, ECR repositories, function configuration, and how to set up serverless Deno apps on AWS.
 
-URL: https://docs.deno.com/examples/aws_lambda_tutorial/
-
+URL: <https://docs.deno.com/examples/aws_lambda_tutorial/>
 
 AWS Lambda is a serverless computing service provided by Amazon Web Services. It
 allows you to run code without provisioning or managing servers.
@@ -12877,15 +12717,13 @@ app.
 🦕 You have successfully deployed a Deno app to AWS Lambda using Docker. You can
 now use this setup to deploy more complex Deno apps to AWS Lambda.
 
-
 ---
 
 # Deploy Deno to Amazon Lightsail
 
 > Step-by-step tutorial on deploying Deno applications to AWS Lightsail. Learn about Docker containers, GitHub Actions automation, continuous deployment, and how to set up cost-effective cloud hosting for Deno apps.
 
-URL: https://docs.deno.com/examples/aws_lightsail_tutorial/
-
+URL: <https://docs.deno.com/examples/aws_lightsail_tutorial/>
 
 [Amazon Lightsail](https://aws.amazon.com/lightsail/) is the easiest and
 cheapest way to get started with Amazon Web Services. It allows you to host
@@ -13176,15 +13014,13 @@ Deno app on AWS:
 🦕 Now you can deploy a Deno app to Amazon Lightsail using Docker, Docker Hub,
 and GitHub Actions.
 
-
 ---
 
 # Getting Started with OpenTelemetry in Deno
 
 > Set up basic OpenTelemetry instrumentation in a Deno application. This tutorial covers creating a simple HTTP server with custom metrics and traces, and viewing the telemetry data.
 
-URL: https://docs.deno.com/examples/basic_opentelemetry_tutorial/
-
+URL: <https://docs.deno.com/examples/basic_opentelemetry_tutorial/>
 
 OpenTelemetry provides powerful observability tools for your applications. With
 Deno's built-in OpenTelemetry support, you can easily instrument your code to
@@ -13355,7 +13191,7 @@ docker run --name lgtm -p 3000:3000 -p 4317:4317 -p 4318:4318 --rm -ti \
   docker.io/grafana/otel-lgtm:0.8.1
 ```
 
-Then access Grafana at http://localhost:3000 (username: admin, password: admin).
+Then access Grafana at <http://localhost:3000> (username: admin, password: admin).
 
 In Grafana, you can:
 
@@ -13423,15 +13259,13 @@ For more advanced usage, see our
 [Distributed Tracing with Context Propagation](/examples/otel_span_propagation_tutorial/)
 tutorial.
 
-
 ---
 
 # Behavior-Driven Development (BDD)
 
 > Implementing Behavior-Driven Development with Deno's Standard Library's BDD module. Create readable, well organised tests with effective assertions.
 
-URL: https://docs.deno.com/examples/bdd_tutorial/
-
+URL: <https://docs.deno.com/examples/bdd_tutorial/>
 
 Behavior-Driven Development (BDD) is an approach to software development that
 encourages collaboration between developers, QA, and non-technical stakeholders.
@@ -13879,15 +13713,13 @@ To continue learning about testing in Deno, explore other modules in the
 Standard Library's testing suite, such as [mocking](/examples/mocking_tutorial/)
 and [snapshot testing](/examples/snapshot_test_tutorial/).
 
-
 ---
 
 # Chat application with WebSockets
 
 > A tutorial on building a real-time chat app using Deno WebSockets. Learn how to create a WebSocket server with Oak, handle multiple client connections, manage state, and build an interactive chat interface with HTML, CSS, and JavaScript.
 
-URL: https://docs.deno.com/examples/chat_app_tutorial/
-
+URL: <https://docs.deno.com/examples/chat_app_tutorial/>
 
 WebSockets are a powerful tool for building real-time applications. They allow
 for bidirectional communication between the client and server without the need
@@ -14194,15 +14026,13 @@ to expand upon your chat app, perhaps you could consider adding data to the
 messages to allow you to style messages differently if they're sent from you or
 someone else. Whatever you're building, Deno will WebSocket to ya!
 
-
 ---
 
 # Updating from CommonJS to ESM
 
 > Step-by-step guide to migrating Node.js projects from CommonJS to ESM modules. Learn about import/export syntax changes, module resolution differences, and how to use modern JavaScript features in Deno.
 
-URL: https://docs.deno.com/examples/cjs_to_esm_tutorial/
-
+URL: <https://docs.deno.com/examples/cjs_to_esm_tutorial/>
 
 If your Node.js project uses CommonJS modules (e.g. it uses `require`), you'll
 need to update your code to use
@@ -14291,15 +14121,13 @@ show a linting error when an import path doesn't contain the file extension.
 modern features that ESM offers, such as async module loading, interop with
 browsers, better readability, standardization and future proofing.
 
-
 ---
 
 # Deploying Deno to Cloudflare Workers
 
 > Step-by-step tutorial on deploying Deno functions to Cloudflare Workers. Learn how to configure denoflare, create worker modules, test locally, and deploy your code to Cloudflare's global edge network.
 
-URL: https://docs.deno.com/examples/cloudflare_workers_tutorial/
-
+URL: <https://docs.deno.com/examples/cloudflare_workers_tutorial/>
 
 Cloudflare Workers allows you to run JavaScript on Cloudflare's edge network.
 
@@ -14393,15 +14221,13 @@ Next, you can view your new function in your Cloudflare account:
 
 Boom!
 
-
 ---
 
 # Connecting to databases
 
 > A guide to database connectivity in Deno. Learn how to use MySQL, PostgreSQL, MongoDB, SQLite, Firebase, Supabase, and popular ORMs to build data-driven applications with TypeScript.
 
-URL: https://docs.deno.com/examples/connecting_to_databases_tutorial/
-
+URL: <https://docs.deno.com/examples/connecting_to_databases_tutorial/>
 
 It is common for applications to store and retrieve data from databases. Deno
 supports connecting to many database management systems.
@@ -14677,15 +14503,13 @@ Deno supports multiple ORMs, including Prisma, Drizzle, and Kysely.
 with persistent data, perform CRUD operations and start building more complex
 applications.
 
-
 ---
 
 # Better debugging with the console API
 
 > An in-depth guide to advanced console debugging in Deno. Learn about console.table, timers, counters, tracers, and how to leverage the full console API beyond basic logging for better debugging workflows.
 
-URL: https://docs.deno.com/examples/debugging_with_console_tutorial/
-
+URL: <https://docs.deno.com/examples/debugging_with_console_tutorial/>
 
 Some of the console API is probably muscle memory for web developers, but there
 is so much more than just `console.log()` for you to use. Deno has great support
@@ -14870,15 +14694,13 @@ browser or in your Deno application.
 Take a look at [console support](/api/web/~/Console) in the API Reference docs.
 for more.
 
-
 ---
 
 # Deploy an app with Deno Deploy
 
 > A step-by-step tutorial for deploying your first Deno application to Deno Deploy.
 
-URL: https://docs.deno.com/examples/deno_deploy_tutorial/
-
+URL: <https://docs.deno.com/examples/deno_deploy_tutorial/>
 
 Deno Deploy allows you to host your Deno applications on a global edge network,
 with built in telemetry and CI/CD tooling.
@@ -14930,7 +14752,7 @@ git add .
 git commit -m "Initial commit"
 ```
 
-3. Add your GitHub repository as a remote and push your code:
+1. Add your GitHub repository as a remote and push your code:
 
 ```sh
 git remote add origin https://github.com/your-username/my-first-deno-app.git
@@ -14999,7 +14821,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
 ```
 
-2. Commit and push your changes:
+1. Commit and push your changes:
 
 ```sh
 git add .
@@ -15035,15 +14857,13 @@ Deno Deploy provides comprehensive observability tools:
 4. Set up different [environments](/deploy/reference/env_vars_and_contexts/) for
    development and production
 
-
 ---
 
 # Generating documentation with deno doc
 
 > Learn how to generate professional documentation for your Deno projects using the built-in deno doc command. This tutorial covers JSDoc comments, HTML output, linting, and best practices for documenting your code.
 
-URL: https://docs.deno.com/examples/deno_doc_tutorial/
-
+URL: <https://docs.deno.com/examples/deno_doc_tutorial/>
 
 Good documentation is essential for any software project. It helps other
 developers understand your code, makes maintenance easier, and improves the
@@ -15468,15 +15288,13 @@ Good documentation makes your code more maintainable and helps other developers
 understand and use your projects effectively. With `deno doc`, creating
 comprehensive documentation is just a command away!
 
-
 ---
 
 # Deploy an app with the deno deploy command
 
 > Step-by-step tutorial for using the deno deploy CLI command to create and deploy your first application to Deno Deploy.
 
-URL: https://docs.deno.com/examples/deploy_command_tutorial/
-
+URL: <https://docs.deno.com/examples/deploy_command_tutorial/>
 
 The `deno deploy` command provides a powerful CLI for deploying and managing
 applications on [Deno Deploy](https://deno.com/deploy).
@@ -15756,15 +15574,13 @@ more commands and options.
 For more information on Deno Deploy, check the
 [Deno Deploy documentation](/deploy/).
 
-
 ---
 
 # Monitor your app with OpenTelemetry and Deno Deploy
 
 > A step-by-step tutorial for adding custom OpenTelemetry instrumentation to your Deno Deploy application.
 
-URL: https://docs.deno.com/examples/deploy_otel_tutorial/
-
+URL: <https://docs.deno.com/examples/deploy_otel_tutorial/>
 
 Deno Deploy includes built-in OpenTelemetry support that automatically captures
 traces for HTTP requests, database queries, and other operations. This tutorial
@@ -16039,7 +15855,7 @@ git add .
 git commit -m "Add OpenTelemetry instrumented API"
 ```
 
-3. Add your GitHub repository as a remote and push your code:
+1. Add your GitHub repository as a remote and push your code:
 
 ```sh
 git remote add origin https://github.com/your-username/otel-demo-app.git
@@ -16131,15 +15947,13 @@ For more information about OpenTelemetry in Deno, check out these resources:
 - [Deno Deploy Observability reference](/deploy/reference/observability/)
 - [OpenTelemetry official documentation](https://opentelemetry.io/docs/)
 
-
 ---
 
 # How to deploy Deno to Digital Ocean
 
 > A step-by-step guide to deploying Deno applications on Digital Ocean. Learn about Docker containerization, GitHub Actions automation, container registries, and how to set up continuous deployment workflows.
 
-URL: https://docs.deno.com/examples/digital_ocean_tutorial/
-
+URL: <https://docs.deno.com/examples/digital_ocean_tutorial/>
 
 Digital Ocean is a popular cloud infrastructure provider offering a variety of
 hosting services ranging from networking, to compute, to storage.
@@ -16421,15 +16235,13 @@ jobs:
 When you push to GitHub, this yml file is automatically detected, triggering the
 Deploy action.
 
-
 ---
 
 # Build a Database App with Drizzle ORM and Deno
 
 > Step-by-step guide to building database applications with Drizzle ORM and Deno. Learn about schema management, type-safe queries, PostgreSQL integration, migrations, and how to implement CRUD operations.
 
-URL: https://docs.deno.com/examples/drizzle_tutorial/
-
+URL: <https://docs.deno.com/examples/drizzle_tutorial/>
 
 [Drizzle ORM](https://orm.drizzle.team/) is a TypeScript ORM that provides a
 type-safe way to interact with your database. In this tutorial, we'll set up
@@ -16817,15 +16629,13 @@ could:
 🦕 Happy coding with Deno and Drizzle ORM! The type-safety and simplicity of
 this stack make it a great choice for building modern web applications.
 
-
 ---
 
 # How to use Express with Deno
 
 > Step-by-step guide to using Express.js with Deno. Learn how to set up an Express server, configure routes, handle middleware, and build REST APIs using Deno's Node.js compatibility features.
 
-URL: https://docs.deno.com/examples/express_tutorial/
-
+URL: <https://docs.deno.com/examples/express_tutorial/>
 
 [Express](https://expressjs.com/) is a popular web framework known for being
 simple and unopinionated with a large ecosystem of middleware.
@@ -16996,15 +16806,13 @@ name", for example `localhost:8000/api/aardonyx` will display:
 this example into a dinosaur web app. Or take a look at
 [Deno's built in HTTP server](https://docs.deno.com/runtime/fundamentals/http_server/).
 
-
 ---
 
 # Fetch and stream data
 
 > A tutorial on working with network requests in Deno. Learn how to use the fetch API for HTTP requests, handle responses, implement data streaming, and manage file uploads and downloads.
 
-URL: https://docs.deno.com/examples/fetch_data_tutorial/
-
+URL: <https://docs.deno.com/examples/fetch_data_tutorial/>
 
 Deno brings several familiar Web APIs to the server-side environment. If you've
 worked with browsers you may recognize the [`fetch()`](/api/web/fetch) method
@@ -17109,15 +16917,13 @@ uploads, generating dynamic content or streaming large datasets, Deno’s file
 handling and streaming capabilities are great tools to have in your developer
 toolbox!
 
-
 ---
 
 # File-based routing
 
 > Tutorial on implementing file-based routing in Deno. Learn how to create a dynamic routing system similar to Next.js, handle HTTP methods, manage nested routes, and build a flexible server architecture.
 
-URL: https://docs.deno.com/examples/file_based_routing_tutorial/
-
+URL: <https://docs.deno.com/examples/file_based_routing_tutorial/>
 
 If you've used frameworks like [Next.js](https://nextjs.org/), you might be
 familiar with file based routing - you add a file in a specific directory and it
@@ -17210,15 +17016,13 @@ extend this example to add more routes and methods as needed.
 <small>Thanks to [@naishe](https://github.com/naishe) for contributing this
 tutorial.</small>
 
-
 ---
 
 # Write a file server
 
 > Tutorial on building a file server with Deno. Learn how to handle HTTP requests, serve static files, implement streaming responses, and use the standard library's file server module for production deployments.
 
-URL: https://docs.deno.com/examples/file_server_tutorial/
-
+URL: <https://docs.deno.com/examples/file_server_tutorial/>
 
 A file server listens for incoming HTTP requests and serves files from the local
 file system. This tutorial demonstrates how to create a simple file server using
@@ -17356,15 +17160,13 @@ tackle a whole variety of tasks - whether it’s serving static files, handling
 uploads, transforming data, or managing access control - you're ready to serve
 files with Deno.
 
-
 ---
 
 # File system events
 
 > Tutorial on monitoring file system changes with Deno. Learn how to watch directories for file modifications, handle change events, and understand platform-specific behaviors across Linux, macOS, and Windows.
 
-URL: https://docs.deno.com/examples/file_system_events_tutorial/
-
+URL: <https://docs.deno.com/examples/file_system_events_tutorial/>
 
 ## Concepts
 
@@ -17402,15 +17204,13 @@ This feature uses different syscalls depending on the platform:
 - Windows:
   [ReadDirectoryChangesW](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-readdirectorychangesw)
 
-
 ---
 
 # Build a Fresh App
 
 > Complete guide to building Full-stack applications with Fresh and Deno. Learn how to set up a project, implement server-side rendering with islands architecture, add API routes, and deploy your TypeScript application.
 
-URL: https://docs.deno.com/examples/fresh_tutorial/
-
+URL: <https://docs.deno.com/examples/fresh_tutorial/>
 
 [Fresh](https://fresh.deno.dev/) is a full-stack web framework for Deno that
 emphasizes server-side rendering with islands of interactivity. It sends no
@@ -17745,15 +17545,13 @@ while maintaining a great developer experience. The combination of server-side
 rendering by default with optional client-side interactivity gives you the best
 of both worlds.
 
-
 ---
 
 # How to deploy to Google Cloud Run
 
 > Step-by-step guide to deploying Deno applications on Google Cloud Run. Learn about Docker containerization, Artifact Registry configuration, GitHub Actions automation, and how to set up continuous deployment to Google Cloud.
 
-URL: https://docs.deno.com/examples/google_cloud_run_tutorial/
-
+URL: <https://docs.deno.com/examples/google_cloud_run_tutorial/>
 
 [Google Cloud Run](https://cloud.google.com/run) is a managed compute platform
 that lets you run containers on Google's scalable infrastructure.
@@ -18010,8 +17808,7 @@ The secret variables that we need to set are:
 [Check out more details and examples of deploying to Cloud Run from GitHub Actions.](https://github.com/google-github-actions/deploy-cloudrun)
 
 For reference:
-https://github.com/google-github-actions/example-workflows/blob/main/workflows/deploy-cloudrun/cloudrun-docker.yml
-
+<https://github.com/google-github-actions/example-workflows/blob/main/workflows/deploy-cloudrun/cloudrun-docker.yml>
 
 ---
 
@@ -18019,8 +17816,7 @@ https://github.com/google-github-actions/example-workflows/blob/main/workflows/d
 
 > Complete guide to exporting telemetry data with OpenTelemetry and Grafana. Learn how to configure collectors, visualize traces, and monitor application performance.
 
-URL: https://docs.deno.com/examples/grafana_tutorial/
-
+URL: <https://docs.deno.com/examples/grafana_tutorial/>
 
 [OpenTelemetry](https://opentelemetry.io/) (often abbreviated as OTel) is an
 open-source observability framework that provides a standardized way to collect
@@ -18250,15 +18046,13 @@ You can drill down into individual spans to debug performance issues:
 For more details on OpenTelemetry configuration, check out the
 [Grafana Cloud documentation](https://grafana.com/docs/grafana-cloud/monitor-applications/application-observability/collector/).
 
-
 ---
 
 # Executable scripts
 
 > Guide to creating executable scripts with Deno. Learn about hashbangs, file permissions, cross-platform compatibility, and how to create command-line tools that can run directly from the terminal.
 
-URL: https://docs.deno.com/examples/hashbang_tutorial/
-
+URL: <https://docs.deno.com/examples/hashbang_tutorial/>
 
 Making Deno scripts executable can come in handy when creating small tools or
 utilities for tasks like file manipulation, data processing or repetitive tasks
@@ -18335,15 +18129,13 @@ set the execute permission (`chmod +x`) for your script file, and you’re all s
 to build anything from simple utilities to complex tools. Check out the
 [Deno examples](/examples/) for inspiration on what you can script.
 
-
 ---
 
 # How to export telemetry data to Honeycomb
 
 > Complete guide to exporting telemetry data with OpenTelemetry and Honeycomb.io. Learn how to configure collectors, visualize traces, and monitor application performance.
 
-URL: https://docs.deno.com/examples/honeycomb_tutorial/
-
+URL: <https://docs.deno.com/examples/honeycomb_tutorial/>
 
 [OpenTelemetry](https://opentelemetry.io/) (often abbreviated as OTel) is an
 open-source observability framework that provides a standardized way to collect
@@ -18543,15 +18335,13 @@ You can drill down into individual spans to debug performance issues:
 For more details on OpenTelemetry configuration, check out the
 [Honeycomb documentation](https://docs.honeycomb.io/send-data/opentelemetry/collector/).
 
-
 ---
 
 # How to export telemetry data to HyperDX
 
 > Complete guide to exporting telemetry data with OpenTelemetry and HyperDX. Learn how to configure collectors, visualize traces, logs, metrics, and debug distributed applications effectively.
 
-URL: https://docs.deno.com/examples/hyperdx_tutorial/
-
+URL: <https://docs.deno.com/examples/hyperdx_tutorial/>
 
 [HyperDX](https://hyperdx.io) is an open source observability platform that
 unifies logs, traces, metrics, exceptions, and session replays into a single
@@ -18619,7 +18409,7 @@ This Dockerfile:
 - Copies your configuration into the container
 - Sets up the collector to use your config when it starts
 
-2. Create a file called `otel-collector.yml`:
+1. Create a file called `otel-collector.yml`:
 
 ```yml title="otel-collector.yml"
 receivers:
@@ -18735,15 +18525,13 @@ Monitor system performance:
 🦕 For more details on OpenTelemetry configuration with HyperDX, see their
 [documentation](https://www.hyperdx.io/docs/install/opentelemetry).
 
-
 ---
 
 # Initialize a project
 
 > Guide to creating and structuring new Deno projects. Learn about starting a new project, task configuration, dependency management, and best practices for growing applications.
 
-URL: https://docs.deno.com/examples/initialize_project_tutorial/
-
+URL: <https://docs.deno.com/examples/initialize_project_tutorial/>
 
 While it is possible to run scripts directly with `deno run`, for larger
 projects it is recommended to create a sensible directory structure. This way
@@ -18842,15 +18630,13 @@ tools. Keep your project modular, testable, and organized. As your project
 grows, adapt the structure to fit your needs. And most importantly, have fun
 exploring Deno’s capabilities!
 
-
 ---
 
 # How to deploy Deno on Kinsta
 
 > Step-by-step guide to deploying Deno applications on Kinsta. Learn how to configure package.json, handle environment variables, set up Git deployments, and use Kinsta's application hosting platform.
 
-URL: https://docs.deno.com/examples/kinsta_tutorial/
-
+URL: <https://docs.deno.com/examples/kinsta_tutorial/>
 
 [Kinsta Application Hosting](https://kinsta.com/application-hosting) is a
 service that lets you build and deploy your web apps directly from your Git
@@ -18903,15 +18689,13 @@ should help you to get started.
 4. Press the **Add service > Application button**.
 5. Follow the wizard steps.
 
-
 ---
 
 # Build a Real-time LLM Chat App with Deno
 
 > Learn how to integrate Large Language Models (LLM) with Deno to create an interactive roleplay chat application with AI characters using OpenAI or Anthropic APIs.
 
-URL: https://docs.deno.com/examples/llm_tutorial/
-
+URL: <https://docs.deno.com/examples/llm_tutorial/>
 
 Large Language Models (LLMs) like OpenAI's GPT and Anthropic's Claude are
 powerful tools for creating intelligent, conversational applications. In this
@@ -19861,15 +19645,13 @@ configuration files.
 You could also consider adding a database to store the conversation history for
 long-term character and story development.
 
-
 ---
 
 # Migrating a custom domain from Deploy Classic to Deno Deploy
 
 > Learn how to migrate your custom domain from Deploy Classic to Deno Deploy
 
-URL: https://docs.deno.com/examples/migrate_custom_domain_tutorial/
-
+URL: <https://docs.deno.com/examples/migrate_custom_domain_tutorial/>
 
 If you have previously set up a custom domain on Deploy Classic and want to
 migrate it to Deno Deploy, follow these steps:
@@ -19911,15 +19693,13 @@ Deploy.
 This may take some time due to DNS propagation delays. Allow up to 48 hours for
 the changes to take effect before removing the domain from Deploy Classic.
 
-
 ---
 
 # Testing in isolation with mocks
 
 > Master the art of mocking in your unit tests. Learn how spies, stubs, fake time, and other Deno tools let you improve your code and confidence
 
-URL: https://docs.deno.com/examples/mocking_tutorial/
-
+URL: <https://docs.deno.com/examples/mocking_tutorial/>
 
 This guide builds on the
 [basics of testing in Deno](/examples/testing_tutorial/) to focus specifically
@@ -20640,15 +20420,13 @@ For more testing resources, check out:
 - [Deno Standard Library Testing Modules](https://jsr.io/@std/testing)
 - [Basic Testing in Deno](/examples/testing_tutorial/)
 
-
 ---
 
 # Module metadata
 
 > A guide to working with module metadata in Deno. Learn about import.meta properties, main module detection, file paths, URL resolution, and how to access module context information in your applications.
 
-URL: https://docs.deno.com/examples/module_metadata_tutorial/
-
+URL: <https://docs.deno.com/examples/module_metadata_tutorial/>
 
 ## Concepts
 
@@ -20728,15 +20506,13 @@ Module B's mainModule url file:///home/alice/deno/module_a.ts
 Is module B the main module via import.meta.main? false
 ```
 
-
 ---
 
 # How to use Mongoose with Deno
 
 > Step-by-step guide to using Mongoose with Deno. Learn how to set up MongoDB connectivity, create schemas, implement data models, and perform CRUD operations using Mongoose's schema-based modeling.
 
-URL: https://docs.deno.com/examples/mongoose_tutorial/
-
+URL: <https://docs.deno.com/examples/mongoose_tutorial/>
 
 [Mongoose](https://mongoosejs.com/) is a popular, schema-based library that
 models data for [MongoDB](https://www.mongodb.com/). It simplifies writing
@@ -20900,15 +20676,13 @@ with MongoDB!
 For more info on using Mongoose, please refer to
 [their documentation](https://mongoosejs.com/docs/guide.html).
 
-
 ---
 
 # How to use MySQL2 with Deno
 
 > Step-by-step guide to using MySQL2 with Deno. Learn how to set up database connections, execute queries, handle transactions, and build data-driven applications using MySQL's Node.js driver.
 
-URL: https://docs.deno.com/examples/mysql2_tutorial/
-
+URL: <https://docs.deno.com/examples/mysql2_tutorial/>
 
 [MySQL](https://www.mysql.com/) is the most popular database in the
 [2022 Stack Overflow Developer Survey](https://survey.stackoverflow.co/2022/#most-popular-technologies-database)
@@ -21025,15 +20799,13 @@ await connection.end();
 For more on `mysql2`, check out their documentation
 [here](https://github.com/sidorares/node-mysql2).
 
-
 ---
 
 # Build a Next.js App
 
 > Walkthrough guide to building a Next.js application with Deno. Learn how to set up a project, create API routes, implement server-side rendering, and build a full-stack TypeScript application.
 
-URL: https://docs.deno.com/examples/next_tutorial/
-
+URL: <https://docs.deno.com/examples/next_tutorial/>
 
 [Next.js](https://nextjs.org/) is a popular framework for building
 server-side-rendered applications. It is built on top of React and provides a
@@ -21358,15 +21130,13 @@ to replace your `data.json` file, or consider
 [writing some tests](/runtime/fundamentals/testing/) to make your app reliable
 and production ready.
 
-
 ---
 
 # Build a Nuxt app with Deno
 
 > Step-by-step guide to building Nuxt applications with Deno. Learn how to create a full-stack Vue.js app, implement server-side rendering, add Tailwind styling, and deploy your application.
 
-URL: https://docs.deno.com/examples/nuxt_tutorial/
-
+URL: <https://docs.deno.com/examples/nuxt_tutorial/>
 
 [Nuxt](https://nuxt.com/) is a framework that provides an intuitive way to
 create full-stack applications based on [Vue](https://vuejs.org/). It offers
@@ -21693,15 +21463,13 @@ And we’re done!
 automated testing with Vitest. These features would make it production-ready for
 larger applications.
 
-
 ---
 
 # Handle OS signals
 
 > Tutorial on handling operating system signals in Deno. Learn how to capture SIGINT and SIGBREAK events, manage signal listeners, and implement graceful shutdown handlers in your applications.
 
-URL: https://docs.deno.com/examples/os_signals_tutorial/
-
+URL: <https://docs.deno.com/examples/os_signals_tutorial/>
 
 > ⚠️ Windows only supports listening for SIGINT and SIGBREAK as of Deno v1.23.
 
@@ -21771,15 +21539,13 @@ Run with:
 deno run signal_listeners.ts
 ```
 
-
 ---
 
 # Distributed Tracing with Context Propagation in Deno
 
 > Implement end-to-end distributed tracing with automatic context propagation in Deno applications. This tutorial covers creating traced services, automatic propagation of trace context, and visualizing distributed traces.
 
-URL: https://docs.deno.com/examples/otel_span_propagation_tutorial/
-
+URL: <https://docs.deno.com/examples/otel_span_propagation_tutorial/>
 
 Modern applications are often built as distributed systems with multiple
 services communicating with each other. When debugging issues or optimizing
@@ -21953,15 +21719,13 @@ to more complex systems with multiple services and async operations.
 With Deno's automatic context propagation, implementing distributed tracing in
 your applications has never been easier!
 
-
 ---
 
 # How to use Planetscale with Deno
 
 > Step-by-step guide to using Planetscale with Deno. Learn how to set up serverless MySQL databases, manage connections, execute queries, and build scalable applications with Planetscale's developer-friendly platform.
 
-URL: https://docs.deno.com/examples/planetscale_tutorial/
-
+URL: <https://docs.deno.com/examples/planetscale_tutorial/>
 
 Planetscale is a MySQL-compatible serverless database that is designed with a
 developer workflow where developers can create, branch, and deploy databases
@@ -22080,15 +21844,13 @@ Which gives us a single row result:
 You can find out more about working with Planetscale in their
 [docs](https://planetscale.com/docs).
 
-
 ---
 
 # How to create a RESTful API with Prisma and Oak
 
 > Guide to building a RESTful API using Prisma and Oak with Deno. Learn how to set up database schemas, generate clients, implement CRUD operations, and deploy your API with proper type safety.
 
-URL: https://docs.deno.com/examples/prisma_tutorial/
-
+URL: <https://docs.deno.com/examples/prisma_tutorial/>
 
 [Prisma](https://prisma.io) has been one of our top requested modules to work
 with in Deno. The demand is understandable, given that Prisma's developer
@@ -22387,15 +22149,13 @@ modeling, type-safety, and robust IDE support.
 If you're interested in connecting Prisma to Deno Deploy,
 [check out this awesome guide](https://www.prisma.io/docs/guides/deployment/deployment-guides/deploying-to-deno-deploy).
 
-
 ---
 
 # Build Qwik with Deno
 
 > Step-by-step guide to building Qwik applications with Deno. Learn about resumability, server-side rendering, route handling, and how to create fast, modern web applications with zero client-side JavaScript by default.
 
-URL: https://docs.deno.com/examples/qwik_tutorial/
-
+URL: <https://docs.deno.com/examples/qwik_tutorial/>
 
 [Qwik](https://qwik.dev/) is a JavaScript framework that delivers
 instant-loading web applications by leveraging resumability instead of
@@ -22708,15 +22468,13 @@ complex features.
   [Digital Ocean](https://docs.deno.com/runtime/tutorials/digital_ocean/), and
   [Google Cloud Run](https://docs.deno.com/runtime/tutorials/google_cloud_run/)
 
-
 ---
 
 # React app with Vite
 
 > Complete guide to building React applications with Deno and Vite. Learn how to set up a project, implement routing, add API endpoints, and deploy your full-stack TypeScript application.
 
-URL: https://docs.deno.com/examples/react_tutorial/
-
+URL: <https://docs.deno.com/examples/react_tutorial/>
 
 [React](https://reactjs.org) is the most widely used JavaScript frontend
 library.
@@ -22750,7 +22508,7 @@ In your terminal run the following command to create a new React app with Vite
 using the typescript template:
 
 ```sh
-$ deno init --npm vite my-react-app --template react-ts
+deno init --npm vite my-react-app --template react-ts
 ```
 
 ## Run the dev server
@@ -23196,15 +22954,13 @@ For a walkthrough of deploying your app, check out the
 to build blazing-fast web applications. We hope you enjoy exploring these
 cutting-edge tools, we can't wait to see what you make!
 
-
 ---
 
 # How to use Redis with Deno
 
 > Step-by-step guide to using Redis with Deno. Learn how to set up caching, implement message brokers, handle data streaming, and optimize your applications with Redis's in-memory data store.
 
-URL: https://docs.deno.com/examples/redis_tutorial/
-
+URL: <https://docs.deno.com/examples/redis_tutorial/>
 
 [Redis](https://redis.io/) is an in-memory data store you can use for caching,
 as a message broker, or for streaming data.
@@ -23361,15 +23117,13 @@ We can also see that the response was ~200ms quicker!
 You can check out the Redis documentation [here](https://redis.io/docs/) and the
 Redis node package [here](https://github.com/redis/node-redis).
 
-
 ---
 
 # Run a script
 
 > A guide to creating and running basic scripts with Deno. Learn how to write and execute JavaScript and TypeScript code, understand runtime environments, and get started with fundamental Deno concepts.
 
-URL: https://docs.deno.com/examples/run_script_tutorial/
-
+URL: <https://docs.deno.com/examples/run_script_tutorial/>
 
 Deno is a secure runtime for JavaScript and TypeScript.
 
@@ -23468,13 +23222,11 @@ Hello Kai
 and how to run it in Deno with the `deno run` command. Keep exploring the
 tutorials and examples to learn more about Deno!
 
-
 ---
 
 # Simple API server
 
-URL: https://docs.deno.com/examples/simple_api_tutorial/
-
+URL: <https://docs.deno.com/examples/simple_api_tutorial/>
 
 Deno makes it easy to build lightweight, standards-based HTTP APIs using just
 the Web Platform primitives (Request, Response, fetch) with built‑in data
@@ -23721,15 +23473,13 @@ look at our (web
 frameworks)[/frameworks](/examples/#web-frameworks-and-libraries) page for some
 ideas on how to get started!
 
-
 ---
 
 # Snapshot testing
 
 > Learn how to use snapshot testing in Deno to compare outputs against recorded references, making it easier to detect unintended changes in your code
 
-URL: https://docs.deno.com/examples/snapshot_test_tutorial/
-
+URL: <https://docs.deno.com/examples/snapshot_test_tutorial/>
 
 Snapshot testing is a testing technique that captures the output of your code
 and compares it against a stored reference version. Rather than manually writing
@@ -24338,15 +24088,13 @@ detailed assertions. By incorporating snapshot tests into your testing strategy,
 you can catch unintended changes, document expected behavior, and build more
 resilient applications.
 
-
 ---
 
 # Deno Sandbox Snapshots Tutorial
 
 > Use read only images to create isolated and reproducible environments.
 
-URL: https://docs.deno.com/examples/snapshots_tutorial/
-
+URL: <https://docs.deno.com/examples/snapshots_tutorial/>
 
 Snapshots are useful for creating read-only images that can be used to
 instantiate multiple sandboxes with the same base environment. Useful if you are
@@ -24502,15 +24250,13 @@ await client.snapshots.delete(snapshot.slug);
 build once, snapshot, and hand teammates a slug that boots fully configured
 sandboxes in seconds.
 
-
 ---
 
 # Build a SolidJS app with Deno
 
 > Build a SolidJS application with Deno. Learn how to set up a project, implement reactive components, handle routing, create API endpoints with Hono, and build a full-stack TypeScript application.
 
-URL: https://docs.deno.com/examples/solidjs_tutorial/
-
+URL: <https://docs.deno.com/examples/solidjs_tutorial/>
 
 [SolidJS](https://www.solidjs.com/) is a declarative JavaScript library for
 creating user interfaces that emphasizes fine-grained reactivity and minimal
@@ -24906,15 +24652,13 @@ foundation for web development. With no Virtual DOM overhead and granular
 updates only where needed, your application can achieve optimal performance
 while maintaining clean, readable code.
 
-
 ---
 
 # Stubbing in tests
 
 > Learn how to use stubs in Deno to isolate code during testing by replacing function implementations with controlled behavior
 
-URL: https://docs.deno.com/examples/stubbing_tutorial/
-
+URL: <https://docs.deno.com/examples/stubbing_tutorial/>
 
 Stubbing is a powerful technique for isolating the code you're testing by
 replacing functions with controlled implementations. While
@@ -25176,15 +24920,13 @@ For more testing resources, check out:
 - [Deno Standard Library Testing Modules](https://jsr.io/@std/testing)
 - [Basic Testing in Deno](/examples/testing_tutorial/)
 
-
 ---
 
 # Creating a subprocess
 
 > A guide to working with subprocesses in Deno. Learn how to spawn processes, handle input/output streams, manage process lifecycles, and implement inter-process communication patterns safely.
 
-URL: https://docs.deno.com/examples/subprocess_tutorial/
-
+URL: <https://docs.deno.com/examples/subprocess_tutorial/>
 
 ## Concepts
 
@@ -25279,7 +25021,7 @@ setTimeout(() => {
 Run it:
 
 ```shell
-$ deno run --allow-run=yes --allow-read=. --allow-write=. ./subprocess_piping_to_file.ts
+deno run --allow-run=yes --allow-read=. --allow-write=. ./subprocess_piping_to_file.ts
 ```
 
 ## Reading subprocess output with convenience methods
@@ -25334,15 +25076,13 @@ console.log("Parsed JSON:", jsonOutput); // { name: "Deno", version: "2.0" }
 await process.status;
 ```
 
-
 ---
 
 # Build a SvelteKit App
 
 > A tutorial on building SvelteKit applications with Deno. Learn how to set up a SvelteKit project, implement file-based routing, manage state with load functions, and create a full-stack TypeScript application.
 
-URL: https://docs.deno.com/examples/svelte_tutorial/
-
+URL: <https://docs.deno.com/examples/svelte_tutorial/>
 
 [SvelteKit](https://kit.svelte.dev/) is a web framework built on top of
 [Svelte](https://svelte.dev/), a modern front-end compiler that builds highly
@@ -25659,13 +25399,11 @@ For a walkthrough of deploying your app, check out the
 🦕 Now that you can run a SvelteKit app in Deno with the Deno adapter you're
 ready to build real world applications!
 
-
 ---
 
 # Building a SvelteKit app with sv and Deno
 
-URL: https://docs.deno.com/examples/sveltekit_tutorial/
-
+URL: <https://docs.deno.com/examples/sveltekit_tutorial/>
 
 SvelteKit has been a stable popular vote since its launch and with Svelte
 version 5 releasing recently, as of time of writing, there isn't a better time
@@ -26085,108 +25823,108 @@ pagination and search inputs added to the UI!
 
 ```html
 <script lang="ts">
-	import { goto, invalidate, replaceState } from '$app/navigation';
-	import { page as sveltePage } from '$app/state';
+ import { goto, invalidate, replaceState } from '$app/navigation';
+ import { page as sveltePage } from '$app/state';
 
-	let { data } = $props();
+ let { data } = $props();
 
-	// We have added a function to change the page number
-	// based on the search params and the value passed in.
-	function handlePageChange(page: number) {
-		const params = new URLSearchParams(sveltePage.url.searchParams);
+ // We have added a function to change the page number
+ // based on the search params and the value passed in.
+ function handlePageChange(page: number) {
+  const params = new URLSearchParams(sveltePage.url.searchParams);
 
-		params.set('page', page.toString());
-		goto(`?${params.toString()}`, { keepFocus: true });
-	}
+  params.set('page', page.toString());
+  goto(`?${params.toString()}`, { keepFocus: true });
+ }
 
-	// This function checks if there is a q in the form below
-	// and if so search by it or remove the search params
-	// and either way reset the current page.
-	function handleQueryChange(
-		event: SubmitEvent & {
-			currentTarget: EventTarget & HTMLFormElement;
-		}
-	) {
-		event.preventDefault();
-		const q = event.currentTarget.q.value;
-		const params = new URLSearchParams(sveltePage.url.searchParams);
+ // This function checks if there is a q in the form below
+ // and if so search by it or remove the search params
+ // and either way reset the current page.
+ function handleQueryChange(
+  event: SubmitEvent & {
+   currentTarget: EventTarget & HTMLFormElement;
+  }
+ ) {
+  event.preventDefault();
+  const q = event.currentTarget.q.value;
+  const params = new URLSearchParams(sveltePage.url.searchParams);
 
-		if (q) {
-			params.set('q', q);
-			params.set('page', '1');
-			goto(`?${params.toString()}`, { keepFocus: true });
-		} else {
-			params.delete('q');
-			params.delete('page');
-			goto(`?${params.toString()}`, { keepFocus: true });
-		}
-	}
+  if (q) {
+   params.set('q', q);
+   params.set('page', '1');
+   goto(`?${params.toString()}`, { keepFocus: true });
+  } else {
+   params.delete('q');
+   params.delete('page');
+   goto(`?${params.toString()}`, { keepFocus: true });
+  }
+ }
 </script>
 
 <form onsubmit={handleQueryChange} class="mb-4">
-	<label class="mb-2 block text-sm font-bold" for="q">Search</label>
-	<input
-		class="focus:shadow-outline w-ful form-input appearance-none rounded border px-3 py-2 leading-tight text-gray-700 shadow focus:outline-none"
-		type="text"
-		id="q"
-		name="q"
-		placeholder="Search"
-		defaultValue={data.q ?? ''}
-	/>
+ <label class="mb-2 block text-sm font-bold" for="q">Search</label>
+ <input
+  class="focus:shadow-outline w-ful form-input appearance-none rounded border px-3 py-2 leading-tight text-gray-700 shadow focus:outline-none"
+  type="text"
+  id="q"
+  name="q"
+  placeholder="Search"
+  defaultValue={data.q ?? ''}
+ />
 </form>
 
 <section class="mb-4 grid max-h-96 grid-cols-2 gap-4 overflow-y-auto">
-	{#each data.dinosaurs as item}
-		<a class="rounded border p-4" href="/{item.name}">{item.name}</a>
-	{/each}
+ {#each data.dinosaurs as item}
+  <a class="rounded border p-4" href="/{item.name}">{item.name}</a>
+ {/each}
 
-	{#if data.dinosaurs.length === 0}
-		<p>No dinosaurs found</p>
-	{/if}
+ {#if data.dinosaurs.length === 0}
+  <p>No dinosaurs found</p>
+ {/if}
 </section>
 
 <!-- pagination -->
 {#if data.totalPages > 0}
-	<div class="mb-4 flex justify-center">
-		<div class="grid w-1/2 grid-flow-col gap-2">
-			{@render pageButton(data.page - 1, data.page === 1, false, '←')}
+ <div class="mb-4 flex justify-center">
+  <div class="grid w-1/2 grid-flow-col gap-2">
+   {@render pageButton(data.page - 1, data.page === 1, false, '←')}
 
-			{#each { length: data.totalPages }, page}
-				{#if page >= data.page - 2 && page <= data.page + 2}
-					{@render pageButton(page + 1, data.page === page + 1, data.page === page + 1, page + 1)}
-				{:else if (page === 0 || page === 1) && page !== data.page - 1}
-					{@render pageButton(page + 1, data.page === page + 1, data.page === page + 1, page + 1)}
-				{:else if page >= data.totalPages - 2 && page !== data.page - 1}
-					{@render pageButton(page + 1, data.page === page + 1, data.page === page + 1, page + 1)}
-				{/if}
-			{/each}
+   {#each { length: data.totalPages }, page}
+    {#if page >= data.page - 2 && page <= data.page + 2}
+     {@render pageButton(page + 1, data.page === page + 1, data.page === page + 1, page + 1)}
+    {:else if (page === 0 || page === 1) && page !== data.page - 1}
+     {@render pageButton(page + 1, data.page === page + 1, data.page === page + 1, page + 1)}
+    {:else if page >= data.totalPages - 2 && page !== data.page - 1}
+     {@render pageButton(page + 1, data.page === page + 1, data.page === page + 1, page + 1)}
+    {/if}
+   {/each}
 
-			{@render pageButton(data.page + 1, data.page === data.totalPages, false, '→')}
-		</div>
-	</div>
+   {@render pageButton(data.page + 1, data.page === data.totalPages, false, '→')}
+  </div>
+ </div>
 {/if}
 
 {#snippet pageButton(page: number, disabled: boolean, active: boolean, child: string | number)}
-	<button
-		class="rounded border p-4"
-		class:disabled
-		{disabled}
-		class:active
-		type="button"
-		onclick={() => handlePageChange(page)}
-	>
-		{child}
-	</button>
+ <button
+  class="rounded border p-4"
+  class:disabled
+  {disabled}
+  class:active
+  type="button"
+  onclick={() => handlePageChange(page)}
+ >
+  {child}
+ </button>
 {/snippet}
 
 <style lang="postcss">
-	.active {
-		@apply bg-emerald-400 text-white;
-	}
+ .active {
+  @apply bg-emerald-400 text-white;
+ }
 
-	.disabled {
-		@apply cursor-not-allowed opacity-50;
-	}
+ .disabled {
+  @apply cursor-not-allowed opacity-50;
+ }
 </style>
 ```
 
@@ -26206,15 +25944,13 @@ styling.
 I have updated some of the styling to make it more pleasant to look at, but I
 know you have great taste and are free to make it look however you'd like!
 
-
 ---
 
 # Build an app with Tanstack and Deno
 
 > Complete guide to building applications with Tanstack and Deno. Learn how to implement Query for data fetching, Router for navigation, manage server state, and create type-safe full-stack applications.
 
-URL: https://docs.deno.com/examples/tanstack_tutorial/
-
+URL: <https://docs.deno.com/examples/tanstack_tutorial/>
 
 [Tanstack](https://tanstack.com/) is a set of framework-agnostic data management
 tools. With Tanstack, developers can manage server state efficiently with
@@ -26636,15 +26372,13 @@ of Deno's built-in web standards, tooling, and native TypeScript support, as
 well as Tanstack's powerful data management opens up numerous possibilities for
 building robust web applications.
 
-
 ---
 
 # Writing tests
 
 > Learn key concepts like test setup and structure, assertions, async testing, mocking, test fixtures, and code coverage
 
-URL: https://docs.deno.com/examples/testing_tutorial/
-
+URL: <https://docs.deno.com/examples/testing_tutorial/>
 
 Testing is critical in software development to ensure your code works as
 expected, and continues to work as you make changes. Tests verify that your
@@ -27321,15 +27055,13 @@ For more information about testing in Deno, check out:
 - [Mocking data for tests](/examples/mocking_tutorial/)
 - [Writing benchmark tests](/examples/benchmarking/)
 
-
 ---
 
 # Build a Typesafe API with tRPC and Deno
 
 > A guide to building type-safe APIs with tRPC and Deno. Learn how to set up endpoints, implement RPC procedures, handle data validation, and create efficient client-server applications.
 
-URL: https://docs.deno.com/examples/trpc_tutorial/
-
+URL: <https://docs.deno.com/examples/trpc_tutorial/>
 
 Deno is an
 [all-in-one, zero-config toolchain](https://docs.deno.com/runtime/manual/tools)
@@ -27746,15 +27478,13 @@ Now that you have a basic understanding of how to use tRPC with Deno, you could:
 
 🦕 Happy type safety coding with Deno and tRPC!
 
-
 ---
 
 # Connect a Database to your local dev
 
 > Connect a Postgres database to your local development server with Deno Deploy and Deno's tunnel feature
 
-URL: https://docs.deno.com/examples/tunnel_database_tutorial/
-
+URL: <https://docs.deno.com/examples/tunnel_database_tutorial/>
 
 In this tutorial, we'll show you how to connect a database to your local
 development server using Deno's tunnel feature and Deno Deploy. This allows you
@@ -27968,15 +27698,13 @@ see how they are all separate.
 the tunnel feature, making it easy to develop and test your app with real data
 without complex configuration!
 
-
 ---
 
 # Local Telemetry with tunnel
 
 > Send telemetry from your local development server using Deno's tunnel feature
 
-URL: https://docs.deno.com/examples/tunnel_telemetry_tutorial/
-
+URL: <https://docs.deno.com/examples/tunnel_telemetry_tutorial/>
 
 Deno's tunnel feature allows you to expose your local development server to the
 internet securely. This is particularly useful for sending
@@ -28105,15 +27833,13 @@ debug exceptions or performance issues, so don't be discouraged if you see a lot
 of data! Use the filtering and search features to help you find what you're
 looking for.
 
-
 ---
 
 # Share your local server with Tunnel
 
 > Expose a public URL instantly with the --tunnel option
 
-URL: https://docs.deno.com/examples/tunnel_tutorial/
-
+URL: <https://docs.deno.com/examples/tunnel_tutorial/>
 
 The `--tunnel` flag in Deno allows you to expose your local server to the
 internet instantly. This is particularly useful for testing webhooks, sharing
@@ -28250,13 +27976,13 @@ Then we'll modify our Svelte page to display these values:
 
 ```svelte title="src/routes/+page.svelte"
 <script lang="ts">
-	export let data: {
-		message: string;
-		username: string;
-		accent: string;
-	};
+ export let data: {
+  message: string;
+  username: string;
+  accent: string;
+ };
 
-	const { message, username, accent } = data;
+ const { message, username, accent } = data;
 </script>
 
 <h1>Environment variable demo</h1>
@@ -28308,15 +28034,13 @@ configurations with ease. Why not try adding a database connection next? Check
 out the [tunnel database tutorial](/examples/tunnel_database_tutorial/) to see
 how to connect your local app to a database using the tunnel feature.
 
-
 ---
 
 # Deno Sandbox Volumes Tutorial
 
 > Add read-write block storage to your Deno sandbox.
 
-URL: https://docs.deno.com/examples/volumes_tutorial/
-
+URL: <https://docs.deno.com/examples/volumes_tutorial/>
 
 Volumes are durable, regional block storage devices that you can attach to Deno
 sandboxes. They behave like regular directories, letting you read and write
@@ -28491,15 +28215,13 @@ Deletion is intentional but forgiving:
 Swap in your own datasets, binaries, or build outputs to accelerate any job that
 needs durable storage without leaving the sandbox environment.
 
-
 ---
 
 # Build a Vue.js App
 
 > A tutorial on building Vue.js applications with Deno. Learn how to set up a Vite project, implement component architecture, add routing, manage state, and create a full-stack TypeScript application.
 
-URL: https://docs.deno.com/examples/vue_tutorial/
-
+URL: <https://docs.deno.com/examples/vue_tutorial/>
 
 [Vue.js](https://vuejs.org/) is a progressive front-end JavaScript framework. It
 provides tools and features for creating dynamic and interactive user
@@ -29007,15 +28729,13 @@ For a walkthrough of deploying your app, check out the
 🦕 Now that you can run a Vue app in Deno with Vite you're ready to build real
 world applications!
 
-
 ---
 
 # Testing web apps
 
 > A comprehensive guide to testing web applications with Deno
 
-URL: https://docs.deno.com/examples/web_testing_tutorial/
-
+URL: <https://docs.deno.com/examples/web_testing_tutorial/>
 
 Deno is a JavaScript runtime that operates outside of the browser, as such, you
 cannot directly manipulate the Document Object Model in Deno as you would in a
@@ -29296,15 +29016,13 @@ for your web applications that verify both functionality and user experience.
 Remember that effective testing leads to more robust applications and helps
 catch issues before they reach your users.
 
-
 ---
 
 # Building a word finder app with Deno
 
 > A tutorial on creating a word search application with Deno. Learn how to build a web server, implement pattern matching, handle HTTP requests, and create an interactive web interface using Oak framework.
 
-URL: https://docs.deno.com/examples/word_finder_tutorial/
-
+URL: <https://docs.deno.com/examples/word_finder_tutorial/>
 
 ## Getting Started
 
@@ -29484,15 +29202,13 @@ able to view the Word Finder app.
 You can find the entire example code
 [here](https://github.com/awelm/deno-word-finder).
 
-
 ---
 
 # All-in-one tooling
 
 > Learn about Deno's built-in developer tools. Watch how to use the integrated formatter, linter, and test runner to improve code quality without additional configuration or third-party dependencies.
 
-URL: https://docs.deno.com/examples/all-in-one_tooling/
-
+URL: <https://docs.deno.com/examples/all-in-one_tooling/>
 
 ## Video description
 
@@ -29609,13 +29325,11 @@ whole day configuring these settings before we can start working on our project.
 And we can format, lint, and test code without the need for third-party
 dependencies.
 
-
 ---
 
 # Compatibility with Node & npm
 
-URL: https://docs.deno.com/examples/backward_compat_with_node_npm/
-
+URL: <https://docs.deno.com/examples/backward_compat_with_node_npm/>
 
 ## Video description
 
@@ -29721,15 +29435,13 @@ deno task dev
 We can use all of the code that we've written before without having to change it
 or stretch it too much, Deno just makes it work!
 
-
 ---
 
 # Browser APIs in Deno
 
 > Explore web standard APIs in Deno's server-side environment. Learn how to use fetch, streams, text encoders, and other browser-compatible features while building modern applications with familiar web APIs.
 
-URL: https://docs.deno.com/examples/browser_apis_in_deno/
-
+URL: <https://docs.deno.com/examples/browser_apis_in_deno/>
 
 ## Video description
 
@@ -29860,15 +29572,13 @@ environment for using things like fetch, Web Workers, and much, much more.
 Deno has made it really smooth to use these web-standard APIs in a way that
 feels familiar and friendly.
 
-
 ---
 
 # Build an API server with TypeScript
 
 > A guide to creating a RESTful API server using Hono and TypeScript in Deno. Watch how to implement CRUD operations, handle routing, manage data persistence, and build a production-ready backend service.
 
-URL: https://docs.deno.com/examples/build_api_server_ts/
-
+URL: <https://docs.deno.com/examples/build_api_server_ts/>
 
 ## Video description
 
@@ -30151,26 +29861,22 @@ app.delete("/trees/:id", (c) => {
 Deno.serve(app.fetch);
 ```
 
-
 ---
 
 # Byte and text imports
 
-URL: https://docs.deno.com/examples/byte_and_text_imports/
-
+URL: <https://docs.deno.com/examples/byte_and_text_imports/>
 
 ## Video description
 
 David from the Deno team shows you how to import bytes and text files, allowing
 you to include them in your module graph for automatic tree shaking and more.
 
-
 ---
 
 # Build a Command Line Utility
 
-URL: https://docs.deno.com/examples/command_line_utility/
-
+URL: <https://docs.deno.com/examples/command_line_utility/>
 
 ## Video description
 
@@ -30492,13 +30198,11 @@ the arguments using the parse args function from the standard Library CLI
 package and we can run a compile for all platforms so that our app can be
 consumed anywhere.
 
-
 ---
 
 # Configuration with Deno JSON
 
-URL: https://docs.deno.com/examples/configuration_with_deno_json/
-
+URL: <https://docs.deno.com/examples/configuration_with_deno_json/>
 
 ## Video description
 
@@ -30747,15 +30451,13 @@ a `deno.json` and a `package.json` are both found in the same directory, Deno
 will understand the dependencies specified in both. So, a lot of options here,
 but this is going to be extremely useful as you work on your Deno projects.
 
-
 ---
 
 # Benchmarking with Deno bench
 
 > Learn how to measure code performance using Deno's built-in benchmarking tool. Discover baseline comparisons, grouped benchmarks, and precise measurement techniques for optimizing your TypeScript and JavaScript code.
 
-URL: https://docs.deno.com/examples/deno_bench/
-
+URL: <https://docs.deno.com/examples/deno_bench/>
 
 ## Video description
 
@@ -30883,15 +30585,13 @@ other options that you can pass such as
 [`only`](/runtime/reference/cli/bench/#bench-definition-filtering) and
 [`ignore`](/runtime/reference/cli/bench/#options-ignore).
 
-
 ---
 
 # Deno coverage
 
 > Learn how to measure test coverage in Deno projects. Watch how to generate coverage reports, analyze code coverage metrics, and use the HTML report feature.
 
-URL: https://docs.deno.com/examples/deno_coverage/
-
+URL: <https://docs.deno.com/examples/deno_coverage/>
 
 ## Description of video
 
@@ -30929,15 +30629,13 @@ a browser.
 We got more plans for Deno coverage, like simplifying the steps into a single
 command and more.
 
-
 ---
 
 # Your Deno Dev Environment
 
 > Learn how to set up your Deno development environment. Watch how to install Deno, configure VS Code, enable type checking and autocomplete, and optimize your TypeScript development workflow.
 
-URL: https://docs.deno.com/examples/deno_dev_environment/
-
+URL: <https://docs.deno.com/examples/deno_dev_environment/>
 
 ## Video description
 
@@ -31015,13 +30713,11 @@ environment](/runtime/getting_started/setup_your_environment/). There are
 that you can add, so depending on which CLI tool you're using, you can set this
 up over here, whether it's Bash or PowerShell or ZShell or whatever it might be.
 
-
 ---
 
 # Formatting with Deno fmt
 
-URL: https://docs.deno.com/examples/deno_fmt/
-
+URL: <https://docs.deno.com/examples/deno_fmt/>
 
 ## Video description
 
@@ -31230,21 +30926,17 @@ third faster. If we update a file and run it again it's still fast since
 popular Node formatter), we'll run Prettier with a caching flag enabled. Even on
 a second run, `deno fmt` is almost 20 times faster!
 
-
 ---
 
 # Getting started with Deno test
 
-URL: https://docs.deno.com/examples/deno_test/
-
-
+URL: <https://docs.deno.com/examples/deno_test/>
 
 ---
 
 # Deploy Deno to AWS Lambda
 
-URL: https://docs.deno.com/examples/deploy_deno_to_aws_lambda/
-
+URL: <https://docs.deno.com/examples/deploy_deno_to_aws_lambda/>
 
 ## Video description
 
@@ -31371,13 +31063,11 @@ tools](https://deno.com/blog/aws-lambda-coldstart-benchmarks).
 Using Deno with AWS Lambda functions is a great way to stand up your app quickly
 in a familiar environment.
 
-
 ---
 
 # Deploying Deno with Docker
 
-URL: https://docs.deno.com/examples/deploying_deno_with_docker/
-
+URL: <https://docs.deno.com/examples/deploying_deno_with_docker/>
 
 ## Video description
 
@@ -31386,9 +31076,9 @@ environment.
 
 ## Resources
 
-- https://github.com/denoland/deno_docker
-- https://fly.io/
-- https://docs.deno.com/runtime/reference/docker/
+- <https://github.com/denoland/deno_docker>
+- <https://fly.io/>
+- <https://docs.deno.com/runtime/reference/docker/>
 
 ## Transcript and code
 
@@ -31451,10 +31141,10 @@ Deno.serve(app.fetch);
 
 Make sure that Docker is installed on your machine. In your terminal or command
 prompt, you can run docker and if you get a big list of commands, you have it.
-If not, head over to https://www.docker.com/ and download it based on your
+If not, head over to <https://www.docker.com/> and download it based on your
 operating system.
 
-### Test run docker:
+### Test run docker
 
 ```shell
 docker
@@ -31509,7 +31199,7 @@ to use fly.io today.
 
 If you haven’t worked with fly before, it’s a cloud platform that allows you to
 deploy and run fullstack apps. They run in multiple regions throughout the world
-which makes them a pretty nice option. https://fly.io/
+which makes them a pretty nice option. <https://fly.io/>
 
 ### Install Fly
 
@@ -31546,21 +31236,17 @@ For a closer look at Deno's support of Docker, including best practices, running
 tests with Docker, using workspaces, and more, please take a look at our
 [Deno and Docker reference documentation](https://docs.deno.com/runtime/reference/docker/).
 
-
 ---
 
 # ECMAScript Modules
 
-URL: https://docs.deno.com/examples/esmodules/
-
-
+URL: <https://docs.deno.com/examples/esmodules/>
 
 ---
 
 # Image bundling with deno compile
 
-URL: https://docs.deno.com/examples/image_bundling_deno_compile/
-
+URL: <https://docs.deno.com/examples/image_bundling_deno_compile/>
 
 ## Video description
 
@@ -31568,13 +31254,11 @@ Divy from the Deno team shows you how to embed image assets with `deno compile`
 in [his Flappybird game](https://github.com/littledivy/flappybird) with the
 bytes import.
 
-
 ---
 
 # Interoperability with Node.js
 
-URL: https://docs.deno.com/examples/interoperability_with_nodejs/
-
+URL: <https://docs.deno.com/examples/interoperability_with_nodejs/>
 
 ## Video description
 
@@ -31618,13 +31302,11 @@ describe this to clean up your code even more. Deno 2.0 is focused on a really
 solid developer experience. New projects and migrations feel a whole lot easier
 with Deno.
 
-
 ---
 
 # Introduction to Deno APIs
 
-URL: https://docs.deno.com/examples/intro_to_deno_apis/
-
+URL: <https://docs.deno.com/examples/intro_to_deno_apis/>
 
 ## Video description
 
@@ -31820,29 +31502,23 @@ know that we don't have to include an external library for everything, Deno has
 us covered when it comes to managing errors handling servers and working with
 the file system.
 
-
 ---
 
 # Connect to Mongoose and MongoDB
 
-URL: https://docs.deno.com/examples/mongoose/
-
-
+URL: <https://docs.deno.com/examples/mongoose/>
 
 ---
 
 # Connect to Prisma
 
-URL: https://docs.deno.com/examples/prisma/
-
-
+URL: <https://docs.deno.com/examples/prisma/>
 
 ---
 
 # Publishing Modules with JSR
 
-URL: https://docs.deno.com/examples/publishing_modules_with_jsr/
-
+URL: <https://docs.deno.com/examples/publishing_modules_with_jsr/>
 
 ## Transcript and examples
 
@@ -31947,45 +31623,35 @@ different things. So I can on my own time develop this to ensure that I have 100
 percent here so that my code is well documented and very consumable by other
 developers.
 
-
 ---
 
 # Build a React app
 
-URL: https://docs.deno.com/examples/react_app_video/
-
-
+URL: <https://docs.deno.com/examples/react_app_video/>
 
 ---
 
 # Build a Realtime WebSocket Application
 
-URL: https://docs.deno.com/examples/realtime_websocket_app/
-
-
+URL: <https://docs.deno.com/examples/realtime_websocket_app/>
 
 ---
 
 # TypeScript and JSX
 
-URL: https://docs.deno.com/examples/ts_jsx/
-
-
+URL: <https://docs.deno.com/examples/ts_jsx/>
 
 ---
 
 # Build a Vue app
 
-URL: https://docs.deno.com/examples/vue_app_video/
-
-
+URL: <https://docs.deno.com/examples/vue_app_video/>
 
 ---
 
 # What is Deno?
 
-URL: https://docs.deno.com/examples/what_is_deno/
-
+URL: <https://docs.deno.com/examples/what_is_deno/>
 
 ## Video description
 
@@ -32024,13 +31690,11 @@ we're going to walk through the most important features of Deno with hands-on
 activities. Whether you've experimented with Deno in the past, or this is all
 new to you, I think you're going to like it here.
 
-
 ---
 
 # lint/rules/adjacent-overload-signatures.md
 
-URL: https://docs.deno.com/lint/rules/adjacent-overload-signatures
-
+URL: <https://docs.deno.com/lint/rules/adjacent-overload-signatures>
 
 Requires overload signatures to be adjacent to each other.
 
@@ -32113,13 +31777,11 @@ export function foo(sn: string | number): void {}
 export function bar(): void {}
 ```
 
-
 ---
 
 # lint/rules/ban-ts-comment.md
 
-URL: https://docs.deno.com/lint/rules/ban-ts-comment
-
+URL: <https://docs.deno.com/lint/rules/ban-ts-comment>
 
 Disallows the use of Typescript directives without a comment.
 
@@ -32161,13 +31823,11 @@ let a: number = "I am a string";
 let a: number = "I am a string";
 ```
 
-
 ---
 
 # lint/rules/ban-types.md
 
-URL: https://docs.deno.com/lint/rules/ban-types
-
+URL: <https://docs.deno.com/lint/rules/ban-types>
 
 Bans the use of primitive wrapper objects (e.g. `String` the object is a wrapper
 of `string` the primitive) in addition to the non-explicit `Function` type and
@@ -32212,13 +31872,11 @@ let f: object;
 let g: Record<string, never>;
 ```
 
-
 ---
 
 # lint/rules/ban-unknown-rule-code.md
 
-URL: https://docs.deno.com/lint/rules/ban-unknown-rule-code
-
+URL: <https://docs.deno.com/lint/rules/ban-unknown-rule-code>
 
 Warns the usage of unknown rule codes in ignore directives.
 
@@ -32256,13 +31914,11 @@ console.assert(x == 42);
 const b = "b";
 ```
 
-
 ---
 
 # lint/rules/ban-untagged-ignore.md
 
-URL: https://docs.deno.com/lint/rules/ban-untagged-ignore
-
+URL: <https://docs.deno.com/lint/rules/ban-untagged-ignore>
 
 Requires `deno-lint-ignore` to be annotated with one or more rule names.
 
@@ -32283,13 +31939,11 @@ export function duplicateArgumentsFn(a, b, a) {}
 export function duplicateArgumentsFn(a, b, a) {}
 ```
 
-
 ---
 
 # lint/rules/ban-untagged-todo.md
 
-URL: https://docs.deno.com/lint/rules/ban-untagged-todo
-
+URL: <https://docs.deno.com/lint/rules/ban-untagged-todo>
 
 Requires TODOs to be annotated with either a user tag (`@user`) or an issue
 reference (`#issue`).
@@ -32336,13 +31990,11 @@ export function calcValue(): number {}
 export function calcValue(): number {}
 ```
 
-
 ---
 
 # lint/rules/ban-unused-ignore.md
 
-URL: https://docs.deno.com/lint/rules/ban-unused-ignore
-
+URL: <https://docs.deno.com/lint/rules/ban-unused-ignore>
 
 Warns unused ignore directives.
 
@@ -32370,13 +32022,11 @@ export const foo = 42;
 export const foo = 42;
 ```
 
-
 ---
 
 # lint/rules/camelcase.md
 
-URL: https://docs.deno.com/lint/rules/camelcase
-
+URL: <https://docs.deno.com/lint/rules/camelcase>
 
 Enforces the use of camelCase in variable names.
 
@@ -32452,13 +32102,11 @@ interface PascalCaseInterface {
 }
 ```
 
-
 ---
 
 # lint/rules/constructor-super.md
 
-URL: https://docs.deno.com/lint/rules/constructor-super
-
+URL: <https://docs.deno.com/lint/rules/constructor-super>
 
 Verifies the correct usage of constructors and calls to `super()`.
 
@@ -32505,13 +32153,11 @@ class C extends A {
 class D extends null {}
 ```
 
-
 ---
 
 # lint/rules/default-param-last.md
 
-URL: https://docs.deno.com/lint/rules/default-param-last
-
+URL: <https://docs.deno.com/lint/rules/default-param-last>
 
 Enforces default parameter(s) to be last in the function signature.
 
@@ -32539,13 +32185,11 @@ function f(a, b = 5, ...c) {}
 function f(a = 2, b = 3) {}
 ```
 
-
 ---
 
 # lint/rules/eqeqeq.md
 
-URL: https://docs.deno.com/lint/rules/eqeqeq
-
+URL: <https://docs.deno.com/lint/rules/eqeqeq>
 
 Enforces the use of type-safe equality operators `===` and `!==` instead of the
 more error prone `==` and `!=` operators.
@@ -32569,13 +32213,11 @@ if (a === 5) {}
 if ("hello world" !== input) {}
 ```
 
-
 ---
 
 # lint/rules/explicit-function-return-type.md
 
-URL: https://docs.deno.com/lint/rules/explicit-function-return-type
-
+URL: <https://docs.deno.com/lint/rules/explicit-function-return-type>
 
 Requires all functions to have explicit return types.
 
@@ -32605,13 +32247,11 @@ function anotherCalc(): void {
 }
 ```
 
-
 ---
 
 # lint/rules/explicit-module-boundary-types.md
 
-URL: https://docs.deno.com/lint/rules/explicit-module-boundary-types
-
+URL: <https://docs.deno.com/lint/rules/explicit-module-boundary-types>
 
 Requires all module exports to have fully typed declarations.
 
@@ -32654,13 +32294,11 @@ function isValid() {
 }
 ```
 
-
 ---
 
 # lint/rules/for-direction.md
 
-URL: https://docs.deno.com/lint/rules/for-direction
-
+URL: <https://docs.deno.com/lint/rules/for-direction>
 
 Requires `for` loop control variables to increment in the correct direction.
 
@@ -32682,13 +32320,11 @@ for (let i = 0; i < 2; i--) {}
 for (let i = 0; i < 2; i++) {}
 ```
 
-
 ---
 
 # lint/rules/fresh-handler-export.md
 
-URL: https://docs.deno.com/lint/rules/fresh-handler-export
-
+URL: <https://docs.deno.com/lint/rules/fresh-handler-export>
 
 Checks correct naming for named fresh middleware export.
 
@@ -32719,13 +32355,11 @@ export function handler() {}
 export async function handler() {}
 ```
 
-
 ---
 
 # lint/rules/fresh-server-event-handlers.md
 
-URL: https://docs.deno.com/lint/rules/fresh-server-event-handlers
-
+URL: <https://docs.deno.com/lint/rules/fresh-server-event-handlers>
 
 Disallows event handlers in fresh server components.
 
@@ -32751,13 +32385,11 @@ folder, not to fresh islands or any other components.
 <my-custom-element />
 ```
 
-
 ---
 
 # lint/rules/getter-return.md
 
-URL: https://docs.deno.com/lint/rules/getter-return
-
+URL: <https://docs.deno.com/lint/rules/getter-return>
 
 Requires all property getter functions to return a value.
 
@@ -32792,13 +32424,11 @@ class Person {
 }
 ```
 
-
 ---
 
 # lint/rules/guard-for-in.md
 
-URL: https://docs.deno.com/lint/rules/guard-for-in
-
+URL: <https://docs.deno.com/lint/rules/guard-for-in>
 
 Require `for-in` loops to include an `if` statement.
 
@@ -32833,13 +32463,11 @@ for (const key in obj) {
 }
 ```
 
-
 ---
 
 # lint/rules/jsx-boolean-value.md
 
-URL: https://docs.deno.com/lint/rules/jsx-boolean-value
-
+URL: <https://docs.deno.com/lint/rules/jsx-boolean-value>
 
 Enforce a consistent JSX boolean value style. Passing `true` as the boolean
 value can be omitted with the shorthand syntax.
@@ -32858,13 +32486,11 @@ const foo = <Foo isFoo />;
 const foo = <Foo isFoo={false} />;
 ```
 
-
 ---
 
 # lint/rules/jsx-button-has-type.md
 
-URL: https://docs.deno.com/lint/rules/jsx-button-has-type
-
+URL: <https://docs.deno.com/lint/rules/jsx-button-has-type>
 
 Enforce `<button>` elements to have a `type` attribute. If a `<button>` is
 placed inside a `<form>` element it will act as a submit button by default which
@@ -32886,13 +32512,11 @@ const btn = <button type={btnType}>click me</button>;
 const btn = <button type={condition ? "button" : "submit"}>click me</button>;
 ```
 
-
 ---
 
 # lint/rules/jsx-curly-braces.md
 
-URL: https://docs.deno.com/lint/rules/jsx-curly-braces
-
+URL: <https://docs.deno.com/lint/rules/jsx-curly-braces>
 
 Ensure consistent use of curly braces around JSX expressions.
 
@@ -32912,13 +32536,11 @@ const foo = <Foo str="foo" />;
 const foo = <div>foo</div>;
 ```
 
-
 ---
 
 # lint/rules/jsx-key.md
 
-URL: https://docs.deno.com/lint/rules/jsx-key
-
+URL: <https://docs.deno.com/lint/rules/jsx-key>
 
 Ensure the `key` attribute is present when passing iterables into JSX. It allows
 frameworks to optimize checking the order of elements.
@@ -32941,13 +32563,11 @@ const foo = [<Fragment key="b">foo</Fragment>];
 Array.from([1, 2, 3], (x) => <div key={x} />);
 ```
 
-
 ---
 
 # lint/rules/jsx-no-children-prop.md
 
-URL: https://docs.deno.com/lint/rules/jsx-no-children-prop
-
+URL: <https://docs.deno.com/lint/rules/jsx-no-children-prop>
 
 Pass children as JSX children instead of as an attribute.
 
@@ -32965,13 +32585,11 @@ Pass children as JSX children instead of as an attribute.
 <div><Foo /><Bar /></div>
 ```
 
-
 ---
 
 # lint/rules/jsx-no-comment-text-nodes.md
 
-URL: https://docs.deno.com/lint/rules/jsx-no-comment-text-nodes
-
+URL: <https://docs.deno.com/lint/rules/jsx-no-comment-text-nodes>
 
 JavaScript comments inside text nodes are rendered as plain text in JSX. This is
 often unexpected.
@@ -32989,13 +32607,11 @@ often unexpected.
 <div>{/* comment */}</div>;
 ```
 
-
 ---
 
 # lint/rules/jsx-no-duplicate-props.md
 
-URL: https://docs.deno.com/lint/rules/jsx-no-duplicate-props
-
+URL: <https://docs.deno.com/lint/rules/jsx-no-duplicate-props>
 
 Disallow duplicated JSX props. Later props will always overwrite earlier props
 often leading to unexpected results.
@@ -33017,13 +32633,11 @@ often leading to unexpected results.
 <App {...b} b />
 ```
 
-
 ---
 
 # lint/rules/jsx-no-unescaped-entities.md
 
-URL: https://docs.deno.com/lint/rules/jsx-no-unescaped-entities
-
+URL: <https://docs.deno.com/lint/rules/jsx-no-unescaped-entities>
 
 Leaving the `>` or `}` character in JSX is often undesired and difficult to
 spot. Enforce that these characters must be passed as strings.
@@ -33043,13 +32657,11 @@ spot. Enforce that these characters must be passed as strings.
 <div>{"}"}</div>,
 ```
 
-
 ---
 
 # lint/rules/jsx-no-useless-fragment.md
 
-URL: https://docs.deno.com/lint/rules/jsx-no-useless-fragment
-
+URL: <https://docs.deno.com/lint/rules/jsx-no-useless-fragment>
 
 Fragments are only necessary at the top of a JSX "block" and only when there are
 multiple children. Fragments are not needed in other scenarios.
@@ -33072,13 +32684,11 @@ multiple children. Fragments are not needed in other scenarios.
 <p>foo bar</p>
 ```
 
-
 ---
 
 # lint/rules/jsx-props-no-spread-multi.md
 
-URL: https://docs.deno.com/lint/rules/jsx-props-no-spread-multi
-
+URL: <https://docs.deno.com/lint/rules/jsx-props-no-spread-multi>
 
 Spreading the same expression twice is typically a mistake and causes
 unnecessary computations.
@@ -33099,13 +32709,11 @@ unnecessary computations.
 <Foo {...foo.bar} />
 ```
 
-
 ---
 
 # lint/rules/jsx-void-dom-elements-no-children.md
 
-URL: https://docs.deno.com/lint/rules/jsx-void-dom-elements-no-children
-
+URL: <https://docs.deno.com/lint/rules/jsx-void-dom-elements-no-children>
 
 Ensure that void elements in HTML don't have any children as that is not valid
 HTML. See
@@ -33126,13 +32734,11 @@ for more information.
 <img src="a.jpg" />
 ```
 
-
 ---
 
 # lint/rules/no-array-constructor.md
 
-URL: https://docs.deno.com/lint/rules/no-array-constructor
-
+URL: <https://docs.deno.com/lint/rules/no-array-constructor>
 
 Enforce conventional usage of array construction.
 
@@ -33164,13 +32770,11 @@ const b = [];
 const c = [1, 2, 3];
 ```
 
-
 ---
 
 # lint/rules/no-async-promise-executor.md
 
-URL: https://docs.deno.com/lint/rules/no-async-promise-executor
-
+URL: <https://docs.deno.com/lint/rules/no-async-promise-executor>
 
 Requires that async promise executor functions are not used.
 
@@ -33202,13 +32806,11 @@ new Promise(function (resolve, reject) {});
 new Promise((resolve, reject) => {});
 ```
 
-
 ---
 
 # lint/rules/no-await-in-loop.md
 
-URL: https://docs.deno.com/lint/rules/no-await-in-loop
-
+URL: <https://docs.deno.com/lint/rules/no-await-in-loop>
 
 Requires `await` is not used in a for loop body.
 
@@ -33248,13 +32850,11 @@ async function doSomething(items) {
 }
 ```
 
-
 ---
 
 # lint/rules/no-await-in-sync-fn.md
 
-URL: https://docs.deno.com/lint/rules/no-await-in-sync-fn
-
+URL: <https://docs.deno.com/lint/rules/no-await-in-sync-fn>
 
 Disallow `await` keyword inside a non-async function.
 
@@ -33294,13 +32894,11 @@ const fooFn = async () => {
 };
 ```
 
-
 ---
 
 # lint/rules/no-boolean-literal-for-arguments.md
 
-URL: https://docs.deno.com/lint/rules/no-boolean-literal-for-arguments
-
+URL: <https://docs.deno.com/lint/rules/no-boolean-literal-for-arguments>
 
 Requires all functions called with any amount of `boolean` literals as
 parameters to use a self-documenting constant instead.
@@ -33354,13 +32952,11 @@ const ENABLE = true;
 enableLogs(ENABLE);
 ```
 
-
 ---
 
 # lint/rules/no-case-declarations.md
 
-URL: https://docs.deno.com/lint/rules/no-case-declarations
-
+URL: <https://docs.deno.com/lint/rules/no-case-declarations>
 
 Requires lexical declarations (`let`, `const`, `function` and `class`) in switch
 `case` or `default` clauses to be scoped with brackets.
@@ -33417,13 +33013,11 @@ switch (choice) {
 }
 ```
 
-
 ---
 
 # lint/rules/no-class-assign.md
 
-URL: https://docs.deno.com/lint/rules/no-class-assign
-
+URL: <https://docs.deno.com/lint/rules/no-class-assign>
 
 Disallows modifying variables of class declarations.
 
@@ -33446,13 +33040,11 @@ let c = new A();
 c = 0; // reassigning the variable `c`
 ```
 
-
 ---
 
 # lint/rules/no-compare-neg-zero.md
 
-URL: https://docs.deno.com/lint/rules/no-compare-neg-zero
-
+URL: <https://docs.deno.com/lint/rules/no-compare-neg-zero>
 
 Disallows comparing against negative zero (`-0`).
 
@@ -33474,13 +33066,11 @@ if (x === 0) {}
 if (Object.is(x, -0)) {}
 ```
 
-
 ---
 
 # lint/rules/no-cond-assign.md
 
-URL: https://docs.deno.com/lint/rules/no-cond-assign
-
+URL: <https://docs.deno.com/lint/rules/no-cond-assign>
 
 Disallows the use of the assignment operator, `=`, in conditional statements.
 
@@ -33523,13 +33113,11 @@ function setHeight(someNode) {
 }
 ```
 
-
 ---
 
 # lint/rules/no-console.md
 
-URL: https://docs.deno.com/lint/rules/no-console
-
+URL: <https://docs.deno.com/lint/rules/no-console>
 
 Disallows the use of the `console` global.
 
@@ -33568,13 +33156,11 @@ function logWarning(message: string) {
 }
 ```
 
-
 ---
 
 # lint/rules/no-const-assign.md
 
-URL: https://docs.deno.com/lint/rules/no-const-assign
-
+URL: <https://docs.deno.com/lint/rules/no-const-assign>
 
 Disallows modifying a variable declared as `const`.
 
@@ -33600,13 +33186,11 @@ const b = a + 1;
 for (const c in [1, 2, 3]) {}
 ```
 
-
 ---
 
 # lint/rules/no-constant-condition.md
 
-URL: https://docs.deno.com/lint/rules/no-constant-condition
-
+URL: <https://docs.deno.com/lint/rules/no-constant-condition>
 
 Disallows the use of a constant expression in conditional test.
 
@@ -33630,13 +33214,11 @@ if (x === 0) {}
 do {} while (x === 2);
 ```
 
-
 ---
 
 # lint/rules/no-control-regex.md
 
-URL: https://docs.deno.com/lint/rules/no-control-regex
-
+URL: <https://docs.deno.com/lint/rules/no-control-regex>
 
 Disallows the use ASCII control characters in regular expressions.
 
@@ -33664,13 +33246,11 @@ const pattern3 = new RegExp("\\x20");
 const pattern4 = new RegExp("\\u0020");
 ```
 
-
 ---
 
 # lint/rules/no-debugger.md
 
-URL: https://docs.deno.com/lint/rules/no-debugger
-
+URL: <https://docs.deno.com/lint/rules/no-debugger>
 
 Disallows the use of the `debugger` statement.
 
@@ -33696,13 +33276,11 @@ function isLongString(x: string) {
 }
 ```
 
-
 ---
 
 # lint/rules/no-delete-var.md
 
-URL: https://docs.deno.com/lint/rules/no-delete-var
-
+URL: <https://docs.deno.com/lint/rules/no-delete-var>
 
 Disallows the deletion of variables.
 
@@ -33731,13 +33309,11 @@ let obj = {
 delete obj.a; // return true
 ```
 
-
 ---
 
 # lint/rules/no-deprecated-deno-api.md
 
-URL: https://docs.deno.com/lint/rules/no-deprecated-deno-api
-
+URL: <https://docs.deno.com/lint/rules/no-deprecated-deno-api>
 
 Warns the usage of the deprecated - Deno APIs.
 
@@ -33795,13 +33371,11 @@ replacement.
 - `Deno.resources()`
 - `Deno.metrics()`
 
-
 ---
 
 # lint/rules/no-dupe-args.md
 
-URL: https://docs.deno.com/lint/rules/no-dupe-args
-
+URL: <https://docs.deno.com/lint/rules/no-dupe-args>
 
 Disallows using an argument name more than once in a function signature.
 
@@ -33825,13 +33399,11 @@ function withoutDupes(a, b, c) {
 }
 ```
 
-
 ---
 
 # lint/rules/no-dupe-class-members.md
 
-URL: https://docs.deno.com/lint/rules/no-dupe-class-members
-
+URL: <https://docs.deno.com/lint/rules/no-dupe-class-members>
 
 Disallows using a class member function name more than once.
 
@@ -33856,13 +33428,11 @@ class Foo {
 }
 ```
 
-
 ---
 
 # lint/rules/no-dupe-else-if.md
 
-URL: https://docs.deno.com/lint/rules/no-dupe-else-if
-
+URL: <https://docs.deno.com/lint/rules/no-dupe-else-if>
 
 Disallows using the same condition twice in an `if`/`else if` statement.
 
@@ -33894,13 +33464,11 @@ else if (a === 6) {}
 else if (a === 7) {}
 ```
 
-
 ---
 
 # lint/rules/no-dupe-keys.md
 
-URL: https://docs.deno.com/lint/rules/no-dupe-keys
-
+URL: <https://docs.deno.com/lint/rules/no-dupe-keys>
 
 Disallows duplicate keys in object literals.
 
@@ -33939,13 +33507,11 @@ const foo = {
 };
 ```
 
-
 ---
 
 # lint/rules/no-duplicate-case.md
 
-URL: https://docs.deno.com/lint/rules/no-duplicate-case
-
+URL: <https://docs.deno.com/lint/rules/no-duplicate-case>
 
 Disallows using the same case clause in a switch statement more than once.
 
@@ -33984,13 +33550,11 @@ switch (someText) {
 }
 ```
 
-
 ---
 
 # lint/rules/no-empty-character-class.md
 
-URL: https://docs.deno.com/lint/rules/no-empty-character-class
-
+URL: <https://docs.deno.com/lint/rules/no-empty-character-class>
 
 Disallows using the empty character class in a regular expression.
 
@@ -34017,13 +33581,11 @@ which is likely a typo or mistake.
 "abcdefg".match(/^abc[a-z]/); // ["abcd"]
 ```
 
-
 ---
 
 # lint/rules/no-empty-enum.md
 
-URL: https://docs.deno.com/lint/rules/no-empty-enum
-
+URL: <https://docs.deno.com/lint/rules/no-empty-enum>
 
 Disallows the declaration of an empty enum.
 
@@ -34044,13 +33606,11 @@ enum Foo {
 }
 ```
 
-
 ---
 
 # lint/rules/no-empty-interface.md
 
-URL: https://docs.deno.com/lint/rules/no-empty-interface
-
+URL: <https://docs.deno.com/lint/rules/no-empty-interface>
 
 Disallows the declaration of an empty interface.
 
@@ -34088,13 +33648,11 @@ interface Foo extends Bar {}
 interface Baz extends Foo, Bar {}
 ```
 
-
 ---
 
 # lint/rules/no-empty-pattern.md
 
-URL: https://docs.deno.com/lint/rules/no-empty-pattern
-
+URL: <https://docs.deno.com/lint/rules/no-empty-pattern>
 
 Disallows the use of empty patterns in destructuring.
 
@@ -34132,13 +33690,11 @@ function myFunc([a]) {}
 function myFunc([a = []]) {}
 ```
 
-
 ---
 
 # lint/rules/no-empty.md
 
-URL: https://docs.deno.com/lint/rules/no-empty
-
+URL: <https://docs.deno.com/lint/rules/no-empty>
 
 Disallows the use of empty block statements.
 
@@ -34187,13 +33743,11 @@ try {
 }
 ```
 
-
 ---
 
 # lint/rules/no-eval.md
 
-URL: https://docs.deno.com/lint/rules/no-eval
-
+URL: <https://docs.deno.com/lint/rules/no-eval>
 
 Disallows the use of `eval`.
 
@@ -34216,13 +33770,11 @@ const obj = { x: "foo" };
 const value = obj[x];
 ```
 
-
 ---
 
 # lint/rules/no-ex-assign.md
 
-URL: https://docs.deno.com/lint/rules/no-ex-assign
-
+URL: <https://docs.deno.com/lint/rules/no-ex-assign>
 
 Disallows the reassignment of exception parameters.
 
@@ -34250,13 +33802,11 @@ try {
 }
 ```
 
-
 ---
 
 # lint/rules/no-explicit-any.md
 
-URL: https://docs.deno.com/lint/rules/no-explicit-any
-
+URL: <https://docs.deno.com/lint/rules/no-explicit-any>
 
 Disallows use of the `any` type.
 
@@ -34285,13 +33835,11 @@ function foo(): undefined {
 }
 ```
 
-
 ---
 
 # lint/rules/no-external-import.md
 
-URL: https://docs.deno.com/lint/rules/no-external-import
-
+URL: <https://docs.deno.com/lint/rules/no-external-import>
 
 Disallows the use of external imports.
 
@@ -34332,15 +33880,13 @@ export {
 ```
 
 you can refer to the explanation of this convention here
-https://docs.deno.com/runtime/manual/basics/modules/#it-seems-unwieldy-to-import-urls-everywhere
-
+<https://docs.deno.com/runtime/manual/basics/modules/#it-seems-unwieldy-to-import-urls-everywhere>
 
 ---
 
 # lint/rules/no-extra-boolean-cast.md
 
-URL: https://docs.deno.com/lint/rules/no-extra-boolean-cast
-
+URL: <https://docs.deno.com/lint/rules/no-extra-boolean-cast>
 
 Disallows unnecessary boolean casts.
 
@@ -34366,13 +33912,11 @@ while (foo) {}
 for (; foo;) {}
 ```
 
-
 ---
 
 # lint/rules/no-extra-non-null-assertion.md
 
-URL: https://docs.deno.com/lint/rules/no-extra-non-null-assertion
-
+URL: <https://docs.deno.com/lint/rules/no-extra-non-null-assertion>
 
 Disallows unnecessary non-null assertions.
 
@@ -34409,13 +33953,11 @@ function anotherFunc(bar?: { str: string }) {
 }
 ```
 
-
 ---
 
 # lint/rules/no-fallthrough.md
 
-URL: https://docs.deno.com/lint/rules/no-fallthrough
-
+URL: <https://docs.deno.com/lint/rules/no-fallthrough>
 
 Disallows the implicit fallthrough of case statements.
 
@@ -34464,13 +34006,11 @@ switch (myVar) {
 // If myVar = 1, intentionally outputs both `1` and `2`
 ```
 
-
 ---
 
 # lint/rules/no-func-assign.md
 
-URL: https://docs.deno.com/lint/rules/no-func-assign
-
+URL: <https://docs.deno.com/lint/rules/no-func-assign>
 
 Disallows the overwriting/reassignment of an existing function.
 
@@ -34508,13 +34048,11 @@ let myFuncVar = function () {};
 myFuncVar = bar; // variable reassignment, not function re-declaration
 ```
 
-
 ---
 
 # lint/rules/no-global-assign.md
 
-URL: https://docs.deno.com/lint/rules/no-global-assign
-
+URL: <https://docs.deno.com/lint/rules/no-global-assign>
 
 Disallows assignment to native Javascript objects.
 
@@ -34530,13 +34068,11 @@ undefined = true;
 window = {};
 ```
 
-
 ---
 
 # lint/rules/no-implicit-declare-namespace-export.md
 
-URL: https://docs.deno.com/lint/rules/no-implicit-declare-namespace-export
-
+URL: <https://docs.deno.com/lint/rules/no-implicit-declare-namespace-export>
 
 Disallows the use of implicit exports in ["ambient" namespaces].
 
@@ -34574,13 +34110,11 @@ declare namespace ns {
 }
 ```
 
-
 ---
 
 # lint/rules/no-import-assertions.md
 
-URL: https://docs.deno.com/lint/rules/no-import-assertions
-
+URL: <https://docs.deno.com/lint/rules/no-import-assertions>
 
 Disallows the `assert` keyword for import attributes.
 
@@ -34602,13 +34136,11 @@ import obj from "./obj.json" with { type: "json" };
 import("./obj2.json", { with: { type: "json" } });
 ```
 
-
 ---
 
 # lint/rules/no-import-assign.md
 
-URL: https://docs.deno.com/lint/rules/no-import-assign
-
+URL: <https://docs.deno.com/lint/rules/no-import-assign>
 
 Disallows reassignment of imported module bindings.
 
@@ -34640,13 +34172,11 @@ namedMod.prop = true;
 modNameSpace.someExportedMember.prop = "hello";
 ```
 
-
 ---
 
 # lint/rules/no-import-prefix.md
 
-URL: https://docs.deno.com/lint/rules/no-import-prefix
-
+URL: <https://docs.deno.com/lint/rules/no-import-prefix>
 
 Ensure that all dependencies are declared in either `deno.json` or
 `package.json`.
@@ -34655,7 +34185,7 @@ This promotes better dependency management and makes it easier to track and
 update dependencies. It also helps Deno purge the lockfile when removing a
 dependency.
 
-### Invalid:
+### Invalid
 
 ```ts
 import foo from "https://deno.land/std/path/mod.ts";
@@ -34663,7 +34193,7 @@ import foo from "jsr:@std/path@1";
 import foo from "npm:preact@10";
 ```
 
-### Valid:
+### Valid
 
 ```ts
 import foo from "@std/path";
@@ -34679,13 +34209,11 @@ With a corresponding entry in the `deno.json` or `package.json` file:
 }
 ```
 
-
 ---
 
 # lint/rules/no-inferrable-types.md
 
-URL: https://docs.deno.com/lint/rules/no-inferrable-types
-
+URL: <https://docs.deno.com/lint/rules/no-inferrable-types>
 
 Disallows easily inferrable types.
 
@@ -34752,13 +34280,11 @@ class Foo {
 function fn(s = 5, t = true) {}
 ```
 
-
 ---
 
 # lint/rules/no-inner-declarations.md
 
-URL: https://docs.deno.com/lint/rules/no-inner-declarations
-
+URL: <https://docs.deno.com/lint/rules/no-inner-declarations>
 
 Disallows variable or function definitions in nested blocks.
 
@@ -34802,13 +34328,11 @@ function someFunc(someVal: number): void {
 }
 ```
 
-
 ---
 
 # lint/rules/no-invalid-regexp.md
 
-URL: https://docs.deno.com/lint/rules/no-invalid-regexp
-
+URL: <https://docs.deno.com/lint/rules/no-invalid-regexp>
 
 Disallows specifying invalid regular expressions in RegExp constructors.
 
@@ -34828,13 +34352,11 @@ const invalidRegExp = new RegExp(")");
 const goodRegExp = new RegExp(".");
 ```
 
-
 ---
 
 # lint/rules/no-invalid-triple-slash-reference.md
 
-URL: https://docs.deno.com/lint/rules/no-invalid-triple-slash-reference
-
+URL: <https://docs.deno.com/lint/rules/no-invalid-triple-slash-reference>
 
 Warns the wrong usage of triple-slash reference directives.
 
@@ -34897,13 +34419,11 @@ _TypeScript_
 // ... the rest of the TypeScript ...
 ```
 
-
 ---
 
 # lint/rules/no-irregular-whitespace.md
 
-URL: https://docs.deno.com/lint/rules/no-irregular-whitespace
-
+URL: <https://docs.deno.com/lint/rules/no-irregular-whitespace>
 
 Disallows the use of non-space or non-tab whitespace characters.
 
@@ -34945,13 +34465,11 @@ To fix this linting issue, replace instances of the above with regular spaces,
 tabs or new lines. If it's not obvious where the offending character(s) are try
 retyping the line from scratch.
 
-
 ---
 
 # lint/rules/no-misused-new.md
 
-URL: https://docs.deno.com/lint/rules/no-misused-new
-
+URL: <https://docs.deno.com/lint/rules/no-misused-new>
 
 Disallows defining `constructor`s for interfaces or `new` for classes
 
@@ -34982,13 +34500,11 @@ interface I {
 }
 ```
 
-
 ---
 
 # lint/rules/no-namespace.md
 
-URL: https://docs.deno.com/lint/rules/no-namespace
-
+URL: <https://docs.deno.com/lint/rules/no-namespace>
 
 Disallows the use of `namespace` and `module` keywords in TypeScript code.
 
@@ -35003,7 +34519,6 @@ cases:
   keywords
 - they are written in TypeScript's type definition files: `.d.ts`
 
-["ambient" namespaces]: https://www.typescriptlang.org/docs/handbook/namespaces.html#ambient-namespaces
 
 **Invalid:**
 
@@ -35038,13 +34553,11 @@ declare module "mod3" {}
 declare namespace ns2 {}
 ```
 
-
 ---
 
 # lint/rules/no-new-symbol.md
 
-URL: https://docs.deno.com/lint/rules/no-new-symbol
-
+URL: <https://docs.deno.com/lint/rules/no-new-symbol>
 
 Disallows the use of `new` operators with built-in `Symbol`s.
 
@@ -35069,13 +34582,11 @@ function func(Symbol: typeof SomeClass) {
 }
 ```
 
-
 ---
 
 # lint/rules/no-node-globals.md
 
-URL: https://docs.deno.com/lint/rules/no-node-globals
-
+URL: <https://docs.deno.com/lint/rules/no-node-globals>
 
 Disallows the use of NodeJS global objects.
 
@@ -35099,13 +34610,11 @@ import { Buffer } from "node:buffer";
 const foo = Buffer.from("foo", "utf-8");
 ```
 
-
 ---
 
 # lint/rules/no-non-null-asserted-optional-chain.md
 
-URL: https://docs.deno.com/lint/rules/no-non-null-asserted-optional-chain
-
+URL: <https://docs.deno.com/lint/rules/no-non-null-asserted-optional-chain>
 
 Disallow non-null assertions after an optional chain expression.
 
@@ -35127,13 +34636,11 @@ foo?.bar;
 foo?.bar();
 ```
 
-
 ---
 
 # lint/rules/no-non-null-assertion.md
 
-URL: https://docs.deno.com/lint/rules/no-non-null-assertion
-
+URL: <https://docs.deno.com/lint/rules/no-non-null-assertion>
 
 Disallow non-null assertions using the `!` postfix operator.
 
@@ -35165,13 +34672,11 @@ declare const example: Example;
 const includes = example.property?.includes("foo") ?? false;
 ```
 
-
 ---
 
 # lint/rules/no-obj-calls.md
 
-URL: https://docs.deno.com/lint/rules/no-obj-calls
-
+URL: <https://docs.deno.com/lint/rules/no-obj-calls>
 
 Disallows calling built-in global objects like functions.
 
@@ -35214,13 +34719,11 @@ const x = Reflect.get({ x: 1, y: 2 }, "x");
 const first = Atomics.load(foo, 0);
 ```
 
-
 ---
 
 # lint/rules/no-octal.md
 
-URL: https://docs.deno.com/lint/rules/no-octal
-
+URL: <https://docs.deno.com/lint/rules/no-octal>
 
 Disallows expressing octal numbers via numeric literals beginning with `0`.
 
@@ -35246,13 +34749,11 @@ const b = 7 + 0o42;
 const c = "042";
 ```
 
-
 ---
 
 # lint/rules/no-process-global.md
 
-URL: https://docs.deno.com/lint/rules/no-process-global
-
+URL: <https://docs.deno.com/lint/rules/no-process-global>
 
 Disallows the use of NodeJS `process` global.
 
@@ -35276,13 +34777,11 @@ import process from "node:process";
 const foo = process.env.FOO;
 ```
 
-
 ---
 
 # lint/rules/no-prototype-builtins.md
 
-URL: https://docs.deno.com/lint/rules/no-prototype-builtins
-
+URL: <https://docs.deno.com/lint/rules/no-prototype-builtins>
 
 Disallows the use of `Object.prototype` builtins directly.
 
@@ -35313,13 +34812,11 @@ const b = Object.prototype.isPrototypeOf.call(foo, "bar");
 const c = Object.prototype.propertyIsEnumerable.call(foo, "bar");
 ```
 
-
 ---
 
 # lint/rules/no-redeclare.md
 
-URL: https://docs.deno.com/lint/rules/no-redeclare
-
+URL: <https://docs.deno.com/lint/rules/no-redeclare>
 
 Disallows redeclaration of variables, functions, parameters with the same name.
 
@@ -35371,13 +34868,11 @@ if (foo) {
 }
 ```
 
-
 ---
 
 # lint/rules/no-regex-spaces.md
 
-URL: https://docs.deno.com/lint/rules/no-regex-spaces
-
+URL: <https://docs.deno.com/lint/rules/no-regex-spaces>
 
 Disallows multiple spaces in regular expression literals.
 
@@ -35427,13 +34922,11 @@ const re11 = new RegExp(" ?");
 const re12 = new RegExp(" *");
 ```
 
-
 ---
 
 # lint/rules/no-self-assign.md
 
-URL: https://docs.deno.com/lint/rules/no-self-assign
-
+URL: <https://docs.deno.com/lint/rules/no-self-assign>
 
 Disallows self assignments.
 
@@ -35462,13 +34955,11 @@ a = [a];
 a.b = a.c;
 ```
 
-
 ---
 
 # lint/rules/no-self-compare.md
 
-URL: https://docs.deno.com/lint/rules/no-self-compare
-
+URL: <https://docs.deno.com/lint/rules/no-self-compare>
 
 Disallows comparisons where both sides are exactly the same.
 
@@ -35502,13 +34993,11 @@ if (a["b"] === a["c"]) {
 }
 ```
 
-
 ---
 
 # lint/rules/no-setter-return.md
 
-URL: https://docs.deno.com/lint/rules/no-setter-return
-
+URL: <https://docs.deno.com/lint/rules/no-setter-return>
 
 Disallows returning values from setters.
 
@@ -35572,13 +35061,11 @@ const c = {
 };
 ```
 
-
 ---
 
 # lint/rules/no-shadow-restricted-names.md
 
-URL: https://docs.deno.com/lint/rules/no-shadow-restricted-names
-
+URL: <https://docs.deno.com/lint/rules/no-shadow-restricted-names>
 
 Disallows shadowing of restricted names.
 
@@ -35642,13 +35129,11 @@ try {
 } catch (e) {}
 ```
 
-
 ---
 
 # lint/rules/no-sloppy-imports.md
 
-URL: https://docs.deno.com/lint/rules/no-sloppy-imports
-
+URL: <https://docs.deno.com/lint/rules/no-sloppy-imports>
 
 Enforces specifying explicit references to paths in module specifiers.
 
@@ -35657,39 +35142,35 @@ path on every run, which has a performance overhead.
 
 Note: This lint rule is only active when using `--unstable-sloppy-imports`.
 
-### Invalid:
+### Invalid
 
 ```typescript
 import { add } from "./math/add";
 import { ConsoleLogger } from "./loggers";
 ```
 
-### Valid:
+### Valid
 
 ```typescript
 import { add } from "./math/add.ts";
 import { ConsoleLogger } from "./loggers/index.ts";
 ```
 
-
 ---
 
 # lint/rules/no-slow-types.md
 
-URL: https://docs.deno.com/lint/rules/no-slow-types
-
+URL: <https://docs.deno.com/lint/rules/no-slow-types>
 
 Enforces using types that are explicit or can be simply inferred.
 
-Read more: https://jsr.io/docs/about-slow-types
-
+Read more: <https://jsr.io/docs/about-slow-types>
 
 ---
 
 # lint/rules/no-sparse-arrays.md
 
-URL: https://docs.deno.com/lint/rules/no-sparse-arrays
-
+URL: <https://docs.deno.com/lint/rules/no-sparse-arrays>
 
 Disallows sparse arrays.
 
@@ -35717,13 +35198,11 @@ const items = ["foo", , "bar"];
 const items = ["foo", "bar"];
 ```
 
-
 ---
 
 # lint/rules/no-sync-fn-in-async-fn.md
 
-URL: https://docs.deno.com/lint/rules/no-sync-fn-in-async-fn
-
+URL: <https://docs.deno.com/lint/rules/no-sync-fn-in-async-fn>
 
 Disallow sync function inside async function.
 
@@ -35767,13 +35246,11 @@ const fooFn = () => {
 };
 ```
 
-
 ---
 
 # lint/rules/no-this-alias.md
 
-URL: https://docs.deno.com/lint/rules/no-this-alias
-
+URL: <https://docs.deno.com/lint/rules/no-this-alias>
 
 Disallows assigning variables to `this`.
 
@@ -35865,13 +35342,11 @@ const self = "this";
 const [foo] = this;
 ```
 
-
 ---
 
 # lint/rules/no-this-before-super.md
 
-URL: https://docs.deno.com/lint/rules/no-this-before-super
-
+URL: <https://docs.deno.com/lint/rules/no-this-before-super>
 
 Disallows use of `this` or `super` before calling `super()` in constructors.
 
@@ -35924,13 +35399,11 @@ class E {
 }
 ```
 
-
 ---
 
 # lint/rules/no-throw-literal.md
 
-URL: https://docs.deno.com/lint/rules/no-throw-literal
-
+URL: <https://docs.deno.com/lint/rules/no-throw-literal>
 
 Disallow throwing literals as exceptions.
 
@@ -35954,13 +35427,11 @@ throw null;
 throw new Error("error");
 ```
 
-
 ---
 
 # lint/rules/no-top-level-await.md
 
-URL: https://docs.deno.com/lint/rules/no-top-level-await
-
+URL: <https://docs.deno.com/lint/rules/no-top-level-await>
 
 Disallows the use of top level await expressions.
 
@@ -35984,13 +35455,11 @@ async function foo() {
 }
 ```
 
-
 ---
 
 # lint/rules/no-undef.md
 
-URL: https://docs.deno.com/lint/rules/no-undef
-
+URL: <https://docs.deno.com/lint/rules/no-undef>
 
 Disallow the use of undeclared variables.
 
@@ -36001,13 +35470,11 @@ const foo = someFunction();
 const bar = a + 1;
 ```
 
-
 ---
 
 # lint/rules/no-unreachable.md
 
-URL: https://docs.deno.com/lint/rules/no-unreachable
-
+URL: <https://docs.deno.com/lint/rules/no-unreachable>
 
 Disallows the unreachable code after the control flow statements.
 
@@ -36070,13 +35537,11 @@ function foo() {
 }
 ```
 
-
 ---
 
 # lint/rules/no-unsafe-finally.md
 
-URL: https://docs.deno.com/lint/rules/no-unsafe-finally
-
+URL: <https://docs.deno.com/lint/rules/no-unsafe-finally>
 
 Disallows the use of control flow statements within `finally` blocks.
 
@@ -36124,13 +35589,11 @@ let foo = function () {
 };
 ```
 
-
 ---
 
 # lint/rules/no-unsafe-negation.md
 
-URL: https://docs.deno.com/lint/rules/no-unsafe-negation
-
+URL: <https://docs.deno.com/lint/rules/no-unsafe-negation>
 
 Disallows the usage of negation operator `!` as the left operand of relational
 operators.
@@ -36164,13 +35627,11 @@ if ((!key) in object) {}
 if ((!foo) instanceof Foo) {}
 ```
 
-
 ---
 
 # lint/rules/no-unused-labels.md
 
-URL: https://docs.deno.com/lint/rules/no-unused-labels
-
+URL: <https://docs.deno.com/lint/rules/no-unused-labels>
 
 Disallows unused labels.
 
@@ -36217,13 +35678,11 @@ for (const x of xs) {
 }
 ```
 
-
 ---
 
 # lint/rules/no-unused-vars.md
 
-URL: https://docs.deno.com/lint/rules/no-unused-vars
-
+URL: <https://docs.deno.com/lint/rules/no-unused-vars>
 
 Enforces all variables are used at least once.
 
@@ -36312,24 +35771,22 @@ export function e(x: number): number {
 export const f = "exported variable";
 ```
 
-
 ---
 
 # lint/rules/no-unversioned-import.md
 
-URL: https://docs.deno.com/lint/rules/no-unversioned-import
-
+URL: <https://docs.deno.com/lint/rules/no-unversioned-import>
 
 Ensure that inline dependency imports have a version specifier.
 
-### Invalid:
+### Invalid
 
 ```ts
 import foo from "npm:chalk";
 import foo from "jsr:@std/path";
 ```
 
-### Valid:
+### Valid
 
 ```ts
 import foo from "npm:chalk@5.3.0";
@@ -36338,13 +35795,11 @@ import foo from "jsr:@std/path@1.0.8";
 import foo from "jsr:@std/path@^1.0.8";
 ```
 
-
 ---
 
 # lint/rules/no-useless-rename.md
 
-URL: https://docs.deno.com/lint/rules/no-useless-rename
-
+URL: <https://docs.deno.com/lint/rules/no-useless-rename>
 
 Disallow useless rename operations where both the original and new name are
 exactly the same. This is often a leftover from a refactoring procedure and can
@@ -36366,13 +35821,11 @@ const { foo: bar } = obj;
 export { foo as bar };
 ```
 
-
 ---
 
 # lint/rules/no-var.md
 
-URL: https://docs.deno.com/lint/rules/no-var
-
+URL: <https://docs.deno.com/lint/rules/no-var>
 
 Enforces the use of block scoped variables over more error prone function scoped
 variables. Block scoped variables are defined using `const` and `let` keywords.
@@ -36394,13 +35847,11 @@ const foo = 1;
 let bar = 2;
 ```
 
-
 ---
 
 # lint/rules/no-window-prefix.md
 
-URL: https://docs.deno.com/lint/rules/no-window-prefix
-
+URL: <https://docs.deno.com/lint/rules/no-window-prefix>
 
 Disallows the use of Web APIs via the `window` object.
 
@@ -36443,13 +35894,11 @@ window.alert("🍣");
 window.location.host;
 ```
 
-
 ---
 
 # lint/rules/no-window.md
 
-URL: https://docs.deno.com/lint/rules/no-window
-
+URL: <https://docs.deno.com/lint/rules/no-window>
 
 Disallows the use of the `window` object.
 
@@ -36487,13 +35936,11 @@ addEventListener("load", () => {
 });
 ```
 
-
 ---
 
 # lint/rules/no-with.md
 
-URL: https://docs.deno.com/lint/rules/no-with
-
+URL: <https://docs.deno.com/lint/rules/no-with>
 
 Disallows the usage of `with` statements.
 
@@ -36510,13 +35957,11 @@ with (someVar) {
 }
 ```
 
-
 ---
 
 # lint/rules/prefer-as-const.md
 
-URL: https://docs.deno.com/lint/rules/prefer-as-const
-
+URL: <https://docs.deno.com/lint/rules/prefer-as-const>
 
 Recommends using const assertion (`as const`) over explicitly specifying literal
 types or using type assertion.
@@ -36553,13 +35998,11 @@ let y: string = "hello";
 let z: number = someVariable;
 ```
 
-
 ---
 
 # lint/rules/prefer-ascii.md
 
-URL: https://docs.deno.com/lint/rules/prefer-ascii
-
+URL: <https://docs.deno.com/lint/rules/prefer-ascii>
 
 Ensures that the code is fully written in ASCII characters.
 
@@ -36609,13 +36052,11 @@ function hello(name: string) {
 // "comments" are also checked
 ```
 
-
 ---
 
 # lint/rules/prefer-const.md
 
-URL: https://docs.deno.com/lint/rules/prefer-const
-
+URL: <https://docs.deno.com/lint/rules/prefer-const>
 
 Recommends declaring variables with [`const`] over [`let`].
 
@@ -36695,13 +36136,11 @@ if (trueOrFalse) {
 }
 ```
 
-
 ---
 
 # lint/rules/prefer-namespace-keyword.md
 
-URL: https://docs.deno.com/lint/rules/prefer-namespace-keyword
-
+URL: <https://docs.deno.com/lint/rules/prefer-namespace-keyword>
 
 Recommends the use of `namespace` keyword over `module` keyword when declaring
 TypeScript module.
@@ -36732,13 +36171,11 @@ declare module "modB";
 declare module "modC" {}
 ```
 
-
 ---
 
 # lint/rules/prefer-primordials.md
 
-URL: https://docs.deno.com/lint/rules/prefer-primordials
-
+URL: <https://docs.deno.com/lint/rules/prefer-primordials>
 
 Suggests using frozen intrinsics from `primordials` rather than the default
 globals.
@@ -36791,13 +36228,11 @@ const i = NumberParseInt("42");
 const { ReflectOwnKeys } = primordials;
 ```
 
-
 ---
 
 # lint/rules/react-no-danger-with-children.md
 
-URL: https://docs.deno.com/lint/rules/react-no-danger-with-children
-
+URL: <https://docs.deno.com/lint/rules/react-no-danger-with-children>
 
 Using JSX children together with `dangerouslySetInnerHTML` is invalid as they
 will be ignored.
@@ -36816,13 +36251,11 @@ will be ignored.
 <div dangerouslySetInnerHTML={{ __html: "<h1>hello</h1>" }} />;
 ```
 
-
 ---
 
 # lint/rules/react-no-danger.md
 
-URL: https://docs.deno.com/lint/rules/react-no-danger
-
+URL: <https://docs.deno.com/lint/rules/react-no-danger>
 
 Prevent the use of `dangerouslySetInnerHTML` which can lead to XSS
 vulnerabilities if used incorrectly.
@@ -36839,13 +36272,11 @@ const hello = <div dangerouslySetInnerHTML={{ __html: "Hello World!" }} />;
 const hello = <div>Hello World!</div>;
 ```
 
-
 ---
 
 # lint/rules/react-rules-of-hooks.md
 
-URL: https://docs.deno.com/lint/rules/react-rules-of-hooks
-
+URL: <https://docs.deno.com/lint/rules/react-rules-of-hooks>
 
 Ensure that hooks are called correctly in React/Preact components. They must be
 called at the top level of a component and not inside a conditional statement or
@@ -36893,13 +36324,11 @@ function MyComponent() {
 }
 ```
 
-
 ---
 
 # lint/rules/require-await.md
 
-URL: https://docs.deno.com/lint/rules/require-await
-
+URL: <https://docs.deno.com/lint/rules/require-await>
 
 Disallows async functions that have no await expression or await using
 declaration.
@@ -36973,13 +36402,11 @@ async function* gen() {
 }
 ```
 
-
 ---
 
 # lint/rules/require-yield.md
 
-URL: https://docs.deno.com/lint/rules/require-yield
-
+URL: <https://docs.deno.com/lint/rules/require-yield>
 
 Disallows generator functions that have no `yield`.
 
@@ -37012,13 +36439,11 @@ function f3() {
 }
 ```
 
-
 ---
 
 # lint/rules/single-var-declarator.md
 
-URL: https://docs.deno.com/lint/rules/single-var-declarator
-
+URL: <https://docs.deno.com/lint/rules/single-var-declarator>
 
 Disallows multiple variable definitions in the same declaration statement.
 
@@ -37035,13 +36460,11 @@ const foo = 1;
 const bar = "2";
 ```
 
-
 ---
 
 # lint/rules/triple-slash-reference.md
 
-URL: https://docs.deno.com/lint/rules/triple-slash-reference
-
+URL: <https://docs.deno.com/lint/rules/triple-slash-reference>
 
 Disallow certain triple slash directives in favor of ES6-style import
 declarations.
@@ -37065,13 +36488,11 @@ import * as foo from "foo";
 import * as foo from "foo";
 ```
 
-
 ---
 
 # lint/rules/use-isnan.md
 
-URL: https://docs.deno.com/lint/rules/use-isnan
-
+URL: <https://docs.deno.com/lint/rules/use-isnan>
 
 Disallows comparisons to `NaN`.
 
@@ -37118,13 +36539,11 @@ if (!isNaN(foo)) {
 }
 ```
 
-
 ---
 
 # lint/rules/valid-typeof.md
 
-URL: https://docs.deno.com/lint/rules/valid-typeof
-
+URL: <https://docs.deno.com/lint/rules/valid-typeof>
 
 Restricts the use of the `typeof` operator to a specific set of string literals.
 
@@ -37175,13 +36594,11 @@ typeof baz === "string";
 typeof bar === typeof qux;
 ```
 
-
 ---
 
 # lint/rules/verbatim-module-syntax.md
 
-URL: https://docs.deno.com/lint/rules/verbatim-module-syntax
-
+URL: <https://docs.deno.com/lint/rules/verbatim-module-syntax>
 
 Enforces type imports to be declared as type imports.
 
@@ -37229,15 +36646,13 @@ const person: Person = {
 output(person);
 ```
 
-
 ---
 
 # Architecture Overview
 
 > Deep dive into Deno's internal architecture, explaining core components like the runtime, compiler, and security sandbox. Learn how Deno processes requests and executes JavaScript/TypeScript code.
 
-URL: https://docs.deno.com/runtime/contributing/architecture
-
+URL: <https://docs.deno.com/runtime/contributing/architecture>
 
 ## Deno and Linux analogy
 
@@ -37247,9 +36662,9 @@ URL: https://docs.deno.com/runtime/contributing/architecture
 |                        Syscalls | Ops                                |
 |           File descriptors (fd) | [Resource ids (rid)](#resources)   |
 |                       Scheduler | Tokio                              |
-| Userland: libc++ / glib / boost | https://jsr.io/@std                |
+| Userland: libc++ / glib / boost | <https://jsr.io/@std>                |
 |                 /proc/\$\$/stat | [Deno.metrics()](#metrics)         |
-|                       man pages | deno types / https://docs.deno.com |
+|                       man pages | deno types / <https://docs.deno.com> |
 
 ### Resources
 
@@ -37298,15 +36713,13 @@ Metrics is Deno's internal counter for various statistics.
   [Deno internals - how modern JS/TS runtime is
   built](https://www.youtube.com/watch?v=AOvg_GbnsbA&t=35m13s). Paris Deno.
 
-
 ---
 
 # Documentation guidelines
 
 > Guide for contributing to Deno's documentation. Learn our documentation standards, writing style, and how to submit documentation changes.
 
-URL: https://docs.deno.com/runtime/contributing/docs
-
+URL: <https://docs.deno.com/runtime/contributing/docs>
 
 We welcome and appreciate contributions to the Deno documentation. If you find
 an issue, or want to add to the docs, each page has an "Edit this page" button
@@ -37344,15 +36757,13 @@ will look before submitting a pull request.
 To see a more detailed description of available tasks, check out the
 [Deno docs README](https://github.com/denoland/docs?tab=readme-ov-file#deno-docs)
 
-
 ---
 
 # Contributing an example
 
 > Learn how to create and contribute meaningful examples to the Deno docs.
 
-URL: https://docs.deno.com/runtime/contributing/examples
-
+URL: <https://docs.deno.com/runtime/contributing/examples>
 
 [Deno by Example](/examples/) is a collection of examples that demonstrate how
 to use Deno and its APIs. If you contribute an example, we'll send you a free
@@ -37376,15 +36787,13 @@ If you've contributed an example, drop us an email at
 [docs@deno.com](mailto:docs@deno.com) and let us know so we can get your
 stickers out to you!
 
-
 ---
 
 # Contributing and support
 
 > Guide to contributing to the Deno project and ecosystem. Learn about different Deno repositories, contribution guidelines, and how to submit effective pull requests.
 
-URL: https://docs.deno.com/runtime/contributing/
-
+URL: <https://docs.deno.com/runtime/contributing/>
 
 We welcome and appreciate all contributions to Deno.
 
@@ -37429,7 +36838,7 @@ Languages: **Rust**
 ### [deno_doc](https://github.com/denoland/deno_doc)
 
 Documentation generator that powers `deno doc` subcommand, and reference
-documentation on https://docs.deno.com/api, and https://jsr.io.
+documentation on <https://docs.deno.com/api>, and <https://jsr.io>.
 
 Languages: **Rust**
 
@@ -37489,8 +36898,8 @@ Examples of bad PR title:
 - update docs
 - fix bugs
 
-2. Ensure there is a related issue and that it is referenced in the PR text.
-3. Ensure there are tests that cover the changes.
+1. Ensure there is a related issue and that it is referenced in the PR text.
+2. Ensure there are tests that cover the changes.
 
 ## Documenting APIs
 
@@ -37511,7 +36920,7 @@ and are denoted by a leading `/**` before terminating with a `*/`. For example:
 export const FOO = "foo";
 ```
 
-Find more at: https://jsdoc.app/
+Find more at: <https://jsdoc.app/>
 
 ### Rust
 
@@ -37545,15 +36954,13 @@ You can analyze the generated flamegraph to identify:
 When submitting performance-related contributions, including profiling data can
 help the team to understand and validate your improvements.
 
-
 ---
 
 # Release Schedule
 
 > Overview of Deno's release cycle and versioning process. Learn about stable releases, canary builds, and how to manage different Deno versions including upgrading to specific builds.
 
-URL: https://docs.deno.com/runtime/contributing/release_schedule
-
+URL: <https://docs.deno.com/runtime/contributing/release_schedule>
 
 A new minor release for the `deno` cli is scheduled for release every 12 weeks.
 
@@ -37584,8 +36991,7 @@ deno upgrade --canary --version=973af61d8bb03c1709f61e456581d58386ed4952
 
 To switch back to the stable channel, run `deno upgrade`.
 
-Canaries can be downloaded from https://dl.deno.land.
-
+Canaries can be downloaded from <https://dl.deno.land>.
 
 ---
 
@@ -37593,8 +36999,7 @@ Canaries can be downloaded from https://dl.deno.land.
 
 > Comprehensive style guide for contributing to Deno's internal runtime code and standard library. Covers coding conventions, documentation standards, testing requirements, and best practices for TypeScript and Rust development.
 
-URL: https://docs.deno.com/runtime/contributing/style_guide
-
+URL: <https://docs.deno.com/runtime/contributing/style_guide>
 
 :::note
 
@@ -37645,7 +37050,7 @@ the vast majority of cases it does not.
 ### Inclusive code
 
 Please follow the guidelines for inclusive code outlined at
-https://chromium.googlesource.com/chromium/src/+/HEAD/styleguide/inclusive_code.md.
+<https://chromium.googlesource.com/chromium/src/+/HEAD/styleguide/inclusive_code.md>.
 
 ### Rust
 
@@ -37981,42 +37386,42 @@ Bad: cannot parse input
 Good: Cannot parse input
 ```
 
-2. Messages should not end with a period:
+1. Messages should not end with a period:
 
 ```sh
 Bad: Cannot parse input.
 Good: Cannot parse input
 ```
 
-3. Message should use quotes for values for strings:
+1. Message should use quotes for values for strings:
 
 ```sh
 Bad: Cannot parse input hello, world
 Good: Cannot parse input "hello, world"
 ```
 
-4. Message should state the action that lead to the error:
+1. Message should state the action that lead to the error:
 
 ```sh
 Bad: Invalid input x
 Good: Cannot parse input x
 ```
 
-5. Active voice should be used:
+1. Active voice should be used:
 
 ```sh
 Bad: Input x cannot be parsed
 Good: Cannot parse input x
 ```
 
-6. Messages should not use contractions:
+1. Messages should not use contractions:
 
 ```sh
 Bad: Can't parse input x
 Good: Cannot parse input x
 ```
 
-7. Messages should use a colon when providing additional information. Periods
+1. Messages should use a colon when providing additional information. Periods
    should never be used. Other punctuation may be used as needed:
 
 ```sh
@@ -38024,7 +37429,7 @@ Bad: Cannot parse input x. value is empty
 Good: Cannot parse input x: value is empty
 ```
 
-8. Additional information should describe the current state, if possible, it
+1. Additional information should describe the current state, if possible, it
    should also describe the desired state in an affirmative voice:
 
 ```sh
@@ -38035,13 +37440,13 @@ Better: Cannot compute the square root for x as x must be >= 0: current value is
 
 ### std
 
-#### Do not depend on external code.
+#### Do not depend on external code
 
 `https://jsr.io/@std` is intended to be baseline functionality that all Deno
 programs can rely on. We want to guarantee to users that this code does not
 include potentially unreviewed third-party code.
 
-#### Document and maintain browser compatibility.
+#### Document and maintain browser compatibility
 
 If a module is browser-compatible, include the following in the JSDoc at the top
 of the module:
@@ -38171,15 +37576,13 @@ function convertURL(url: URL) {
 }
 ```
 
-
 ---
 
 # deno.json and package.json
 
 > The guide to configuring your Deno projects. Learn about TypeScript settings, tasks, dependencies, formatting, linting, and how to use both deno.json and/or package.json effectively.
 
-URL: https://docs.deno.com/runtime/fundamentals/configuration
-
+URL: <https://docs.deno.com/runtime/fundamentals/configuration>
 
 You can configure Deno using a `deno.json` file. This file can be used to
 configure the TypeScript compiler, linter, formatter, and other Deno tools.
@@ -38722,7 +38125,7 @@ Permissions can be defined in key value pairs under the `"permissions"` key:
 Then used by specifying the `--permission-set=<name>` or `-P=<name>` flag:
 
 ```sh
-$ deno run -P=read-data main.ts
+deno run -P=read-data main.ts
 ```
 
 ### Default permission
@@ -38743,7 +38146,7 @@ A special `"default"` permission key allows excluding the name when using the
 Then run with just `-P`:
 
 ```sh
-$ deno run -P main.ts
+deno run -P main.ts
 ```
 
 ### Test, bench, and compile permissions
@@ -38878,15 +38281,13 @@ HTTP_PROXY, HTTPS_PROXY and NO_PROXY.
 If you are using Windows - if environment variables are not found Deno falls
 back to reading proxies from the registry.
 
-
 ---
 
 # Debugging
 
 > Complete guide to debugging Deno applications. Learn to use Chrome DevTools, VS Code debugger, and other debugging techniques for TypeScript/JavaScript code in Deno.
 
-URL: https://docs.deno.com/runtime/fundamentals/debugging
-
+URL: <https://docs.deno.com/runtime/fundamentals/debugging>
 
 Deno supports the [V8 Inspector Protocol](https://v8.dev/docs/inspector) used by
 Chrome, Edge and Node.js. This makes it possible to debug Deno programs using
@@ -39084,15 +38485,13 @@ For full details on Deno's OpenTelemetry integration, including custom metrics,
 traces, and configuration options, see the
 [OpenTelemetry documentation](/runtime/fundamentals/open_telemetry).
 
-
 ---
 
 # Foreign Function Interface (FFI)
 
 > Learn how to use Deno's Foreign Function Interface (FFI) to call native libraries directly from JavaScript or TypeScript. Includes examples, best practices, and security considerations.
 
-URL: https://docs.deno.com/runtime/fundamentals/ffi
-
+URL: <https://docs.deno.com/runtime/fundamentals/ffi>
 
 Deno's Foreign Function Interface (FFI) allows JavaScript and TypeScript code to
 call functions in dynamic libraries written in languages like C, C++, or Rust.
@@ -39401,15 +38800,13 @@ performance optimizations and access to system-level functionality. However,
 this power comes with significant security considerations. Always be cautious
 when working with FFI and ensure you trust the native libraries you're using.
 
-
 ---
 
 # Writing an HTTP Server
 
 > A guide to creating HTTP servers in Deno. Learn about the Deno.serve API, request handling, WebSocket support, response streaming, and how to build production-ready HTTP/HTTPS servers with automatic compression.
 
-URL: https://docs.deno.com/runtime/fundamentals/http_server
-
+URL: <https://docs.deno.com/runtime/fundamentals/http_server>
 
 HTTP servers are the backbone of the web, allowing you to access websites,
 download files, and interact with web services. They listen for incoming
@@ -39724,15 +39121,13 @@ and easy to use. It provides a simple way to create web servers with middleware
 support. Check out the [Oak documentation](https://oakserver.github.io/oak/) for
 examples of how to define routes.
 
-
 ---
 
 # Linting and formatting
 
 > A guide to Deno's built-in code quality tools. Learn how to use deno lint and deno fmt commands, configure rules, integrate with CI/CD pipelines, and maintain consistent code style across your projects.
 
-URL: https://docs.deno.com/runtime/fundamentals/linting_and_formatting
-
+URL: <https://docs.deno.com/runtime/fundamentals/linting_and_formatting>
 
 In an ideal world, your code is always clean, consistent, and free of pesky
 errors. That's the promise of Deno's built-in linting and formatting tools. By
@@ -40091,15 +39486,13 @@ In VSCode:
 3. Select **Configure Default Formatter...**
 4. Select **Prettier - Code formatter**
 
-
 ---
 
 # Modules and dependencies
 
 > A guide to managing modules and dependencies in Deno. Learn about ECMAScript modules, third-party packages, import maps, dependency management, versioning, and how to publish your own modules.
 
-URL: https://docs.deno.com/runtime/fundamentals/modules
-
+URL: <https://docs.deno.com/runtime/fundamentals/modules>
 
 Deno uses
 [ECMAScript modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
@@ -40976,15 +40369,13 @@ number of tokens that are parsed out of the environment variable. It will print
 an error message if it feels any of the tokens are malformed. It won't print any
 details about the tokens for security purposes.
 
-
 ---
 
 # Node and npm Compatibility
 
 > Guide to using Node.js modules and npm packages in Deno. Learn about compatibility features, importing npm packages, and differences between Node.js and Deno environments.
 
-URL: https://docs.deno.com/runtime/fundamentals/node
-
+URL: <https://docs.deno.com/runtime/fundamentals/node>
 
 - **Deno is Node-compatible**. Most Node projects will run in Deno with little
   or no change!
@@ -41768,15 +41159,13 @@ deno run main.ts
 ¹ Type checking happens automatically, TypeScript compiler is built into the
 `deno` binary.
 
-
 ---
 
 # OpenTelemetry
 
 > Learn how to implement observability in Deno applications using OpenTelemetry. Covers tracing, metrics collection, and integration with monitoring systems.
 
-URL: https://docs.deno.com/runtime/fundamentals/open_telemetry
-
+URL: <https://docs.deno.com/runtime/fundamentals/open_telemetry>
 
 Deno has built in support for [OpenTelemetry](https://opentelemetry.io/).
 
@@ -41822,11 +41211,11 @@ running the following command:
 
 ```sh
 docker run --name lgtm -p 3000:3000 -p 4317:4317 -p 4318:4318 --rm -ti \
-	-v "$PWD"/lgtm/grafana:/data/grafana \
-	-v "$PWD"/lgtm/prometheus:/data/prometheus \
-	-v "$PWD"/lgtm/loki:/data/loki \
-	-e GF_PATHS_DATA=/data/grafana \
-	docker.io/grafana/otel-lgtm:0.8.1
+ -v "$PWD"/lgtm/grafana:/data/grafana \
+ -v "$PWD"/lgtm/prometheus:/data/prometheus \
+ -v "$PWD"/lgtm/loki:/data/loki \
+ -e GF_PATHS_DATA=/data/grafana \
+ docker.io/grafana/otel-lgtm:0.8.1
 ```
 
 You can then access the Grafana dashboard at `http://localhost:3000` with the
@@ -42529,15 +41918,13 @@ limitations to be aware of:
 - There is no mechanism to add a `http.route` attribute to the HTTP client span
   for `fetch`, or to update the span name to include the route.
 
-
 ---
 
 # Security and permissions
 
 > A guide to Deno's security model and permissions system. Learn about secure defaults, permission flags, runtime prompts, and how to safely execute code with granular access controls.
 
-URL: https://docs.deno.com/runtime/fundamentals/security
-
+URL: <https://docs.deno.com/runtime/fundamentals/security>
 
 Deno is secure by default. Unless you specifically enable it, a program run with
 Deno has no access to sensitive APIs, such as file system access, network
@@ -43107,15 +42494,13 @@ available before enabling `DENO_PERMISSION_BROKER_PATH`.
 
 :::
 
-
 ---
 
 # Stability and releases
 
 > Guide to Deno's stability guarantees and release process. Covering release channels, long-term support (LTS), unstable features, versioning policy, and how Deno maintains backward compatibility.
 
-URL: https://docs.deno.com/runtime/fundamentals/stability_and_releases
-
+URL: <https://docs.deno.com/runtime/fundamentals/stability_and_releases>
 
 As of Deno 1.0.0, the `Deno` namespace APIs are stable. That means we will
 strive to make code working under 1.0.0 continue to work in future versions.
@@ -43192,15 +42577,13 @@ but it is a great way to experiment with new features and provide feedback to
 the Deno team. It is not necessary to use any unstable flags to use unstable
 standard library modules.
 
-
 ---
 
 # Testing
 
 > A guide to Deno's testing capabilities. Learn about the built-in test runner, assertions, mocking, coverage reporting, snapshot testing, and how to write effective tests for your Deno applications.
 
-URL: https://docs.deno.com/runtime/fundamentals/testing
-
+URL: <https://docs.deno.com/runtime/fundamentals/testing>
 
 Deno provides a built-in test runner for writing and running tests in both
 JavaScript and TypeScript. This makes it easy to ensure your code is reliable
@@ -43944,15 +43327,13 @@ Deno.test({
 Remember that any permission not explicitly granted at the command line will be
 denied, regardless of what's specified in the test configuration.
 
-
 ---
 
 # TypeScript support
 
 > Learn how to use TypeScript with Deno. Covers configuration options, type checking, and best practices for writing type-safe Deno applications.
 
-URL: https://docs.deno.com/runtime/fundamentals/typescript
-
+URL: <https://docs.deno.com/runtime/fundamentals/typescript>
 
 TypeScript is a first class language in Deno. You can run or import TypeScript
 without installing anything more than the Deno CLI. With its built-in TypeScript
@@ -44260,15 +43641,13 @@ file, in the `compilerOptions.types` array:
 
 This will also augment the global scope with the `polyfilledAPI` function.
 
-
 ---
 
 # Web development
 
 > A guide to web development with Deno. Learn about supported frameworks like Fresh, Next.js, and Astro, along with built-in features for building modern web applications.
 
-URL: https://docs.deno.com/runtime/fundamentals/web_dev
-
+URL: <https://docs.deno.com/runtime/fundamentals/web_dev>
 
 Deno offers a secure and developer-friendly environment for building web
 applications, making your web dev a delightful experience.
@@ -44464,15 +43843,13 @@ deno run --allow-net server.ts
 Deno will run your Node.js projects out the box. Check out our guide on
 [migrating your Node.js project to Deno](/runtime/fundamentals/node/#migrating-from-node.js-to-deno).
 
-
 ---
 
 # Workspaces and monorepos
 
 > A guide to managing workspaces and monorepos in Deno. Learn about workspace configuration, package management, dependency resolution, and how to structure multi-package projects effectively.
 
-URL: https://docs.deno.com/runtime/fundamentals/workspaces
-
+URL: <https://docs.deno.com/runtime/fundamentals/workspaces>
 
 Deno supports workspaces, also known as "monorepos", which allow you to manage
 multiple related and interdependent packages simultaneously.
@@ -44773,7 +44150,7 @@ To publish a workspace package to JSR, follow these steps:
 }
 ```
 
-2. Navigate to the specific package directory and publish:
+1. Navigate to the specific package directory and publish:
 
 ```sh
 cd my-package
@@ -45015,7 +44392,7 @@ cd my-directory
 deno test
 ```
 
-2. Or specify the path from the workspace root:
+1. Or specify the path from the workspace root:
 
 ```sh
 deno test my-directory/
@@ -45184,15 +44561,13 @@ For more information on configuring your project, check out the
 [Configuration with deno.json](/examples/configuration_with_deno_json/)
 tutorial.
 
-
 ---
 
 # Command line interface
 
 > A comprehensive guide to using Deno's command-line interface (CLI). Learn about running scripts, managing permissions, using watch mode, and configuring Deno's runtime behavior through command-line flags and options.
 
-URL: https://docs.deno.com/runtime/getting_started/command_line_interface
-
+URL: <https://docs.deno.com/runtime/getting_started/command_line_interface>
 
 Deno is a command line program. The Deno command line interface (CLI) can be
 used to run scripts, manage dependencies, and even compile your code into
@@ -45419,15 +44794,13 @@ More flags which affect the execution environment.
 --v8-flags=<v8-flags>        Set V8 command line options. For help: ...
 ```
 
-
 ---
 
 # Making a Deno project
 
 > Step-by-step guide to creating your first Deno project. Learn how to initialize a project, understand the basic file structure, run TypeScript code, and execute tests using Deno's built-in test runner.
 
-URL: https://docs.deno.com/runtime/getting_started/first_project
-
+URL: <https://docs.deno.com/runtime/getting_started/first_project>
 
 Deno has many [built in tools](/runtime/reference/cli/) to make your development
 experience as smooth as possible. One of these tools is the
@@ -45495,15 +44868,13 @@ on what to build with Deno.
 You can
 [learn more about using TypeScript in Deno here](/runtime/fundamentals/typescript).
 
-
 ---
 
 # Installation
 
 > A Guide to installing Deno on different operating systems. Includes instructions for Windows, macOS, and Linux using various package managers, manual installation methods, and Docker containers.
 
-URL: https://docs.deno.com/runtime/getting_started/installation
-
+URL: <https://docs.deno.com/runtime/getting_started/installation>
 
 Deno works on macOS, Linux, and Windows. Deno is a single binary executable. It
 has no external dependencies. On macOS, both M1 (arm64) and Intel (x64)
@@ -45740,15 +45111,13 @@ Information about how to build from source can be found in the
 [`Building from source`](https://github.com/denoland/deno/blob/main/.github/CONTRIBUTING.md#building-from-source)
 guide.
 
-
 ---
 
 # Set up your environment
 
 > A guide to setting up your development environment for Deno. Learn how to configure popular editors like VS Code, set up language server support, and enable shell completions for better productivity.
 
-URL: https://docs.deno.com/runtime/getting_started/setup_your_environment
-
+URL: <https://docs.deno.com/runtime/getting_started/setup_your_environment>
 
 Deno comes with many of the tools that are commonly needed for developing
 applications, including a full
@@ -46229,15 +45598,13 @@ server, read more about
 feel free to join our [Discord community](https://discord.gg/deno) in the
 `#dev-lsp` channel.
 
-
 ---
 
 # Where to get help
 
 > Guide to getting help with Deno. Find community resources, support channels, discussion forums, and how to engage with the Deno community for troubleshooting and assistance.
 
-URL: https://docs.deno.com/runtime/help
-
+URL: <https://docs.deno.com/runtime/help>
 
 Stuck? Lost? Get Help from the Deno Community.
 
@@ -46263,15 +45630,13 @@ problem:
 
 - [Deno by Example](/examples/): Practical code snippets for common tasks
 
-
 ---
 
 # Welcome to Deno
 
 > Learn the basics of Deno, a secure JavaScript, TypeScript, and WebAssembly runtime.
 
-URL: https://docs.deno.com/runtime/
-
+URL: <https://docs.deno.com/runtime/>
 
 [Deno](https://deno.com)
 ([/ˈdiːnoʊ/](https://ipa-reader.com/?text=%CB%88di%CB%90no%CA%8A), pronounced
@@ -46346,15 +45711,13 @@ batteries-included runtime.
 - [Setting up your environment](/runtime/getting_started/setup_your_environment/)
 - [Using the CLI](/runtime/getting_started/command_line_interface)
 
-
 ---
 
 # Bundling
 
 > An overview of `deno bundle` subcommand that can be used to produce a single file application created from multiple source files for optimized execution.
 
-URL: https://docs.deno.com/runtime/reference/bundling
-
+URL: <https://docs.deno.com/runtime/reference/bundling>
 
 :::caution
 
@@ -46602,16 +45965,13 @@ Visiting the page in your browser should show:
 
 ![Image of serving bundled React app](./images/bundled_react.png)
 
-
 ---
 
 # deno add
 
 > Add and manage project dependencies with Deno.
 
-URL: https://docs.deno.com/runtime/reference/cli/add
-
-
+URL: <https://docs.deno.com/runtime/reference/cli/add>
 
 ---
 
@@ -46619,9 +45979,7 @@ URL: https://docs.deno.com/runtime/reference/cli/add
 
 > Manage lifecycle scripts of npm packages in the dependency tree.
 
-URL: https://docs.deno.com/runtime/reference/cli/approve_scripts
-
-
+URL: <https://docs.deno.com/runtime/reference/cli/approve_scripts>
 
 ---
 
@@ -46629,9 +45987,7 @@ URL: https://docs.deno.com/runtime/reference/cli/approve_scripts
 
 > Audit project dependencies with Deno.
 
-URL: https://docs.deno.com/runtime/reference/cli/audit
-
-
+URL: <https://docs.deno.com/runtime/reference/cli/audit>
 
 ---
 
@@ -46639,8 +45995,7 @@ URL: https://docs.deno.com/runtime/reference/cli/audit
 
 > Run benchmarks using Deno's built-in bench tool.
 
-URL: https://docs.deno.com/runtime/reference/cli/bench
-
+URL: <https://docs.deno.com/runtime/reference/cli/bench>
 
 ## Quickstart
 
@@ -46976,14 +46331,11 @@ $ deno bench my_bench.ts --json
 }
 ```
 
-
 ---
 
 # Bundler
 
-URL: https://docs.deno.com/runtime/reference/cli/bundle
-
-
+URL: <https://docs.deno.com/runtime/reference/cli/bundle>
 
 ---
 
@@ -46991,8 +46343,7 @@ URL: https://docs.deno.com/runtime/reference/cli/bundle
 
 > Download and type-check code without execution
 
-URL: https://docs.deno.com/runtime/reference/cli/check
-
+URL: <https://docs.deno.com/runtime/reference/cli/check>
 
 ## Example
 
@@ -47006,16 +46357,13 @@ const x: string = 1 + 1n;
 deno check example.ts
 ```
 
-
 ---
 
 # deno clean
 
 > Remove cached dependencies for a clean start
 
-URL: https://docs.deno.com/runtime/reference/cli/clean
-
-
+URL: <https://docs.deno.com/runtime/reference/cli/clean>
 
 ---
 
@@ -47023,8 +46371,7 @@ URL: https://docs.deno.com/runtime/reference/cli/clean
 
 > Compile your code into a standalone executable
 
-URL: https://docs.deno.com/runtime/reference/cli/compile
-
+URL: <https://docs.deno.com/runtime/reference/cli/compile>
 
 ## Flags
 
@@ -47141,7 +46488,7 @@ executable by default. There are two ways to include workers:
 deno compile --include worker.ts main.ts
 ```
 
-2. Import worker module using a statically analyzable import.
+1. Import worker module using a statically analyzable import.
 
 ```ts
 // main.ts
@@ -47184,8 +46531,8 @@ On Windows, the compiled executable can be signed using the `SignTool.exe`
 utility.
 
 ```shell
-$ deno compile -o main.exe main.ts
-$ signtool sign /fd SHA256 main.exe
+deno compile -o main.exe main.ts
+signtool sign /fd SHA256 main.exe
 ```
 
 ## Unavailable in executables
@@ -47193,15 +46540,13 @@ $ signtool sign /fd SHA256 main.exe
 - [Web Storage API](/runtime/reference/web_platform_apis/#web-storage)
 - [Web Cache](/api/web/~/Cache)
 
-
 ---
 
 # deno completions
 
 > Generate shell completions for Deno
 
-URL: https://docs.deno.com/runtime/reference/cli/completions
-
+URL: <https://docs.deno.com/runtime/reference/cli/completions>
 
 You can use the output script to configure autocompletion for `deno` commands.
 For example: `deno un` -> <kbd>Tab</kbd> -> `deno uninstall`.
@@ -47255,15 +46600,13 @@ deno completions fish > completions.fish
 chmod +x ./completions.fish
 ```
 
-
 ---
 
 # deno coverage
 
 > Generate a coverage report for your code
 
-URL: https://docs.deno.com/runtime/reference/cli/coverage
-
+URL: <https://docs.deno.com/runtime/reference/cli/coverage>
 
 ## Inclusions and Exclusions
 
@@ -47439,15 +46782,13 @@ deno test --coverage
 deno coverage --lcov --output=cov.lcov
 ```
 
-
 ---
 
 # deno deploy
 
 > Manage and publish your projects on the web
 
-URL: https://docs.deno.com/runtime/reference/cli/deploy
-
+URL: <https://docs.deno.com/runtime/reference/cli/deploy>
 
 The `deno deploy` command provides a command line interface for managing and
 deploying applications to [Deno Deploy EA](https://deno.com/deploy), Deno's
@@ -48102,15 +47443,13 @@ deno deploy setup-gcp --org my-company --app my-api
 - Check the [Deno Deploy documentation](/deploy/) for platform-specific
   information
 
-
 ---
 
 # `deno doc`, documentation generator
 
 > Generate documentation from your code
 
-URL: https://docs.deno.com/runtime/reference/cli/doc
-
+URL: <https://docs.deno.com/runtime/reference/cli/doc>
 
 ## Examples
 
@@ -48264,7 +47603,7 @@ modules. Besides just supporting markdown-style links,
 supported.
 
 For example, you can do`{@link https://docs.deno.com}`, which will be rendered
-as the following 'https://docs.deno.com'. `{@linkcode https://docs.deno.com}`
+as the following '<https://docs.deno.com>'. `{@linkcode https://docs.deno.com}`
 can also be used, to make it in a monospace font, and will be rendered roughly
 like this: '`https://docs.deno.com`'.
 
@@ -48285,11 +47624,11 @@ syntax. You can also link to symbols in a different module via
 Use the `--html` flag to generate a static site with documentation.
 
 ```console
-$ deno doc --html --name="My library" ./mod.ts
+deno doc --html --name="My library" ./mod.ts
 
-$ deno doc --html --name="My library" --output=./documentation/ ./mod.ts
+deno doc --html --name="My library" --output=./documentation/ ./mod.ts
 
-$ deno doc --html --name="My library" ./sub1/mod.ts ./sub2/mod.ts
+deno doc --html --name="My library" ./sub1/mod.ts ./sub2/mod.ts
 ```
 
 The generated documentation is a static site with multiple pages that can be
@@ -48305,13 +47644,11 @@ format is consumed by the
 [deno doc website](https://github.com/denoland/docland) and is used to generate
 module documentation.
 
-
 ---
 
 # Configuring Deno behavior
 
-URL: https://docs.deno.com/runtime/reference/cli/env_variables
-
+URL: <https://docs.deno.com/runtime/reference/cli/env_variables>
 
 There are several environment variables which can impact the behavior of Deno:
 
@@ -48414,16 +47751,13 @@ Deno reads proxy configuration from environment variables: `HTTP_PROXY`,
 On Windows, if environment variables are not found, Deno falls back to reading
 proxies from the registry.
 
-
 ---
 
 # deno eval
 
 > Evaluate JavaScript and TypeScript code in the command line
 
-URL: https://docs.deno.com/runtime/reference/cli/eval
-
-
+URL: <https://docs.deno.com/runtime/reference/cli/eval>
 
 ---
 
@@ -48431,8 +47765,7 @@ URL: https://docs.deno.com/runtime/reference/cli/eval
 
 > Format your code with Deno's built-in formatter
 
-URL: https://docs.deno.com/runtime/reference/cli/fmt
-
+URL: <https://docs.deno.com/runtime/reference/cli/fmt>
 
 To see a list of the available CLI options for `deno fmt`, run:
 
@@ -48535,13 +47868,11 @@ between these two utilities, visit the
 [Linting and Formatting](/runtime/fundamentals/linting_and_formatting/) page in
 our Fundamentals section.
 
-
 ---
 
 # Deno CLI Subcommands
 
-URL: https://docs.deno.com/runtime/reference/cli/
-
+URL: <https://docs.deno.com/runtime/reference/cli/>
 
 The Deno CLI (Command Line Interface) allows you to interact with the Deno
 runtime environment from your terminal or command prompt. The CLI has a number
@@ -48605,15 +47936,13 @@ below for more information on each subcommand.
 - [Unstable feature flags](/runtime/reference/cli/unstable_flags/)
 - [Integrating the Deno LSP](/runtime/reference/lsp_integration/)
 
-
 ---
 
 # `deno info`, dependency inspector
 
 > Inspect the dependencies of your project
 
-URL: https://docs.deno.com/runtime/reference/cli/info
-
+URL: <https://docs.deno.com/runtime/reference/cli/info>
 
 ## Example
 
@@ -48720,15 +48049,13 @@ Remote modules cache: "/Users/deno/Library/Caches/deno/deps"
 TypeScript compiler cache: "/Users/deno/Library/Caches/deno/gen"
 ```
 
-
 ---
 
 # `deno init`, start a new project
 
 > Scaffold a new Deno project with tests and configuration
 
-URL: https://docs.deno.com/runtime/reference/cli/init
-
+URL: <https://docs.deno.com/runtime/reference/cli/init>
 
 ## Examples
 
@@ -48935,15 +48262,13 @@ The resulting `deno.json will be as follows:
 }
 ```
 
-
 ---
 
 # `deno install`
 
 > Install and cache dependencies for your project
 
-URL: https://docs.deno.com/runtime/reference/cli/install
-
+URL: <https://docs.deno.com/runtime/reference/cli/install>
 
 ## Examples
 
@@ -48961,7 +48286,7 @@ Use this command to install particular packages and add them to `deno.json` or
 `package.json`.
 
 ```shell
-$ deno install jsr:@std/testing npm:express
+deno install jsr:@std/testing npm:express
 ```
 
 :::tip
@@ -49120,7 +48445,7 @@ When used with `deno install`, it will hide progress indicators, download
 information, and success messages.
 
 ```shell
-$ deno install --quiet jsr:@std/http/file-server
+deno install --quiet jsr:@std/http/file-server
 ```
 
 This is useful for scripting environments or when you want cleaner output in CI
@@ -49143,15 +48468,13 @@ deleted /Users/deno/.deno/bin/file-server
 
 See [`deno uninstall` page for more details](/runtime/reference/cli/uninstall/).
 
-
 ---
 
 # Jupyter Kernel for Deno
 
 > Write JavaScript and TypeScript in Jupyter notebooks thanks to Deno's built-in Jupyter kernel
 
-URL: https://docs.deno.com/runtime/reference/cli/jupyter
-
+URL: <https://docs.deno.com/runtime/reference/cli/jupyter>
 
 Deno ships with a built-in Jupyter kernel that allows you to write JavaScript
 and TypeScript; use Web and Deno APIs and import `npm` packages straight in your
@@ -49382,7 +48705,7 @@ Plot.plot({
 
 ![Example plot generated using `@observablehq/plot` library](../images/jupyter-plot.png)
 
-See https://github.com/rgbkrk/denotebooks for more advanced examples leveraging
+See <https://github.com/rgbkrk/denotebooks> for more advanced examples leveraging
 data analysis and visualisation libraries like Polars, Observable and d3.
 
 ## `jupyter console` integration
@@ -49392,15 +48715,13 @@ you should launch your console with `jupyter console --kernel deno`.
 
 ![Using the Deno kernel in a CLI](../images/jupyter-cli.gif)
 
-
 ---
 
 # `deno lint`, linter
 
 > Run the Deno linter to check your code for errors and apply automated fixes
 
-URL: https://docs.deno.com/runtime/reference/cli/lint
-
+URL: <https://docs.deno.com/runtime/reference/cli/lint>
 
 ## Available rules
 
@@ -49539,13 +48860,11 @@ between these two utilities, visit the
 [Linting and Formatting](/runtime/fundamentals/linting_and_formatting/) page in
 our Fundamentals section.
 
-
 ---
 
 # deno lsp
 
-URL: https://docs.deno.com/runtime/reference/cli/lsp
-
+URL: <https://docs.deno.com/runtime/reference/cli/lsp>
 
 :::info
 
@@ -49566,15 +48885,13 @@ with Deno using the Language Server Protocol.
 Read more about
 [how to connect editors and IDEs to `deno lsp`](https://deno.land/manual@v1.42.4/getting_started/setup_your_environment#editors-and-ides).
 
-
 ---
 
 # deno outdated
 
 > Check for outdated dependencies in your project and safely update them with an interactive CLI
 
-URL: https://docs.deno.com/runtime/reference/cli/outdated
-
+URL: <https://docs.deno.com/runtime/reference/cli/outdated>
 
 ## Checking for outdated dependencies
 
@@ -49720,15 +49037,13 @@ deno outdated --recursive
 deno outdated --update --latest -r
 ```
 
-
 ---
 
 # deno publish
 
 > Publish your package or workspace to the JSR registry
 
-URL: https://docs.deno.com/runtime/reference/cli/publish
-
+URL: <https://docs.deno.com/runtime/reference/cli/publish>
 
 ## Package Requirements
 
@@ -49788,16 +49103,13 @@ Publish using settings from a specific configuration file
 deno publish --config custom-config.json
 ```
 
-
 ---
 
 # deno remove
 
 > Remove a dependency from your project
 
-URL: https://docs.deno.com/runtime/reference/cli/remove
-
-
+URL: <https://docs.deno.com/runtime/reference/cli/remove>
 
 ---
 
@@ -49805,8 +49117,7 @@ URL: https://docs.deno.com/runtime/reference/cli/remove
 
 > Interact with Deno's runtime in a REPL environment
 
-URL: https://docs.deno.com/runtime/reference/cli/repl
-
+URL: <https://docs.deno.com/runtime/reference/cli/repl>
 
 ## Special variables
 
@@ -49963,15 +49274,13 @@ You can use `DENO_REPL_HISTORY` environmental variable to control where Deno
 stores the REPL history file. You can set it to an empty value, Deno will not
 store the history file.
 
-
 ---
 
 # `deno run`, run a file
 
 > Run a JavaScript or TypeScript program from a file or URL with Deno's runtime
 
-URL: https://docs.deno.com/runtime/reference/cli/run
-
+URL: <https://docs.deno.com/runtime/reference/cli/run>
 
 ## Usage
 
@@ -50050,15 +49359,13 @@ curl https://docs.deno.com/examples/scripts/hello_world.ts | deno run -
 
 To stop the run command use `ctrl + c`.
 
-
 ---
 
 # deno sandbox
 
 > Spin up a secure Linux microVM
 
-URL: https://docs.deno.com/runtime/reference/cli/sandbox
-
+URL: <https://docs.deno.com/runtime/reference/cli/sandbox>
 
 The `deno sandbox` command allows you to spin up a secure Linux microVM,
 designed for running untrusted code in a sandboxed environment. See the
@@ -50259,15 +49566,13 @@ sandbox command uses for authentication.
 deno sandbox switch
 ```
 
-
 ---
 
 # deno serve
 
 > A flexible and configurable HTTP server for Deno
 
-URL: https://docs.deno.com/runtime/reference/cli/serve
-
+URL: <https://docs.deno.com/runtime/reference/cli/serve>
 
 ## Example
 
@@ -50308,15 +49613,13 @@ export default {
 } satisfies Deno.ServeDefaultExport;
 ```
 
-
 ---
 
 # `deno task`
 
 > A configurable task runner for Deno
 
-URL: https://docs.deno.com/runtime/reference/cli/task
-
+URL: <https://docs.deno.com/runtime/reference/cli/task>
 
 ## Description
 
@@ -50965,15 +50268,13 @@ life cycle events like `preinstall` or `postinstall`—you must explicitly run t
 script entries you want to run (ex.
 `deno install --entrypoint main.ts && deno task postinstall`).
 
-
 ---
 
 # deno test
 
 > Run tests for your project with Deno's built-in test runner
 
-URL: https://docs.deno.com/runtime/reference/cli/test
-
+URL: <https://docs.deno.com/runtime/reference/cli/test>
 
 ## Additional information
 
@@ -51014,16 +50315,13 @@ Run tests, re-running on file change
 deno test --watch
 ```
 
-
 ---
 
 # deno types
 
 > Generate TypeScript types from your code
 
-URL: https://docs.deno.com/runtime/reference/cli/types
-
-
+URL: <https://docs.deno.com/runtime/reference/cli/types>
 
 ---
 
@@ -51031,8 +50329,7 @@ URL: https://docs.deno.com/runtime/reference/cli/types
 
 > Remove a dependency from your project or from your global cache
 
-URL: https://docs.deno.com/runtime/reference/cli/uninstall
-
+URL: <https://docs.deno.com/runtime/reference/cli/uninstall>
 
 ## `deno uninstall [PACKAGES]`
 
@@ -51133,13 +50430,11 @@ Uninstall `serve` from a specific installation root
 deno uninstall -g --root /usr/local/bin serve
 ```
 
-
 ---
 
 # Unstable feature flags
 
-URL: https://docs.deno.com/runtime/reference/cli/unstable_flags
-
+URL: <https://docs.deno.com/runtime/reference/cli/unstable_flags>
 
 New Deno runtime features are often released behind feature flags, so that users
 can try out new APIs and features before they are finalized. Current unstable
@@ -51410,15 +50705,13 @@ Note that the Temporal API is still experimental and the specification may
 change before it becomes stable. Use this flag only for testing and
 experimentation.
 
-
 ---
 
 # deno update
 
 > Update outdated dependencies with an interactive CLI
 
-URL: https://docs.deno.com/runtime/reference/cli/update
-
+URL: <https://docs.deno.com/runtime/reference/cli/update>
 
 ## Updating dependencies
 
@@ -51509,15 +50802,13 @@ deno update --recursive
 deno update --latest -r
 ```
 
-
 ---
 
 # deno upgrade
 
 > Upgrade Deno to the latest, or any specific version
 
-URL: https://docs.deno.com/runtime/reference/cli/upgrade
-
+URL: <https://docs.deno.com/runtime/reference/cli/upgrade>
 
 ## Examples
 
@@ -51569,7 +50860,7 @@ used with `deno upgrade`, it will hide progress indicators, download
 information, and success messages.
 
 ```shell
-$ deno upgrade --quiet
+deno upgrade --quiet
 ```
 
 This is useful for scripting environments or when you want cleaner output in CI
@@ -51585,16 +50876,13 @@ the `--canary` build flag for the latest canary build:
 $ deno upgrade --canary
 ```
 
-
 ---
 
 # deno x
 
 > Execute npm or JSR packages with Deno.
 
-URL: https://docs.deno.com/runtime/reference/cli/x
-
-
+URL: <https://docs.deno.com/runtime/reference/cli/x>
 
 ---
 
@@ -51602,8 +50890,7 @@ URL: https://docs.deno.com/runtime/reference/cli/x
 
 > Guide to setting up continuous integration (CI) pipelines for Deno projects. Learn how to configure GitHub Actions workflows, run tests and linting in CI, handle cross-platform builds, and optimize pipeline performance with caching.
 
-URL: https://docs.deno.com/runtime/reference/continuous_integration
-
+URL: <https://docs.deno.com/runtime/reference/continuous_integration>
 
 Deno's built-in tools make it easy to set up Continuous Integration (CI)
 pipelines for your projects. [Testing](/runtime/fundamentals/testing),
@@ -51811,18 +51098,15 @@ It is possible to customize the default hash
     cache-hash: ${{ hashFiles('**/deno.json') }}
 ```
 
-
 ---
 
 # Deno Namespace APIs
 
 > A guide to Deno's built-in runtime APIs. Learn about file system operations, network functionality, permissions management, and other core capabilities available through the global Deno namespace.
 
-URL: https://docs.deno.com/runtime/reference/deno_namespace_apis
-
+URL: <https://docs.deno.com/runtime/reference/deno_namespace_apis>
 
 This page has moved to [/api/deno/](/api/deno/).
-
 
 ---
 
@@ -51830,8 +51114,7 @@ This page has moved to [/api/deno/](/api/deno/).
 
 > Complete guide to using Deno with Docker containers. Learn about official Deno images, writing Dockerfiles, multi-stage builds, workspace containerization, and Docker best practices for Deno applications.
 
-URL: https://docs.deno.com/runtime/reference/docker
-
+URL: <https://docs.deno.com/runtime/reference/docker>
 
 ## Using Deno with Docker
 
@@ -52063,7 +51346,7 @@ project-root/
 └── project-b/
 ```
 
-2. Create a `.dockerignore`:
+1. Create a `.dockerignore`:
 
 ```text
 // filepath: docker/project-a/.dockerignore
@@ -52073,7 +51356,7 @@ project-root/
 !project-b/**  # Only if needed
 ```
 
-3. Create a build context script:
+1. Create a build context script:
 
 ```bash
 // filepath: docker/project-a/build-context.sh
@@ -52095,7 +51378,7 @@ if grep -q "\"@scope/project-b\"" "../../project-a/mod.ts"; then
 fi
 ```
 
-4. Create a minimal Dockerfile:
+1. Create a minimal Dockerfile:
 
 ```dockerfile
 // filepath: docker/project-a/Dockerfile
@@ -52114,7 +51397,7 @@ WORKDIR /app/project-a
 CMD ["deno", "run", "-A", "mod.ts"]
 ```
 
-5. Build the container:
+1. Build the container:
 
 ```bash
 cd docker/project-a
@@ -52132,15 +51415,13 @@ rm -rf tmp-build-context
 - Include only required workspace members
 - Update `.dockerignore` when dependencies change
 
-
 ---
 
 # Documentation Tests
 
 > Learn how to write and run documentation tests in Deno. This guide covers how to create testable code examples in documentation comments, type-checking documentation, and running doc tests with the Deno test runner.
 
-URL: https://docs.deno.com/runtime/reference/documentation
-
+URL: <https://docs.deno.com/runtime/reference/documentation>
 
 Deno supports both type-checking evaluating your documentation examples.
 
@@ -52215,15 +51496,13 @@ For more guides on testing in Deno, check out:
 - [Mocking data in tests tutorial](/examples/mocking_tutorial/)
 - [Testing web applications tutorial](/examples/web_testing_tutorial/)
 
-
 ---
 
 # Environment variables
 
 > A guide to working with environment variables in Deno. Learn about Deno.env API, .env file support, CLI configuration, and special environment variables that control Deno's behavior.
 
-URL: https://docs.deno.com/runtime/reference/env_variables
-
+URL: <https://docs.deno.com/runtime/reference/env_variables>
 
 There are a few ways to use environment variables in Deno:
 
@@ -52378,15 +51657,13 @@ The Deno runtime has these special environment variables.
 | NO_COLOR             | Set to disable color                                                                                                                                                              |
 | NO_PROXY             | Comma-separated list of hosts which do not use a proxy (module downloads, fetch)                                                                                                  |
 
-
 ---
 
 # JSX
 
 > Complete guide to using JSX in Deno. Learn about JSX configuration options, automatic runtime features, development transforms, and Deno's optimized precompile transform for server-side rendering.
 
-URL: https://docs.deno.com/runtime/reference/jsx
-
+URL: <https://docs.deno.com/runtime/reference/jsx>
 
 Deno has built-in support for JSX in both `.jsx` files and `.tsx` files. JSX in
 Deno can be handy for server-side rendering or generating code for browser
@@ -52774,15 +52051,13 @@ Deno.serve(() => {
 With these configurations, your Deno server can efficiently render JSX
 components to HTML and serve them to clients.
 
-
 ---
 
 # Lint Plugins
 
 > Guide to creating and using custom lint plugins in Deno. Learn how to write custom lint rules, use selectors for AST matching, implement fixes, and test your plugins using Deno's lint plugin API.
 
-URL: https://docs.deno.com/runtime/reference/lint_plugins
-
+URL: <https://docs.deno.com/runtime/reference/lint_plugins>
 
 :::caution
 
@@ -53095,15 +52370,13 @@ Consult [the API reference](/api/deno/) for more information on
 [`Deno.lint.runPlugin`](/api/deno/~/Deno.lint.runPlugin) and
 [`Deno.lint.Diagnostic`](/api/deno/~/Deno.lint.Diagnostic).
 
-
 ---
 
 # Language Server Integration
 
 > Technical guide to integrating Deno's Language Server Protocol (LSP). Learn about LSP implementation details, custom commands, requests, notifications, and testing API integration for editor and tool developers.
 
-URL: https://docs.deno.com/runtime/reference/lsp_integration
-
+URL: <https://docs.deno.com/runtime/reference/lsp_integration>
 
 :::tip
 
@@ -53644,15 +52917,13 @@ interface TestRunCancelParams {
 }
 ```
 
-
 ---
 
 # Deno 1.x to 2.x Migration Guide
 
 > Comprehensive guide to migrating from Deno 1.x to 2.x. Learn about breaking changes, API updates, Node.js compatibility features, and how to update your codebase to work with Deno 2.x.
 
-URL: https://docs.deno.com/runtime/reference/migration_guide
-
+URL: <https://docs.deno.com/runtime/reference/migration_guide>
 
 While we’ve accomplished a ton in Deno 1.x, the next major version is focused on
 using Deno **at scale**. This means seamless interoperability with Node.js and
@@ -55114,15 +54385,13 @@ See [deno#9795][deno#9795] for details.
 [deno#9795]: https://github.com/denoland/deno/issues/9795
 [Deno 1.40 blog post]: https://deno.com/blog/v1.40#deprecations-stabilizations-and-removals
 
-
 ---
 
 # Node APIs
 
 > A guide to Node.js compatibility in Deno. Learn about supported Node.js built-in modules, global objects, and how to use Node.js packages in Deno projects.
 
-URL: https://docs.deno.com/runtime/reference/node_apis
-
+URL: <https://docs.deno.com/runtime/reference/node_apis>
 
 Deno provides polyfills for a number of built-in Node.js modules and globals.
 
@@ -55220,15 +54489,13 @@ If you're interested in a more detailed view of compatibility on a per-test-case
 basis, you can find a list of both passing and failing Node.js test cases on
 [this page](https://node-test-viewer.deno.dev/).
 
-
 ---
 
 # Standard Assertions (@std/assert)
 
 > Common assertion functions, especially useful for testing
 
-URL: https://docs.deno.com/runtime/reference/std/assert
-
+URL: <https://docs.deno.com/runtime/reference/std/assert>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -55423,15 +54690,13 @@ Deno.test("rejects for failed fetch", async () => {
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/async
 
 > Utilities for asynchronous operations, like delays, debouncing, or pooling
 
-URL: https://docs.deno.com/runtime/reference/std/async
-
+URL: <https://docs.deno.com/runtime/reference/std/async>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -55538,15 +54803,13 @@ await deadline(fetch("/slow"), 1_000); // throws DOMException("TimeoutError") af
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/bytes
 
 > Utilities to manipulate Uint8Arrays that are not built-in to JavaScript
 
-URL: https://docs.deno.com/runtime/reference/std/bytes
-
+URL: <https://docs.deno.com/runtime/reference/std/bytes>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -55617,15 +54880,13 @@ console.log(indexOfNeedle(all, new Uint8Array([2, 3]))); // 1
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/cache
 
 > Cache utilities
 
-URL: https://docs.deno.com/runtime/reference/std/cache
-
+URL: <https://docs.deno.com/runtime/reference/std/cache>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -55721,15 +54982,13 @@ const fib = memoize(
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/cbor
 
 > Utilities for parsing and serializing Concise Binary Object Representation (CBOR)
 
-URL: https://docs.deno.com/runtime/reference/std/cbor
-
+URL: <https://docs.deno.com/runtime/reference/std/cbor>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -55894,15 +55153,13 @@ console.log(value.type);
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/cli
 
 > Tools for creating interactive command line tools
 
-URL: https://docs.deno.com/runtime/reference/std/cli
-
+URL: <https://docs.deno.com/runtime/reference/std/cli>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -56066,15 +55323,13 @@ bar.stop();
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/collections
 
 > Pure functions for common tasks related to collection types like arrays and objects
 
-URL: https://docs.deno.com/runtime/reference/std/collections
-
+URL: <https://docs.deno.com/runtime/reference/std/collections>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -56224,15 +55479,13 @@ console.log(
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/crypto
 
 > Extensions to the Web Crypto API
 
-URL: https://docs.deno.com/runtime/reference/std/crypto
-
+URL: <https://docs.deno.com/runtime/reference/std/crypto>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -56391,15 +55644,13 @@ console.log(new TextDecoder().decode(new Uint8Array(plaintext))); // "secret mes
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/csv
 
 > Reading and writing of comma-separated values (CSV) files
 
-URL: https://docs.deno.com/runtime/reference/std/csv
-
+URL: <https://docs.deno.com/runtime/reference/std/csv>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -56637,15 +55888,13 @@ streaming for large files.
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/data-structures
 
 > Common data structures like red-black trees and binary heaps
 
-URL: https://docs.deno.com/runtime/reference/std/data-structures
-
+URL: <https://docs.deno.com/runtime/reference/std/data-structures>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -56748,15 +55997,13 @@ grid.get(1, 1); // 42
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/datetime
 
 > Utilities for dealing with Date objects
 
-URL: https://docs.deno.com/runtime/reference/std/datetime
-
+URL: <https://docs.deno.com/runtime/reference/std/datetime>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -56936,15 +56183,13 @@ isLeap(new Date("1900-01-01")); // false (century not divisible by 400)
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/dotenv
 
 > Parsing and loading environment variables from a `.env` file
 
-URL: https://docs.deno.com/runtime/reference/std/dotenv
-
+URL: <https://docs.deno.com/runtime/reference/std/dotenv>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -57043,15 +56288,13 @@ stringify({ GREETING: "hello world" });
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/encoding
 
 > Utilities for encoding and decoding common formats like hex, base64, and varint
 
-URL: https://docs.deno.com/runtime/reference/std/encoding
-
+URL: <https://docs.deno.com/runtime/reference/std/encoding>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -57255,15 +56498,13 @@ const [num, next] = decodeVarint(buf);
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/expect
 
 > Jest compatible `expect` assertion functions
 
-URL: https://docs.deno.com/runtime/reference/std/expect
-
+URL: <https://docs.deno.com/runtime/reference/std/expect>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -57435,15 +56676,13 @@ For more information on testing in Deno, see the
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/fmt
 
 > Utilities for formatting values, such as adding colors to text, formatting durations, printf utils, formatting byte numbers.
 
-URL: https://docs.deno.com/runtime/reference/std/fmt
-
+URL: <https://docs.deno.com/runtime/reference/std/fmt>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -57557,15 +56796,13 @@ const plain = stripAnsiCode(ok);
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/front-matter
 
 > Extract front matter from strings
 
-URL: https://docs.deno.com/runtime/reference/std/front-matter
-
+URL: <https://docs.deno.com/runtime/reference/std/front-matter>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -57760,15 +56997,13 @@ const { attrs, body } = extractToml(tomlSource);
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/fs
 
 > Helpers for working with the file system
 
-URL: https://docs.deno.com/runtime/reference/std/fs
-
+URL: <https://docs.deno.com/runtime/reference/std/fs>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -57832,15 +57067,13 @@ for await (
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/html
 
 > Functions for HTML, such as escaping or unescaping HTML entities
 
-URL: https://docs.deno.com/runtime/reference/std/html
-
+URL: <https://docs.deno.com/runtime/reference/std/html>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -57897,15 +57130,13 @@ const back = unescape("&amp;lt;b&amp;gt;ok&amp;lt;/b&amp;gt;"); // <b>ok</b>
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/http
 
 > Utilities for building HTTP servers
 
-URL: https://docs.deno.com/runtime/reference/std/http
-
+URL: <https://docs.deno.com/runtime/reference/std/http>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -58176,15 +57407,13 @@ serve((req) => {
 
 <!-- custom:end -->
 
-
 ---
 
 # Standard Library (@std)
 
 > An introduction to Deno's Standard Library. Learn about TypeScript-first modules, cross-platform compatibility, versioning, package management, and how to use standard modules in your Deno projects.
 
-URL: https://docs.deno.com/runtime/reference/std/
-
+URL: <https://docs.deno.com/runtime/reference/std/>
 
 Deno provides a standard library written in TypeScript. It is a set of standard
 modules that can be reused by programs, allowing you to focus on your
@@ -58325,15 +57554,13 @@ import { join } from "@std/path";
 await copy("foo.txt", join("dist", "foo.txt"));
 ```
 
-
 ---
 
 # @std/ini
 
 > Parsing and serializing of INI files
 
-URL: https://docs.deno.com/runtime/reference/std/ini
-
+URL: <https://docs.deno.com/runtime/reference/std/ini>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -58600,15 +57827,13 @@ im.parse(dup);
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/internal
 
 > The internal package for @std. Do not use this directly.
 
-URL: https://docs.deno.com/runtime/reference/std/internal
-
+URL: <https://docs.deno.com/runtime/reference/std/internal>
 
 :::info Internal
 
@@ -58617,15 +57842,13 @@ APIs may change or be removed.
 
 :::
 
-
 ---
 
 # @std/io
 
 > The utilities for advanced I/O operations using Reader and Writer interfaces.
 
-URL: https://docs.deno.com/runtime/reference/std/io
-
+URL: <https://docs.deno.com/runtime/reference/std/io>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -58690,15 +57913,13 @@ await toReadableStream(Deno.stdin)
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/json
 
 > (Streaming) parsing and serializing of JSON files
 
-URL: https://docs.deno.com/runtime/reference/std/json
-
+URL: <https://docs.deno.com/runtime/reference/std/json>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -58850,15 +58071,13 @@ await fetch("/store", { method: "POST", body: uppercased });
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/jsonc
 
 > Parsing and serializing of JSONC files
 
-URL: https://docs.deno.com/runtime/reference/std/jsonc
-
+URL: <https://docs.deno.com/runtime/reference/std/jsonc>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -58976,15 +58195,13 @@ const obj = JSON.parse(clean);
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/log
 
 > A customizable logger framework
 
-URL: https://docs.deno.com/runtime/reference/std/log
-
+URL: <https://docs.deno.com/runtime/reference/std/log>
 
 :::info No longer recommended
 
@@ -58993,15 +58210,13 @@ The @std/log package is likely to be removed in the future; consider using
 
 :::
 
-
 ---
 
 # @std/math
 
 > Basic math utilities
 
-URL: https://docs.deno.com/runtime/reference/std/math
-
+URL: <https://docs.deno.com/runtime/reference/std/math>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -59036,15 +58251,13 @@ in @std/math on
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/media-types
 
 > Utility functions for media types (MIME types)
 
-URL: https://docs.deno.com/runtime/reference/std/media-types
-
+URL: <https://docs.deno.com/runtime/reference/std/media-types>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -59172,15 +58385,13 @@ async function readText(req: Request): Promise<string> {
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/msgpack
 
 > Encoding and decoding for the msgpack format
 
-URL: https://docs.deno.com/runtime/reference/std/msgpack
-
+URL: <https://docs.deno.com/runtime/reference/std/msgpack>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -59297,15 +58508,13 @@ const dec = new Decoder({
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/net
 
 > Utilities for working with the network
 
-URL: https://docs.deno.com/runtime/reference/std/net
-
+URL: <https://docs.deno.com/runtime/reference/std/net>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -59429,15 +58638,13 @@ child.spawn();
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/path
 
 > Utilities for working with file system paths
 
-URL: https://docs.deno.com/runtime/reference/std/path
-
+URL: <https://docs.deno.com/runtime/reference/std/path>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -59710,15 +58917,13 @@ console.log(resolve(".", "assets")); // absolute path
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/random
 
 > Various utilities using random number generators. The package also provides seeded pseudo-random number generator.
 
-URL: https://docs.deno.com/runtime/reference/std/random
-
+URL: <https://docs.deno.com/runtime/reference/std/random>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -59794,15 +58999,13 @@ const roll = randomIntegerBetween(1, 6, { prng });
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/regexp
 
 > Utilities for working with RegExp
 
-URL: https://docs.deno.com/runtime/reference/std/regexp
-
+URL: <https://docs.deno.com/runtime/reference/std/regexp>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -59871,15 +59074,13 @@ re.test("ok\nerror: bad\nnext"); // true
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/semver
 
 > Parsing and comparing of semantic versions (SemVer)
 
-URL: https://docs.deno.com/runtime/reference/std/semver
-
+URL: <https://docs.deno.com/runtime/reference/std/semver>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -60165,15 +59366,13 @@ console.log(satisfies(v, r)); // true
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/streams
 
 > Utilities for working with the Web Streams API
 
-URL: https://docs.deno.com/runtime/reference/std/streams
-
+URL: <https://docs.deno.com/runtime/reference/std/streams>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -60250,15 +59449,13 @@ await writeAll(
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/tar
 
 > Streaming utilities for working with tar archives.
 
-URL: https://docs.deno.com/runtime/reference/std/tar
-
+URL: <https://docs.deno.com/runtime/reference/std/tar>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -60345,15 +59542,13 @@ for await (const entry of file.readable.pipeThrough(new UntarStream())) {
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/testing
 
 > Tools for testing Deno code like snapshot testing, bdd testing, and time mocking
 
-URL: https://docs.deno.com/runtime/reference/std/testing
-
+URL: <https://docs.deno.com/runtime/reference/std/testing>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -60507,15 +59702,13 @@ Deno.test("spy captures calls and args", () => {
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/text
 
 > Utilities for working with text
 
-URL: https://docs.deno.com/runtime/reference/std/text
-
+URL: <https://docs.deno.com/runtime/reference/std/text>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -60625,15 +59818,13 @@ console.log(reverse("👩‍❤️‍💋‍👨", { handleUnicode: true }));
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/toml
 
 > Parsing and serializing of TOML files
 
-URL: https://docs.deno.com/runtime/reference/std/toml
-
+URL: <https://docs.deno.com/runtime/reference/std/toml>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -60770,15 +59961,13 @@ programmatically.
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/ulid
 
 > Generation of Universally Unique Lexicographically Sortable Identifiers (ULIDs)
 
-URL: https://docs.deno.com/runtime/reference/std/ulid
-
+URL: <https://docs.deno.com/runtime/reference/std/ulid>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -60853,15 +60042,13 @@ Great for databases, distributed systems, and user-facing tokens.
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/uuid
 
 > Generators and validators for UUIDs
 
-URL: https://docs.deno.com/runtime/reference/std/uuid
-
+URL: <https://docs.deno.com/runtime/reference/std/uuid>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -60928,15 +60115,13 @@ console.log(v4.validate(id)); // true
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/webgpu
 
 > Utilities for working with the Web GPU API
 
-URL: https://docs.deno.com/runtime/reference/std/webgpu
-
+URL: <https://docs.deno.com/runtime/reference/std/webgpu>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -61096,15 +60281,13 @@ const data = new Uint8Array(outputBuffer.getMappedRange());
 
 <!-- custom:end -->
 
-
 ---
 
 # @std/yaml
 
 > Parsing and serializing of YAML files
 
-URL: https://docs.deno.com/runtime/reference/std/yaml
-
+URL: <https://docs.deno.com/runtime/reference/std/yaml>
 
 <!-- Autogenerated from JSR docs. Do not edit directly. -->
 
@@ -61299,15 +60482,13 @@ await Deno.writeTextFile("settings.yaml", stringify(settings, { indent: 2 }));
 
 <!-- custom:end -->
 
-
 ---
 
 # Configuring TypeScript
 
 > A guide to TypeScript configuration in Deno. Learn about compiler options, type checking JavaScript, JSDoc support, type declarations, and configuring TypeScript for cross-platform compatibility.
 
-URL: https://docs.deno.com/runtime/reference/ts_config_migration
-
+URL: <https://docs.deno.com/runtime/reference/ts_config_migration>
 
 Deno’s flexibility shines in its equal treatment of TypeScript and JavaScript.
 Whether you’re transitioning from JavaScript to TypeScript or vice versa, Deno
@@ -61829,15 +61010,13 @@ This means when you import a `.d.ts` module, or you use one of the solutions
 above to provide alternative type modules for JavaScript code, that is what is
 provided to TypeScript instead when resolving the module.
 
-
 ---
 
 # Deno & Visual Studio Code
 
 > Complete guide to using Deno with Visual Studio Code. Learn about extension setup, workspace configuration, debugging, testing, task automation, and advanced IDE features for Deno development.
 
-URL: https://docs.deno.com/runtime/reference/vscode
-
+URL: <https://docs.deno.com/runtime/reference/vscode>
 
 This page covers developing Deno applications using
 [Visual Studio Code](https://code.visualstudio.com/) and the official
@@ -62186,8 +61365,7 @@ you might want to try restarting VS Code, as the part of the extension that
 "mutes" the built-in TypeScript diagnostics for files is not working as
 designed. If the issue still persists after a restart, you may have encountered
 a bug that we didn't expect and searching the issues and reporting a bug at
-https://github.com/denoland/vscode_deno is the next step.
-
+<https://github.com/denoland/vscode_deno> is the next step.
 
 ---
 
@@ -62195,8 +61373,7 @@ https://github.com/denoland/vscode_deno is the next step.
 
 > A guide to using WebAssembly (Wasm) in Deno. Learn about module imports, type checking, streaming APIs, optimization techniques, and how to work with various programming languages that compile to Wasm.
 
-URL: https://docs.deno.com/runtime/reference/wasm
-
+URL: <https://docs.deno.com/runtime/reference/wasm>
 
 Designed to be used alongside JavaScript to speed up key application components,
 [WebAssembly](https://webassembly.org/) (Wasm) can have much higher, and more
@@ -62497,15 +61674,13 @@ addition, the
 a list of tools that can be used to optimize and manipulate WebAssembly
 binaries.
 
-
 ---
 
 # Web Platform APIs
 
 > A guide to the Web Platform APIs available in Deno. Learn about fetch, events, workers, storage, and other web standard APIs, including implementation details and deviations from browser specifications.
 
-URL: https://docs.deno.com/runtime/reference/web_platform_apis
-
+URL: <https://docs.deno.com/runtime/reference/web_platform_apis>
 
 One way Deno simplifies web and cloud development is by using standard Web
 Platform APIs (like `fetch`, WebSockets and more) over proprietary APIs. This
@@ -63005,15 +62180,13 @@ A few things that are different compared to browsers:
    Request or URL or a url string.
 2. `match()` & `delete()` don't support query options yet.
 
-
 ---
 
 # Programmatic management of Deno Deploy Apps
 
 > Use the @deno/sandbox Client to create, list, update, and delete Deno Deploy apps programmatically.
 
-URL: https://docs.deno.com/sandbox/apps
-
+URL: <https://docs.deno.com/sandbox/apps>
 
 Beyond provisioning microVMs, the SDK provides APIs for creating and managing
 Deploy apps inside your organization. Automating these workflows can help when
@@ -63348,15 +62521,13 @@ async with sdk.sandbox.create() as sandbox:
 </deno-tab>
 </deno-tabs>
 
-
 ---
 
 # Management via CLI
 
 > How to manage Deno Sandbox with the Deno CLI.
 
-URL: https://docs.deno.com/sandbox/cli
-
+URL: <https://docs.deno.com/sandbox/cli>
 
 The Deno CLI includes built-in commands for managing your Deno Sandbox
 instances, allowing you to create, control, and interact with them from your
@@ -63757,15 +62928,13 @@ deno sandbox copy $SANDBOX_ID:/app/results/*.csv ./output/
 deno sandbox kill $SANDBOX_ID
 ```
 
-
 ---
 
 # Create a Deno Sandbox
 
 > Learn how to provision a sandbox with the static Sandbox.create() method and configure runtime, network, and lifecycle options.
 
-URL: https://docs.deno.com/sandbox/create
-
+URL: <https://docs.deno.com/sandbox/create>
 
 The sandbox creation method is the primary entry point for provisioning an
 isolated Linux microVM on the Deploy edge. It returns a connected sandbox
@@ -64072,15 +63241,13 @@ async with sdk.sandbox.create(
 - For long-lived services, migrate from a Deno Sandbox to a Deploy app once the
   code stabilizes.
 
-
 ---
 
 # Expose HTTP
 
 > Learn how to expose HTTP endpoints from Deno Sandbox, enabling you to run web servers, APIs, and preview environments at the edge.
 
-URL: https://docs.deno.com/sandbox/expose_http
-
+URL: <https://docs.deno.com/sandbox/expose_http>
 
 You can run dev servers, preview apps, webhook receivers, or framework CLIs on
 any port and publish them instantly to a secure, random HTTPS URL.
@@ -64411,15 +63578,13 @@ development servers with minimal code, useful for agents or developers who need
 to spin up high-fidelity previews, share them for feedback, and tear everything
 down with a single `Ctrl+C`.
 
-
 ---
 
 # Getting started
 
 > Step-by-step walkthrough for enabling Deno Sandbox, creating your first microVM, running commands, exposing services, and managing secrets.
 
-URL: https://docs.deno.com/sandbox/getting_started
-
+URL: <https://docs.deno.com/sandbox/getting_started>
 
 To use Deno Sandbox, you need a Deno Deploy account. If you do not have one yet
 you can sign up for a free account at
@@ -64834,15 +63999,13 @@ Observability is shared with Deno Deploy: every sandbox logs, trace, and metric
 is visible in the Deno Deploy dashboard so you can debug agent runs the same way
 you debug production apps.
 
-
 ---
 
 # Deno Sandbox
 
 > Overview of the Deno Sandbox microVM platform on Deploy, including capabilities, security model, and ideal use cases.
 
-URL: https://docs.deno.com/sandbox/
-
+URL: <https://docs.deno.com/sandbox/>
 
 Deno Sandbox brings instant Linux microVMs to Deno Deploy. Each sandbox boots in
 under a second, is API driven from the `@deno/sandbox` SDK, and is torn down as
@@ -65134,15 +64297,13 @@ If not specified, the sandbox will be created in the default region.
 Ready to try it? Follow the [Getting started](./getting_started) guide to create
 your first sandbox, obtain an access token, and run code on the Deploy edge.
 
-
 ---
 
 # Promote Deno Sandbox to Deploy Apps
 
 > Learn how to promote a sandbox to a full Deno Deploy app for production use.
 
-URL: https://docs.deno.com/sandbox/promote
-
+URL: <https://docs.deno.com/sandbox/promote>
 
 There may be times when a Deno Sandbox proves a concept or prototype that should
 live on as a first-class Deno Deploy app. Instead of rebuilding the codebase
@@ -65226,15 +64387,13 @@ Reasons to promote:
 Use sandboxes for rapid, ephemeral work, then call `sandbox.deno.deploy()` when
 the code should live as a managed service.
 
-
 ---
 
 # Security
 
 > Understand the defense-in-depth model behind Deno Sandbox: isolation, secrets, network controls, and auditing.
 
-URL: https://docs.deno.com/sandbox/security
-
+URL: <https://docs.deno.com/sandbox/security>
 
 Deno Sandbox is designed for untrusted or AI-generated workloads. Every VM is
 ephemeral, isolated at the hypervisor level, and governed by strict outbound
@@ -65401,15 +64560,13 @@ sent.
 - Attach metadata when creating sandboxes (e.g., `metadata: { owner: "agent" }`)
   so logs and traces clearly show who initiated activity.
 
-
 ---
 
 # SSH
 
 > How to open secure SSH access into a sandbox for interactive debugging, editor sessions, or long-running processes.
 
-URL: https://docs.deno.com/sandbox/ssh
-
+URL: <https://docs.deno.com/sandbox/ssh>
 
 Deno Sandbox can hand out SSH credentials so you can inspect the filesystem,
 tail logs, run editors, or forward ports. SSH access is available both in your
@@ -65483,7 +64640,7 @@ sandbox shuts down and the SSH endpoint disappears; you can also call
 ssh ${username}@${hostname}
 ```
 
-3. Use regular terminal workflows: copy files, run top, tail logs, or attach to
+1. Use regular terminal workflows: copy files, run top, tail logs, or attach to
    running processes.
 
 ## In the terminal
@@ -65608,15 +64765,13 @@ async with sdk.sandbox.create(timeout="10m") as sandbox:
 Use this pattern to investigate flaky builds, run interactive REPLs, or pair
 with teammates without promoting the code to a full Deploy app.
 
-
 ---
 
 # Sandbox Timeouts
 
 > Understand how long Deno Sandbox stays alive, how to extend or reconnect to them, and when to promote work to a Deno Deploy app.
 
-URL: https://docs.deno.com/sandbox/timeouts
-
+URL: <https://docs.deno.com/sandbox/timeouts>
 
 Sandboxes created by Deno Sandbox are intentionally ephemeral. They boot in
 milliseconds, serve their purpose, and disappear—reducing the blast radius of
@@ -65762,15 +64917,13 @@ expiration time is updated.
 - [`Expose HTTP`](./expose_http.md) and [`SSH`](./ssh.md) – note that their
   URLs/credentials die with the sandbox lifetime.
 
-
 ---
 
 # Volumes & Snapshots
 
 > Persistent storage and bootable images for Deno Sandbox
 
-URL: https://docs.deno.com/sandbox/volumes
-
+URL: <https://docs.deno.com/sandbox/volumes>
 
 Deno Sandbox provides two storage primitives:
 
@@ -66245,13 +65398,11 @@ deno sandbox snapshots delete my-toolchain-snapshot
 | Concurrent use | One sandbox at a time               | Many sandboxes simultaneously      |
 | Region         | Must match sandbox region           | Must match sandbox region          |
 
-
 ---
 
 # Authentication
 
-URL: https://docs.deno.com/subhosting/api/authentication
-
+URL: <https://docs.deno.com/subhosting/api/authentication>
 
 Developers can provision projects, domains, KV databases, and other resources
 using the Subhosting REST API.
@@ -66296,13 +65447,11 @@ const response = await res.json();
 console.log(response);
 ```
 
-
 ---
 
 # Subhosting Resources
 
-URL: https://docs.deno.com/subhosting/api/
-
+URL: <https://docs.deno.com/subhosting/api/>
 
 To build Subhosting with Deno Deploy, it helps to understand some key resources
 within the system. These resources are also represented in the
@@ -66432,21 +65581,17 @@ to the documentation for the REST API maintained here, you can find
 auto-generated API documentation (including a browser-based testing tool)
 [here](https://apidocs.deno.com/).
 
-
 ---
 
 # subhosting/index.md
 
-URL: https://docs.deno.com/subhosting/
-
-
+URL: <https://docs.deno.com/subhosting/>
 
 ---
 
 # Acceptable use policy
 
-URL: https://docs.deno.com/subhosting/manual/acceptable_use_policy
-
+URL: <https://docs.deno.com/subhosting/manual/acceptable_use_policy>
 
 The Deno Subhosting service includes resources (CPU time, request counts) that
 are subject to this Acceptable Use policy. This document can give a rough
@@ -66477,13 +65622,11 @@ if your projects usage significantly deviates from the norm. We will reach out
 to you where possible before taking any action to address unreasonable burdens
 on our infrastructure.
 
-
 ---
 
 # Deployment events
 
-URL: https://docs.deno.com/subhosting/manual/events
-
+URL: <https://docs.deno.com/subhosting/manual/events>
 
 During the lifetime of a deployment execution, several events are recorded into
 its execution logs. Using the
@@ -66538,13 +65681,11 @@ observability artifact generated as a result.
 All the requests that where in-flight when the deployment was terminated receive
 a 502 response with the code `"TIME_LIMIT"`.
 
-
 ---
 
 # About Subhosting
 
-URL: https://docs.deno.com/subhosting/manual/
-
+URL: <https://docs.deno.com/subhosting/manual/>
 
 Deno Subhosting is a robust platform designed to allow Software as a Service
 (SaaS) providers to securely run code written by their customers. The Subhosting
@@ -66620,13 +65761,11 @@ We also offer SDKs in [JavaScript](https://www.npmjs.com/package/subhosting),
 [Python](https://pypi.org/project/subhosting/0.0.1a0/), and
 [Go](https://github.com/denoland/subhosting-go).
 
-
 ---
 
 # Planning your implementation
 
-URL: https://docs.deno.com/subhosting/manual/planning_your_implementation
-
+URL: <https://docs.deno.com/subhosting/manual/planning_your_implementation>
 
 Let's say, for example, that you are building a SaaS CRM platform like
 Salesforce. You want to empower your customers to write JavaScript code that
@@ -66740,15 +65879,13 @@ for some scenarios, but often you'll want to associate a custom domain with your
 deployments as well.
 [Check out the API reference for domains](https://apidocs.deno.com/#get-/organizations/-organizationId-/domains).
 
-
 ---
 
 # Pricing and Limits
 
 > Overview of Deno Subhosting pricing plans, resource limits, deployment restrictions, and performance constraints for your applications.
 
-URL: https://docs.deno.com/subhosting/manual/pricing_and_limits
-
+URL: <https://docs.deno.com/subhosting/manual/pricing_and_limits>
 
 You can see an
 [overview of available pricing plans and features](https://deno.com/deploy/pricing?subhosting)
@@ -66782,13 +65919,11 @@ Programs should not block the event loop for more than 1s.
 
 512MB max memory is available.
 
-
 ---
 
 # Subhosting Quick Start
 
-URL: https://docs.deno.com/subhosting/manual/quick_start
-
+URL: <https://docs.deno.com/subhosting/manual/quick_start>
 
 Looking for the smallest possible example that shows how to deploy code to
 Deno's isolate cloud? We've got you covered below, or you can skip to the
@@ -66964,6 +66099,4 @@ project ID we'll use in the next step.
 Now that we have REST API access configured and a project set up, we can move on
 to [creating our first deployment](./planning_your_implementation).
 
-
 ---
-
