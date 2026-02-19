@@ -38,6 +38,32 @@
 
 5. `CreateOrderCommandHandler.ts` (Pure logic)
 
+**Code Template (Endpoint):**
+
+```TypeScript
+// CreateOrderEndpoint.ts
+import { Context } from "hono";
+import { successResponse } from "../../Shared/Infrastructure/api-response.ts";
+import { throwInputError } from "../../Shared/Errors/error-helpers.ts";
+import { CreateOrderValidator } from "./CreateOrderValidator.ts";
+import { handleCreateOrder } from "./CreateOrderCommandHandler.ts";
+
+export const CreateOrderEndpoint = async (c: Context) => {
+  // 1. Parse & Validate (Zod will throw if invalid)
+  const body = await c.req.json();
+  const cmd = CreateOrderValidator.parse(body);
+  
+  // 2. Build Context
+  const ctx = c.get("ctx");
+
+  // 3. Logic (Deps injected via composition root)
+  const result = await handleCreateOrder(cmd, ctx, deps);
+
+  // 4. Success Response
+  return successResponse(c, result, "Order created successfully", 201);
+};
+```
+
 **Code Template (Handler):**
 
 ```TypeScript
@@ -89,9 +115,36 @@ export async function handleCreateOrder(
 
 3. `GetOrderValidator.ts`
 
-4. `GetOrderQuery.ts`
+4. `GetOrderQuery.ts` (Type definition)
 
-5. `GetOrderQueryHandler.ts`
+5. `GetOrderQueryHandler.ts` (Pure logic)
+
+**Code Template (Endpoint):**
+
+```TypeScript
+// GetOrderEndpoint.ts
+import { Context } from "hono";
+import { successResponse } from "../../Shared/Infrastructure/api-response.ts";
+import { throwNotFound } from "../../Shared/Errors/error-helpers.ts";
+import { handleGetOrder } from "./GetOrderQueryHandler.ts";
+
+export const GetOrderEndpoint = async (c: Context) => {
+  const orderId = c.req.param("id");
+  const ctx = c.get("ctx");
+
+  const query = { orderId };
+  
+  // Logic
+  const result = await handleGetOrder(query, ctx, deps);
+
+  if (!result) {
+     return throwNotFound("Order not found", { orderId });
+  }
+
+  // Success
+  return successResponse(c, result);
+};
+```
 
 **Code Template (Handler):**
 
@@ -234,7 +287,9 @@ Follow the Strict CQRS Architecture (v3):
    - Use IRequestContext.
    - If Command: use ITransactionRunner + IRepository.
    - If Query: use ICache + IReadModel.
-   - No logic in Endpoint. Endpoint only parses and calls Handler.
+   - Endpoint only parses request, calls Handler, and returns `successResponse`.
+   - **DO NOT use try/catch**. Exceptions are handled by Global Error Middleware.
+   - Use `throwNotFound`, `throwInputError`, etc. from `../../Shared/Errors/error-helpers.ts` if needed.
    - Generate a Unit Test using Fakes for the Handler.
 ```
 

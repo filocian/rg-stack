@@ -21,43 +21,48 @@ services:
     image: postgres:latest
     container_name: postgres
     restart: always
-    environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: password
-      POSTGRES_DB: filocian
+    env_file:
+      - ./docker/postgres/.env
     volumes:
       - ./docker/postgres/data:/var/lib/postgresql/data
     labels:
-      - "traefik.enable=false"
+      - "traefik.enable=true"
+      - "traefik.tcp.routers.postgres.rule=HostSNI(`postgres.localhost`)"
+      - "traefik.tcp.routers.postgres.entrypoints=web"
+      - "traefik.tcp.services.postgres.loadbalancer.server.port=5432"
     networks:
       - msgns-network
 
   pgadmin:
     image: dpage/pgadmin4
     container_name: pgadmin
-    environment:
-      PGADMIN_DEFAULT_EMAIL: admin@admin.com
-      PGADMIN_DEFAULT_PASSWORD: root
+    env_file:
+      - ./docker/pgadmin/.env
     links:
       - postgres:db
     depends_on:
       - postgres
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.pgadmin.rule=Host(`pgadmin.rg.local`)"
+      - "traefik.http.routers.pgadmin.rule=Host(`pgadmin.localhost`)"
       - "traefik.http.services.pgadmin.loadbalancer.server.port=80"
     networks:
       - msgns-network
 
   denokv:
-    image: denoland/deno:alpine
+    image: ghcr.io/denoland/denokv
     container_name: denokv
-    working_dir: /app
-    command: "deno run --allow-net --allow-read --allow-write --unstable https://deno.land/x/denokv@0.2.0/server.ts"
+    command: --sqlite-path /data/denokv.sqlite serve --access-token filocian_dev_123dev456
+    env_file:
+      - ./docker/denokv/.env
     volumes:
-      - ./docker/denokv/data:/app/data
+      - ./docker/denokv/data:/data
     ports:
       - "4512:4512"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.denokv.rule=Host(`denokv.localhost`)"
+      - "traefik.http.services.denokv.loadbalancer.server.port=4512"
     networks:
       - msgns-network
 
@@ -66,20 +71,19 @@ services:
       context: ./apps/backend
       dockerfile: ../../docker/backend/Dockerfile
     container_name: backend
-    environment:
-      - DB_HOST=postgres
-      - DENO_KV_URL=http://denokv:4512
+    env_file:
+      - ./docker/backend/.env
+    volumes:
+      - ./apps/backend:/app
     depends_on:
       - postgres
       - denokv
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.backend.rule=Host(`api.rg.local`)"
+      - "traefik.http.routers.backend.rule=Host(`backend.localhost`)"
       - "traefik.http.services.backend.loadbalancer.server.port=8000"
     networks:
       - msgns-network
-    volumes:
-      - ./apps/backend:/app
 
   frontend:
     build:
@@ -88,7 +92,7 @@ services:
     container_name: frontend
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.frontend.rule=Host(`app.rg.local`)"
+      - "traefik.http.routers.frontend.rule=Host(`frontend.localhost`)"
       - "traefik.http.services.frontend.loadbalancer.server.port=5173"
     networks:
       - msgns-network

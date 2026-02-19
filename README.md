@@ -68,7 +68,7 @@ msgns-stack/ (root)
 - Database: Postgres in its last stable version
 - PgAdmin: for managing Postgres
 - DenoKV: a local denokv based on sqlite (documentation: https://github.com/denoland/denokv)
-- Traefik: for reverse proxy, and using <app>.rg.local
+- Traefik: for reverse proxy, and using <app>.localhost
 
 ## Makefile
 

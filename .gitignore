@@ -1,0 +1,5 @@
+# Environment Variables
+**/docker/**/.env
+
+# Data directories
+**/docker/**/data/
