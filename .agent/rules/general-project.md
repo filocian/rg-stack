@@ -8,7 +8,9 @@ This document lists rules that apply for the whole project
 
 ## Rules
 
-- When a skill, rule, or workflow is used you must notyfy it to the user.
+### Usage compliance
+
+- **Mandatory Compliance Report**: Whenever this rule is active, you **MUST** explicitly add a Compliance report in the implementation plan/walkthrough/chat. The Compliance Report **MUST** contain all **Skill**, **Workflow**, or **Rule** used and for what.
 
 ### .env manipulaiton
 

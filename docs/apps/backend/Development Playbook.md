@@ -258,7 +258,15 @@ Deno.test("CreateOrder saves to repo and outbox", async () => {
 
 ----------
 
-## **5) AI Agent Workflow (Copy & Paste)**
+## **5) The Naming Convention**
+
+1. **Types and Interfaces:** All types and interfaces must be in PascalCase, and **optionally start with "I"** if developer requires it. In exapmle: RquestContext and IRequestContext may be valid names for an interface/type. Besides, but in this regard, the contracts folder can be named differnt, for example "types" or "interfaces".
+
+2. **Automated Test Files:** All automated test files must end with ".test.ts".
+
+----------
+
+## **6) AI Agent Workflow (Copy & Paste)**
 
 Use this prompt to generate features correctly with Cursor/Windsurf.
 
@@ -295,7 +303,7 @@ Follow the Strict CQRS Architecture (v3):
 
 ----------
 
-## **6) KV Cache Safety Checklist**
+## **7) KV Cache Safety Checklist**
 
 When implementing caching, verify:
 
@@ -317,7 +325,7 @@ When implementing caching, verify:
 
 ----------
 
-## **7) Pre-Merge Checklist**
+## **8) Pre-Merge Checklist**
 
 1. [ ] **Files:** 5 files created per feature?
 

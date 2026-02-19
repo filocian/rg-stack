@@ -255,6 +255,8 @@ We use 4 layers:
 
 ## **7) Shared contracts (interfaces) — required**
 
+The contracts (interfaces) naming must be in PascalCase, and **optionally start with 'I'**.
+
 ### **7.1 Request context**
 
 ```text
