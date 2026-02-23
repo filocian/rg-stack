@@ -17,19 +17,51 @@ services:
     networks:
       - msgns-network
 
-  postgres:
+  db-global:
     image: postgres:latest
-    container_name: postgres
+    container_name: db-global
     restart: always
     env_file:
-      - ./docker/postgres/.env
+      - ./docker/db-global/.env
     volumes:
-      - ./docker/postgres/data:/var/lib/postgresql/data
+      - ./docker/db-global/data:/var/lib/postgresql/data
     labels:
       - "traefik.enable=true"
-      - "traefik.tcp.routers.postgres.rule=HostSNI(`postgres.localhost`)"
-      - "traefik.tcp.routers.postgres.entrypoints=web"
-      - "traefik.tcp.services.postgres.loadbalancer.server.port=5432"
+      - "traefik.tcp.routers.db-global.rule=HostSNI(`db-global.localhost`)"
+      - "traefik.tcp.routers.db-global.entrypoints=web"
+      - "traefik.tcp.services.db-global.loadbalancer.server.port=5432"
+    networks:
+      - msgns-network
+
+  db-eu:
+    image: postgres:latest
+    container_name: db-eu
+    restart: always
+    env_file:
+      - ./docker/db-eu/.env
+    volumes:
+      - ./docker/db-eu/data:/var/lib/postgresql/data
+    labels:
+      - "traefik.enable=true"
+      - "traefik.tcp.routers.db-eu.rule=HostSNI(`db-eu.localhost`)"
+      - "traefik.tcp.routers.db-eu.entrypoints=web"
+      - "traefik.tcp.services.db-eu.loadbalancer.server.port=5432"
+    networks:
+      - msgns-network
+
+  db-us:
+    image: postgres:latest
+    container_name: db-us
+    restart: always
+    env_file:
+      - ./docker/db-us/.env
+    volumes:
+      - ./docker/db-us/data:/var/lib/postgresql/data
+    labels:
+      - "traefik.enable=true"
+      - "traefik.tcp.routers.db-us.rule=HostSNI(`db-us.localhost`)"
+      - "traefik.tcp.routers.db-us.entrypoints=web"
+      - "traefik.tcp.services.db-us.loadbalancer.server.port=5432"
     networks:
       - msgns-network
 
@@ -38,10 +70,18 @@ services:
     container_name: pgadmin
     env_file:
       - ./docker/pgadmin/.env
+    environment:
+      PGADMIN_SERVER_JSON_FILE: '/pgadmin4/servers.json'
+    volumes:
+      - ./docker/pgadmin/servers.json:/pgadmin4/servers.json:ro
     links:
-      - postgres:db
+      - db-global
+      - db-eu
+      - db-us
     depends_on:
-      - postgres
+      - db-global
+      - db-eu
+      - db-us
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.pgadmin.rule=Host(`pgadmin.localhost`)"
@@ -76,7 +116,7 @@ services:
     volumes:
       - ./apps/backend:/app
     depends_on:
-      - postgres
+      - db-global
       - denokv
     labels:
       - "traefik.enable=true"
