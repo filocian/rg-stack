@@ -31,4 +31,5 @@ This document will be a geeral rules applied over the rg-api (apps/backend) app.
 ### General naming convention
 
 - **Types and Interfaces:** All types and interfaces must be in PascalCase, and **optionally start with "I"** if developer requires it. In exapmle: RquestContext and IRequestContext may be valid names for an interface/type. Besides, but in this regard, the contracts folder can be named differnt, for example "types" or "interfaces".
+- **Type Location:** In every module, all types (including feature types) MUST be defined under `<module>/types/<scope/feature/ambit>/<types>.ts`.
 - **Automated Test Files:** All automated test files must end with ".test.ts".
